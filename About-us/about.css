@@ -1,0 +1,211 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #000000;
+  font-size: 18px;
+}
+
+.aboutus-back-img {
+  background-image: url(./../images/sittingArea.JPG);
+  background-size: cover;
+}
+
+.about-us-buttons {
+  flex-direction: column;
+}
+
+.our-story-section {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-inline: 40px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-story-title {
+  font-size: 70px;
+  border-bottom: 2px solid #56ee30;
+}
+
+.meet-our-doctors-section {
+  height: auto;
+  padding-block: 64px;
+  padding-inline: 53px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.meet-title {
+  font-size: 54px;
+}
+
+.know-section {
+  display: flex;
+  height: auto;
+  padding: 35px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  z-index: 111;
+  position: relative;
+  margin-top: -50px;
+  background-color: white;
+}
+
+.custom-img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.good-icon {
+  color: #56ee30;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.office-section {
+  background-image: url(./../images/learnMore2.jpg);
+  height: auto;
+  background-size: cover;
+}
+
+.office-words {
+  color: white;
+  padding-left: 110px;
+  padding-top: 120px;
+}
+
+.office-title {
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.divider-about-us {
+  height: 3px;
+  width: 20%;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.office-text {
+  color: white;
+  padding-bottom: 120px;
+}
+
+.feel-good-sect {
+  display: flex;
+  height: auto;
+}
+
+.feel-holder {
+  padding-inline: 82px;
+  padding-block: 100px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.bg-color-primary {
+  background-color: #5dff34;
+}
+
+.help-section {
+  height: auto;
+  padding-inline: 135px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f7f7;
+}
+
+.help-title {
+  font-size: 72px;
+}
+
+.help-title-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help-holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.help-box {
+  height: 320px;
+  width: 310px;
+  background-color: white;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-border {
+  border: 2px solid #56ee30;
+  border-radius: 60px;
+  margin-bottom: 20px;
+}
+
+.box-text {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .our-story-section {
+    flex-direction: column;
+  }
+
+  .meet-our-doctors-section {
+    flex-direction: column;
+  }
+
+  .meet-title {
+    font-size: 33px;
+    padding-top: 20px;
+  }
+
+  .know-section {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-inline: 10px;
+    padding-block: 20px;
+  }
+
+  .feel-holder {
+    flex-direction: column;
+    padding-inline: 20px;
+    gap: 50px;
+  }
+
+  .help-title {
+    font-size: 35px;
+  }
+
+  .help-section {
+    padding-inline: 20px;
+  }
+
+  .help-holder {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .office-words {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

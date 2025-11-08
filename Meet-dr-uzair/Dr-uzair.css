@@ -1,0 +1,234 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 18px 0 rgb(0 0 0 / .3);
+}
+
+/* 
+p {
+  color: #000000;
+} */
+
+.docters-style-btn {
+  flex-direction: column;
+}
+
+.divider-about-us {
+  height: 3px;
+  width: 20%;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.bg-color-primary {
+  background-color: #5dff34;
+}
+
+.main-img {
+  background-image: url(./../images/slider8.jpg);
+  background-size: cover;
+  height: 95dvh;
+}
+
+.person-info-section {
+  height: auto;
+  padding: 50px;
+}
+
+.person-name {
+  font-size: 72px;
+}
+
+.person-text {
+  padding-left: 40px;
+}
+
+.img-div {
+  height: 100%;
+  object-fit: contain;
+}
+
+.focus-title {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.area-focus-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.focus-section {
+  height: auto;
+  padding-inline: 135px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f7f7;
+  gap: 40px;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  gap: 60px;
+  justify-content: center;
+}
+
+.card {
+  height: 250px;
+  border-radius: 0;
+  padding: 20px;
+  gap: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  height: 80px;
+  width: 80px;
+}
+
+.card-text {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+}
+
+.founding-section {
+  height: 1100px;
+  padding-block: 65px;
+  display: flex;
+}
+
+.founding-row {
+  margin-inline: 55px;
+  gap: 30px;
+  display: flex;
+}
+
+.founding-title {
+  font-size: 72px;
+}
+
+.founding-text {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Approach-section {
+  background-image: url(./../images/slider8.jpg);
+  height: auto;
+  background-size: cover;
+}
+
+.approach-words {
+  color: black;
+  padding-left: 110px;
+  padding-top: 120px;
+}
+
+.approach-title {
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.Approach-text {
+  color: black;
+  padding-bottom: 120px;
+}
+
+.Education-section {
+  padding-block: 64px;
+}
+
+.edu-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.edu-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.edu-info {
+  padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .person-info-section {
+    padding: 20px;
+  }
+
+  .person-name {
+    font-size: 36px;
+  }
+
+  .person-text {
+    padding: 0px;
+  }
+
+  .person-padding {
+    padding: 0px;
+  }
+
+  .focus-title {
+    font-size: 36px;
+  }
+
+  .focus-section {
+    padding-inline: 20px;
+  }
+
+  .card-row {
+    flex-wrap: wrap;
+  }
+
+  .founding-section {
+    height: auto;
+    padding-block: 30px;
+    flex-direction: column;
+  }
+
+  .founding-row {
+    margin-inline: 0px;
+    flex-wrap: wrap;
+  }
+
+  .founding-text {
+    padding: 20px;
+  }
+
+  .Education-section {
+    padding-block: 64px;
+    padding-inline: 20px;
+  }
+
+  .edu-row {
+    flex-direction: column;
+  }
+
+  .approach-words {
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 20px;
+  }
+
+}

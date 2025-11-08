@@ -1,0 +1,205 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #000000;
+  font-size: 18px;
+}
+
+.bad-breath-back-img {
+  background-image: url(./../images/sittingArea.JPG);
+  background-size: cover;
+}
+
+.bad-breath-buttons {
+  flex-direction: column;
+}
+
+.divider-about-us {
+  height: 3px;
+  width: 20%;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.why-section {
+  height: auto;
+  padding-block: 70px;
+  padding-inline: 50px;
+  gap: 50px;
+}
+
+.why-heading {
+  font-size: 72px;
+  font-weight: 300;
+}
+
+.bg-color-primary {
+  background-color: #5dff34;
+}
+
+.why-icons-span {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.why-icon {
+  color: #5dff34;
+}
+
+.mask-text-div {
+  padding-right: 40px;
+}
+
+.icon-span {
+  border: 2px solid #5dff34;
+  height: 60px;
+  width: 60px;
+  border-radius: 999em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+}
+
+.icon-text {
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.why-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.mask-section {
+  background-color: #f7f7f7;
+  padding-block: 64px;
+  padding-inline: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.always-section {
+  height: auto;
+  padding: 84px;
+  background-image: url(./../images/slider6.jpg);
+  background-size: cover;
+}
+
+.always-title {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.always-text {
+  color: white;
+}
+
+.fix-section {
+  height: auto;
+  padding-block: 68px;
+  padding-inline: 55px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.fix-icon-div {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.common-section {
+  height: auto;
+  padding-block: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.common-title {
+  text-align: center;
+}
+
+.card-row {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding-inline: 20px;
+}
+
+.common-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  padding: 38px;
+}
+
+.common-bad-section {
+  height: auto;
+  padding-block: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.answers {
+  display: flex;
+  gap: 20px;
+}
+
+.answers-row {
+  display: flex;
+  width: 100%;
+  padding-inline: 70px;
+}
+
+.answer-text {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .why-section {
+    padding-block: 20px;
+    padding-inline: 8px;
+  }
+
+  .why-heading {
+    font-size: 36px;
+  }
+
+  .mask-section {
+    flex-direction: column;
+  }
+
+  .mask-text-div {
+    padding-right: 0px;
+  }
+
+  .mask-section {
+    padding-block: 64.1px;
+    padding-inline: 20px;
+  }
+
+  .always-section {
+    padding: 20px;
+    padding-block: 60px;
+  }
+
+  .always-title {
+    font-size: 36px;
+  }
+}

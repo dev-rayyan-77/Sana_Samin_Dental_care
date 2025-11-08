@@ -1,0 +1,263 @@
+body {
+    font-size: 18px;
+}
+
+.payment-back-img {
+    background-image: url(./../images/sittingArea.JPG);
+    background-size: cover;
+}
+
+.pay-buttons {
+    flex-direction: column;
+}
+
+.priceless-smile {
+    height: auto;
+    padding-inline: 50px;
+    padding-block: 60px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.priceless-title {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.priceless-width {
+    width: 70%;
+}
+
+.Accept-insurance-section {
+    height: auto;
+    background-image: url(./../images/slider6.jpg);
+    padding: 72px;
+    background-size: contain;
+}
+
+.insurance-title {
+    font-size: 72px;
+    font-weight: 300;
+    color: white;
+}
+
+.insurance-box-jedi {
+    margin-left: 72px;
+    color: white;
+}
+
+.inhouse-section {
+    padding: 72px;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inhouse-heading {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.inhouse-subheading {
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.horizontal-divider {
+    background-color: #56ee30;
+    height: 3px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.in-house-box {
+    width: 50%;
+    height: auto;
+    background-color: #33ff00;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.in-house-box-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.inhouse-words {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.in-house-point-div {
+    gap: 30px;
+    height: auto;
+    display: flex;
+}
+
+.policy-section {
+    height: auto;
+    padding: 72px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.policy-width {
+    width: 80%;
+}
+
+.payment-plan-section {
+    height: auto;
+    background-color: #EFEFEF;
+    padding: 95px;
+    display: flex;
+}
+
+.payment-plan-title {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.payment-info-section {
+    height: auto;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pay-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-div {
+    background-color: #33ff00;
+    padding-inline: 40px;
+    padding-block: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pay-heading {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.common-section {
+    height: auto;
+    padding-block: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.card-row {
+    width: 100%;
+    display: flex;
+    padding-inline: 20px;
+}
+
+.common-card,
+.beautiful-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38px;
+    text-align: center;
+}
+
+.why-icon {
+    color: #5dff34;
+}
+
+.icon-span {
+    border: 2px solid #5dff34;
+    height: 60px;
+    width: 60px;
+    border-radius: 999em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.icon-text {
+    font-size: 29px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .priceless-smile {
+        flex-direction: column;
+        padding-inline: 20px;
+    }
+
+    .priceless-title {
+        font-size: 36px;
+    }
+
+    .priceless-width {
+        width: 100%;
+    }
+
+    .Accept-insurance-section {
+        padding: 20px;
+        background-size: cover;
+    }
+
+    .insurance-box-jedi {
+        margin-left: 0px;
+    }
+
+    .insurance-title {
+        font-size: 36px;
+    }
+
+    .in-house-point-div {
+        flex-direction: column;
+    }
+
+    .in-house-box {
+        width: 100%;
+    }
+
+    .inhouse-section {
+        padding: 20px;
+    }
+
+    .policy-section {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .policy-width {
+        width: 100%;
+    }
+
+    .payment-plan-section {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .pay-div {
+        width: 100%;
+    }
+
+}

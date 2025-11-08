@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sana Samin Dental Care</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- ✅ Custom CSS (load after Bootstrap so you can override styles) -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- ✅ Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ✅ Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- ❌ Remove Duplicate Swiper (older version) -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.0.7/swiper-bundle.min.css"> -->
+
+  <!-- ✅ Bootstrap JS Bundle (includes Popper) – only include once -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+
+<body>
+  <div class="container-fluid m-0 p-0">
+    <nav class="nav-bar row m-0" id="navbar">
+      <div class="logo-container col-12 col-md-5">
+        <a href="./index.html">
+        <img class="img-fluid logo-style" src="./images/Logo.png" alt="Logo Here" />
+        </a>
+        <span class="toggle-button .d-none .d-md-block .d-lg-none">
+          <i class="fa-solid fa-bars bars"></i>
+        </span>
+      </div>
+      <div class="nav-btn-container col-7">
+        <a class="nav-btn position-relative about-us-btn" data-bs-toggle="modal" data-bs-target="#myModal" href="">About
+          <span class="spacing"><i class="fa-solid fa-chevron-down f10"></i></span>
+        </a>
+        <a class="nav-btn position-relative about-us-btn" data-bs-toggle="modal" data-bs-target="#servicesModal"
+          href="">Treatment
+          <span class="spacing"><i class="fa-solid fa-chevron-down f10"></i></span>
+        </a>
+        <a class="nav-btn position-relative about-us-btn" data-bs-toggle="modal" data-bs-target="#problemModal"
+          href="">Problems We Treat
+          <span class="spacing"><i class="fa-solid fa-chevron-down f10"></i></span></a>
+        <a class="nav-btn" href=""><span class="spacing-r"><i class="fa-solid fa-phone"></i></span>(042) 123-234</a>
+        <button class="schedule-btn nav-btn">Schedule Now</button>
+
+      </div>
+    </nav>
+    <div class="px-4 control-div">
+      <div class="col-12 col-md-6">
+        <span class="heading-container">
+          <h1 class="heading">your professional dentists</h1>
+          <h1 class="heading2">Welcome to Sana Samin Dental Care</h1>
+        </span>
+      </div>
+      <!-- Button container -->
+      <div class="col-12 col-md-6 btn-container">
+        <button class="schedule-btn">Schedule Now</button>
+
+        <button class="schedule-btn call-btn">
+          Call (042-35746003/4)
+        </button>
+      </div>
+    </div>
+
+    <video class="w-100 position-absolute video-disappear" style="top: 0px; z-index: -1" autoplay loop muted>
+      <source src="./images/main_video1.mp4" type="video/mp4" />
+    </video>
+    <section class="doctors-section row m-0">
+      <div class="col-md-3 img-padding">
+        <img class="img-fluid height-400" style="width: 100%; object-fit: cover;" src="./images/1.JPG" alt="docter here" />
+      </div>
+      <div class="col-md-3 img-padding">
+        <img class="img-fluid height-400" src="./images/2.png" alt="docter here" />
+      </div>
+      <div class="col-md-3 img-padding">
+        <img class="img-fluid height-400" src="./images/3.png" alt="docter here" />
+      </div>
+      <div class="col-md-3">
+        <h1 class="aboutus-title">top-<br />rated</h1>
+        <p class="aboutus-subtitle">liberty dentists</p>
+        <p class="aboutdocters-text">
+          Meet our experienced dentists, Dr. Jesse Jackson, Dr. Shannon Rizzi,
+          and Dr. Andrew Rund, supported by a compassionate clinical team. We
+          always look for the best solution. More importantly, we look for the
+          best solution for you.
+        </p>
+        <button class="schedule-btn">Meet Us</button>
+      </div>
+    </section>
+    <section class="row m-0 detail-section">
+      <div class="col-12 col-md-6">
+        <img class="img-fluid" src="./images/itsAllinthedetail.jpg" alt="docters here" />
+      </div>
+      <div class="col-12 col-md-6 aligning-item">
+        <p class="floating-text">
+          An over <br />
+          <span class="cstom-font">view</span>
+        </p>
+        <div class="info-paragraph mt-4">
+          <ul style="list-style: none" class="m-0">
+            <li class="d-flex">
+              <p class="list-paragraph" style="width: 80%">
+                Our Lahore dentist office is setting the new standard for
+                first-class care. At Jackson Family Dental, your best smile
+                isn't just a treatment, but a delightful experience.
+              </p>
+            </li>
+            <li class="d-flex">
+              <span style="width: 30px"><i class="fa-solid fa-chevron-right right-icon"></i><i
+                  class="fa-solid fa-chevron-right right-icon"></i></span>
+              <p class="list-paragraph">
+                Friendly faces who never judge and welcome all ages
+              </p>
+            </li>
+            <li class="d-flex">
+              <span style="width: 30px"><i class="fa-solid fa-chevron-right right-icon"></i><i
+                  class="fa-solid fa-chevron-right right-icon"></i></span>
+              <p class="list-paragraph">
+                Expertise in transformative cosmetic and restorative
+                procedures
+              </p>
+            </li>
+            <li class="d-flex">
+              <span style="width: 30px"><i class="fa-solid fa-chevron-right right-icon"></i><i
+                  class="fa-solid fa-chevron-right right-icon"></i></span>
+              <p class="list-paragraph">
+                The latest technology for comfort and results
+              </p>
+            </li>
+            <li class="d-flex">
+              <span style="width: 30px"><i class="fa-solid fa-chevron-right right-icon"></i><i
+                  class="fa-solid fa-chevron-right right-icon"></i></span>
+              <p class="list-paragraph">
+                Luxury amenities in a state-of-the-art environment
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ensurence Section -->
+
+    <section class="no-insurance-section">
+      <div style="text-align: center;">
+        <h2 style="font-weight: 600;">no insurance? no problem</h2>
+        <p class="insurance-text">affordable dental care with our in-house savings plan — no<br> deductibles,
+          no waiting, just quality care.</p>
+          <button class="insurance-button">Explore Savings Plan</button>
+      </div>
+    </section>
+    <!-- 
+      // excellence section -->
+
+    <section class="row m-0 section4">
+      <div class="col-md-6">
+        <video class="w-100" autoplay loop muted>
+          <source src="./images/Video2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="col-md-6 aligning-item">
+        <p class="floating-text color-white">
+          excellence in<br />
+          <span class="cstom-font color-white">full-arch <br />
+            implant <br />
+            dentistry</span>
+        </p>
+        <p class="color-white text-decoration">
+          Dr. Jesse Jackson is a leading implant dentist , providing patients
+          in Liberty and the greater Kansas City area with life-changing
+          solutions for missing teeth. Using advanced technology like Yomi
+          robot-guided placement, Dr. Jackson ensures a precise, comfortable
+          procedure to replace the function and aesthetics of your natural
+          teeth.
+        </p>
+        <p class="color-white text-decoration">
+          Whether you need a full arch restoration or a single implant, Dr.
+          Jackson’s expertise delivers a seamless experience and a smile built
+          to last.
+        </p>
+      </div>
+      <section class="schedule-now">
+        <dimiv class="schedule-info">
+          <p class="schedule-title">considering dental implants?</p>
+          <p class="sub-title">
+            get a trusted second <br />
+            opinion
+          </p>
+          <p class="schedule-text">
+            Making the right choice for your dental health is essential, and
+            Dr. Jackson is here to provide honest, expert guidance. If you’ve
+            been told you need dental implants, schedule a free consultation
+            to explore your best options with a provider known for precision
+            and patient-first care.
+          </p>
+          <button class="schedule-btn">Schedule Now</button>
+      </section>
+      <section class="p-0">
+        <div class="header">
+          <p class="headers-heading m-0">technology</p>
+          <p class="headers-subheading m-0">at Sana Samin Dental Care</p>
+        </div>
+        <div class="About-technology-box opacity about-tech-media">
+          <div class="col-12 col-md-4">
+            <img class="img-fluid" src="./images/whiteTeeth.jpg" alt="White Teeth Here" />
+            <div class="gradient-gray">
+              <p class="tech-heading">single-visit</p>
+              <p class="tech-subheading">dentistry</p>
+              <p class="color-white">
+                CBCT 3D imaging and CEREC technology deliver faster, more
+                precise care. No goopy, gaggy impressions, and no temporaries.
+              </p>
+            </div>
+          </div>
+
+          <div class=" col-12 col-md-4">
+            <img class="img-fluid" src="./images/light.jpg" alt="Light Here" />
+            <div class="gradient-gray">
+              <p class="tech-heading">robot-guided</p>
+              <p class="tech-subheading">
+                implant <br />
+                placement
+              </p>
+              <p class="color-white">
+                Our doctors use advanced Yomi technology to scan, plan, and
+                operate in a single visit. Faster and less invasive with
+                superior outcomes.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <img class="img-fluid" src="./images/laserFilling.jpeg" alt="Laser Filling Here" />
+            <div class="gradient-gray">
+              <p class="tech-heading">no-shot</p>
+              <p class="tech-subheading">laser fillings</p>
+              <p class="color-white">
+                CBCT 3D imaging and CEREC technology deliver faster, more
+                precise care. No goopy, gaggy impressions, and no temporaries.
+              </p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="beautifulsmile-section p-0">
+        <p class="title-decoration">
+          <span class="margain-bottom" style="font-weight: 300">your </span>
+          <strong>Beautiful smile</strong>
+        </p>
+        <div class="row m-0 beautiful-smile-media">
+          <div class="col-12 col-md-5 p-0 beautiful-smile-content">
+            <p class="sub-title-decoration m-0">routine</p>
+            <p class="sub-title-decoration2">dental care</p>
+            <p class="text-fix">
+              Clean and healthy has never been this easy — or this enjoyable.
+              We’re your entire family’s partner in dental health.
+            </p>
+            <button class="schedule-btn height-60">Learn More</button>
+          </div>
+          <div class="col-12 col-md-7 p-0">
+            <!-- <img class="img-fluid opacity" src="./images/dailySmile.jpg" alt=" Daily smile here" /> -->
+            <img class="img-fluid" src="./images/All Problems.jpg" alt=" Daily smile here" />
+
+          </div>
+        </div>
+      </section>
+      <section class="dailySmile2 m-0 row">
+        <div class="col-12 col-md-7">
+          <img class="img-fluid" src="./images/learnMore2.jpg" alt="Doctor working here">
+        </div>
+        <div class="col-12 col-md-5 beautiful-smile-content align-item-start">
+          <p class="sub-title-decoration m-0">restorative</p>
+          <p class="sub-title-decoration2">procedures</p>
+          <p style="color: black;" class=" text-fix2 ">
+            With advanced training and a focus on full-mouth reconstruction,
+            our doctors provide premier care for those dealing with damaged or missing teeth.
+          </p>
+          <button class="schedule-btn height-60">Learn More</button>
+        </div>
+      </section>
+      <section class="dailySmile2">
+        <div class="row m-0 beautiful-smile-media2 d-flex">
+          <div class="col-12 col-md-5 p-0 beautiful-smile-content">
+            <p class="sub-title-decoration m-0">cosmetic</p>
+            <p class="sub-title-decoration2">transformations</p>
+            <p class="text-fix">
+              See what’s possible through veneers, GLO whitening, or clear aligners.
+              We’re a certified Invisalign provider and have designed thousands of confident smiles.
+            </p>
+            <button class="schedule-btn height-60">Learn More</button>
+          </div>
+          <div class="col-12 col-md-7 p-0">
+            <img class="img-custom" src="./images/learnMore3.jpg" alt=" Daily smile here" />
+          </div>
+      </section>
+      <section class="our-expertise-section">
+        <div>
+          <p class="expertise-title">Our <strong style="color: #33ff00;">expertise</strong></p>
+        </div>
+        <div style="border-bottom: 2px solid white;" class="row m-0 About-technology-box">
+          <div style="border-right: 2px solid white;" class="p-0 col-md-4 first-box position-relative">
+            <img class="img-fluid opacity" src="./images/doc on ipad.jpg" alt=" Doctor on Ipad Here">
+            <p class="position-absolute positioning-text">veneers</p>
+          </div>
+          <div style="border-right: 2px solid white;" class="p-0 col-md-4 position-relative">
+            <img class="img-fluid opacity" src="./images/Shiny Teeth.jpg" alt="Shiny teeth here">
+            <p class="position-absolute positioning-text">invisalign</p>
+          </div>
+          <div class="p-0 col-md-4 position-relative">
+            <img class="img-fluid" src="./images/white-teeth-2.jpg" alt="White teeth 2 here">
+            <p class="position-absolute positioning-text">same-day crown</p>
+          </div>
+        </div>
+        <div style="border-bottom: 2px solid white;" class="row m-0 About-technology-box">
+          <div class="col-md-4 p-0 position-relative" style="border-right: 2px solid white;">
+            <img class="img-fluid opacity" src="./images/laserFilling.jpeg" alt=" Laser filling here">
+            <p class="position-absolute positioning-text">solea laser filling</p>
+          </div>
+
+          <div class="col-md-4 p-0 position-relative" style="border-right: 2px solid white;">
+            <img class="img-fluid position-relative" src="./images/Dental Implants.jpg" alt="Dental Implants Here">
+            <p class="position-absolute positioning-text">implants</p>
+          </div>
+
+          <div class="col-md-4 p-0 position-relative">
+            <img class="img-fluid" src="./images/laserFilling.jpeg" alt="Tgrm treatment here">
+            <p class="position-absolute positioning-text">solea laser filling</p>
+          </div>
+        </div>
+        <div style="border-bottom: 2px solid white;" class="row m-0 About-technology-box opacity">
+          <div class="col-md-4 p-0 position-relative" style="border-right: 2px solid white;">
+            <img class="img-fluid" src="./images/Shiny Teeth.jpg" alt=" Full rehab here">
+            <p class="position-absolute positioning-text">invisalign</p>
+          </div>
+
+          <div class="col-md-4 p-0 position-relative" style="border-right: 2px solid white;">
+            <img class="img-fluid" src="./images/white-teeth-2.jpg" alt=" Glo whithening Here">
+            <p class="position-absolute positioning-text">same-day crown</p>
+          </div>
+
+          <div class="col-md-4 p-0 position-relative">
+            <img class="img-fluid" src="./images/Root canal x-ray.jpg" alt="x-ray here">
+            <p class="position-absolute positioning-text">root canal</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="confortable-sect">
+      <div class="confort-holder">
+        <div>
+          <p class="confort-title"><strong>designed</strong></p>
+          <p class="confort-subtitle">for <br>comfort</p>
+        </div>
+
+        <div class="confort-info">
+          Self-care is so important, and a trip to the dentist is the perfect
+          time to give yourself some extra pampering. Relax with therapeutic neck
+          wraps, massage chairs, skin rejuvenating treatments, and pain-free care.
+        </div>
+      </div>
+
+    </section>
+    <section class="position-relative" style="padding-inline: 80px;">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/slider2.jpg" alt="">
+          </div>
+          <div class="swiper-slide"><img src="./images/slider1.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/slider2.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/slider3.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/slider4.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/slider6.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/slider7.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/slider8.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="./images/slider3.jpg" alt=""></div>
+        </div>
+
+
+        <!-- Navigation arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+    </section>
+    <span style="display: flex; justify-content: center;">
+      <button class="schedule-btn height-60 margain">Learn More</button>
+    </span>
+
+    <section class="row m-0 dailySmile2">
+      <div style="background-color: black;" class="col-md-6 fixing-div">
+        <div id="myCarousel" class="carousel slide d-flex justify-content-center" data-bs-ride="carousel">
+
+          <!-- Carousel items -->
+          <div class="carousel-inner d-flex" style="padding: 80px;">
+            <div class="carousel-item active">
+              <div class="" style="text-align: center;">
+                <img src="./images/comas.svg" style="width: 40px;" alt="...">
+                <p class="color-white f24">
+                  Family owned & operated for almost two decades. Nice, clean and spacious facility with latest
+                  dentistry equipment! Staff is friendly & doctor's got a PHD. A wide variety of dental services are
+                  available for reasonable fees. Overall, a satisfying experience everytime! Will return
+                </p>
+                <p class="color-white f24">-iceman 512.</p>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div style="text-align: center;">
+                <img src="./images/comas.svg" style="width: 40px;" alt="...">
+                <p class="color-white f24">
+                  I had my dental treatment done by Dr. Nauuman it was a splendid experience.
+                  I highly recommend Sana Samin Dental Care. Dr has magic in his hands, his
+                  expertise makes the whole treatment outstanding and pain free 👏 🙌.
+                </p>
+                <p class="color-white f24">-Sana Syed.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div style="text-align: center;">
+                <img src="./images/comas.svg" style="width: 40px;" alt="...">
+                <p class="color-white f24">
+                  If you want quality and hygienic treatment this is the place to be.
+                  Dr. Nauman and Dr. Usman are thorough gentlemen and treat patients
+                  with extreme care and in a very professional way. Thumbs up for this clinic.
+                </p>
+                <p class="color-white f24">-Usman Ghani.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div style="text-align: center;">
+                <img src="./images/comas.svg" style="width: 40px;" alt="...">
+                <p class="color-white f24">
+                  The true professional behaviour and excellent skills they have,
+                  helps to get rid of your dental issues here.
+                </p>
+                <p class="color-white f24">-Muhammad Aasim.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+      </div>
+      <div class="col-md-6 title-section">
+        <div class="important-margin">
+          <p class="kind-words-title m-0">kind words</p>
+          <p class="kind-words-subtitle">from our <br>patients</p>
+        </div>
+        <span class="d-flex alighn-icon">
+          <a class="star-link size"
+            href="https://www.google.com/search?q=sana+samin+denatal+care&oq=sa&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyBggCEEUYOTIICAMQRRgnGDsyDggEEEUYJxg7GIAEGIoFMg8IBRAuGEMY1AIYgAQYigUyDAgGEC4YQxiABBiKBTIMCAcQABhDGIAEGIoF0gEJMjIzMmowajE1qAIJsAIB8QXGQ1EWdI_6ZA&sourceid=chrome&ie=UTF-8">300+
+            4.5-Star Reviews</a>
+          <i class="fa-solid fa-chevron-right"></i><i class="fa-solid fa-chevron-right"></i>
+        </span>
+      </div>
+    </section>
+
+    <section class="schedule-now-sect">
+      <div class="schedule-container">
+        <p class="sche-title m-0">schedule</p>
+        <p class="sche-subtitle m-0">your first visit</p>
+        <button class="schedule-btn height-60 margain">Learn More</button>
+      </div>
+    </section>
+
+    <section class="row map-section m-0">
+      <div class="col-12 col-md-5 text-box">
+        <p class="map-section-title">our <strong>Lahore <br>office</strong></p>
+        <div>
+          <div class="" style="margin-top: 30px;">
+            <i class="fa-solid fa-map-location-dot address-icon"></i>
+            <a class="address"
+              href="https://www.google.pl/maps/place/Sana+Samin+Dental+Care/@31.4827645,74.3931651,17z/data=!4m16!1m9!3m8!1s0x391905fd1964107b:0xeb3d194e3bcbbe9d!2sSana+Samin+Dental+Care!8m2!3d31.48276!4d74.39574!9m1!1b1!16s%2Fg%2F11xq_w153!3m5!1s0x391905fd1964107b:0xeb3d194e3bcbbe9d!8m2!3d31.48276!4d74.39574!16s%2Fg%2F11xq_w153?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+              target="_blank">
+              163, Sector H Dha Phase 1, Lahore
+            </a>
+          </div>
+          <div style="margin-top: 30px;">
+            <i class="fa-solid fa-mobile address-icon"></i>
+            <a class="call-btn2" href="bxsg">Call 372323230</a>
+            <br>
+            <a class="call-btn2 movement" href="bxsg">text 372323230</a>
+          </div>
+          <div style="margin-top: 30px; display: flex;">
+            <span class="d-flex">
+              <i class="fa-regular fa-clock address-icon"></i>
+              <span>
+                <p class="text-style">Monday: 7AM - 5PM</p>
+                <p class="text-style">Tuesday: 7AM - 5PM</p>
+                <p class="text-style">Wednesday: 7AM - 5PM</p>
+                <p class="text-style">Thursday: 7AM - 5PM</p>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 map-fix">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.5062965535744!2d74.39316507463374!3d31.482764549000724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391905fd1964107b%3A0xeb3d194e3bcbbe9d!2sSana%20Samin%20Dental%20Care!5e0!3m2!1sen!2s!4v1743924208198!5m2!1sen!2s"
+          width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="row m-0 follow-us-sect">
+      <img class="col-md-3" src="./images/poster 2.png" alt="Img here">
+      <img class="col-md-3" src="./images/afer-effects.png" alt="Img here">
+      <img class="col-md-3" src="./images/poster 2.png" alt="Img here">
+      <img class="col-md-3" src="./images/poster.png" alt="Img here">
+      <span class="row d-flex follow-us-btn">
+        <span style="display: flex; justify-content: center;">
+          <button class="schedule-btn height-60 margain">Learn More</button>
+        </span>
+      </span>
+    </section>
+
+    <section class="row contact-us-section m-0">
+      <div class="col-12 col-md-6">
+        <p class="contact-us-title"><strong>contact</strong> our<br> team</p>
+        <img src="./images/slider1.jpg" alt="img here" class="img-fluid">
+      </div>
+      <div class="col-12 col-md-6 ">
+        <p class="color-white padding-top"> "<span class="col-red">*</span>" indicates required fields</p>
+        <div style="gap: 10px;" class="d-flex w-100 label-direction">
+          <span class="d-flex flex-column width-machanic">
+            <label class="color-white " for="Name">Name <span class="col-red">*</span></label>
+            <input class="input-decoration" type="text">
+          </span>
+          <span class="d-flex flex-column width-machanic">
+            <label class="color-white " for="Name">Name <span class="col-red">*</span></label>
+            <input class="input-decoration" type="text">
+          </span>
+        </div>
+        <span style="margin-top: 20px;" class="d-flex flex-column w-100">
+          <label class="color-white " for="Name">Email Address</label>
+          <input class="input-decoration" type="text">
+        </span>
+        <span class="d-flex flex-column w-100 mt-4">
+          <label class="color-white " for="Name">Your Message</label>
+          <textarea class="input-decoration text-area" name="Message" id="Name"></textarea>
+        </span>
+        <p class="color-white mt-4 follow-us-p">
+          I consent to text-based communications from Jackson Family Dental <span class="col-red">*</span>
+        </p>
+        <div class="">
+          <input type="radio">
+          <label for="Yes" class="color-white">Yes</label>
+          <input type="radio">
+          <label for="No" class="color-white">No</label>
+        </div>
+        <button class="schedule-btn height-60 margain">Submit</button>
+      </div>
+    </section>
+    <footer class="footer-sec ">
+      <div class="row m-0 f-padding">
+
+        <div class="col-md-3">
+          <h4 class="f-heading">Services</h4>
+          <li>
+            <ul class="remover"><a class="list" href="">General</a></ul>
+            <ul class="remover"><a class="list" href="">Cosmetic</a></ul>
+            <ul class="remover"><a class="list" href="">Surgical</a></ul>
+            <ul class="remover"><a class="list" href="">Family Dentistry</a></ul>
+          </li>
+        </div>
+        <div class="col-md-3">
+          <h4 class="f-heading">Practice Info</h4>
+          <li>
+            <ul class="remover"><a class="list" href="./about.html">About</a></ul>
+            <ul class="remover"><a class="list" href="">New Patients</a></ul>
+            <ul class="remover"><a class="list" href="">Careers</a></ul>
+            <ul class="remover"><a class="list" href="">Payment Options</a></ul>
+            <ul class="remover"><a class="list" href="">New Patient Forms</a></ul>
+          </li>
+        </div>
+        <div class="col-md-3">
+          <h4 class="f-heading">Office</h4>
+          <p class="office-address">163, Sector H Dha Phase 1, <br>Lahore</p>
+          <a class="list address-boy"
+            href="https://www.google.pl/maps/place/Sana+Samin+Dental+Care/@31.4827645,74.3931651,17z/data=!4m16!1m9!3m8!1s0x391905fd1964107b:0xeb3d194e3bcbbe9d!2sSana+Samin+Dental+Care!8m2!3d31.48276!4d74.39574!9m1!1b1!16s%2Fg%2F11xq_w153!3m5!1s0x391905fd1964107b:0xeb3d194e3bcbbe9d!8m2!3d31.48276!4d74.39574!16s%2Fg%2F11xq_w153?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
+            target="_blank">Get Directions</a>
+          <p class="color-white call-boy">Call (816) 608-8457</p>
+          <p class="color-white call-boy">Call (816) 608-6769</p>
+        </div>
+        <div class="col-md-3">
+          <h4 class="f-heading">Review Us</h4>
+          <li>
+            <ul class="remover"><a class="list" href="">Google</a></ul>
+            <ul class="remover"><a class="list" href="">Yelp</a></ul>
+            <ul class="remover"><a class="list" href="">Facebook</a></ul>
+          </li>
+        </div>
+
+      </div>
+    </footer>
+
+    <div class="mobile-tray d-md-none row m-0">
+      <p class="tray-words col-4 d-flex"><i class="fa-solid fa-phone"></i>Call</p>
+      <p class="tray-words col-4 d-flex"><i class="fa-solid fa-mobile-screen-button"></i>Text</p>
+      <p class="tray-words col-4 d-flex"><i class="fa-solid fa-calendar-days"></i>Contact Us</p>
+    </div>
+  </div>
+
+
+  <dialog class="dialog-style">
+    <i id="crossmark" class="fa-solid fa-xmark" style="float: right;"></i>
+    <div class="div-divider">
+      <button class="div-divider-button"><a class="div-divider-link" href="">About</a></button>
+    </div>
+    <div class="div-divider">
+      <button class="div-divider-button"><a class="div-divider-link" href="">Services</a></button>
+    </div>
+    <div class="div-divider">
+      <button class="div-divider-button"><a class="div-divider-link" href="">Problems We Treat</a></button>
+    </div>
+    <div class="div-divider">
+      <button class="div-divider-button"><a class="div-divider-link" href="">(816) 608-8457</a></button>
+    </div>
+    <button class="schedule-btn" style="width: 100%; margin-top: 20px;">Schedule Now</button>
+  </dialog>
+
+  <!-- About us Modal -->
+  <div class="modal fade modal-z-index" id="myModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog model-wraper">
+      <div class="modal-content model-things colour-black">
+
+        <!-- <button style="top: 0px;" type="button" class="btn-close color-white" data-bs-dismiss="modal" aria-label="Close"></button> -->
+
+        <span><i class="fa-solid fa-xmark cancel-btn" data-bs-dismiss="modal"></i></span>
+
+        <div style="gap: 50px;" class="model-info row m-0">
+          <div class="col-md-5">
+            <img class="img-fluid modal-img" src="./images/slider3.jpg" alt="Img Here">
+
+          </div>
+          <div class="col-md-6">
+            <h1 class="color-white f-weight">about us</h1>
+            <div class="divider"></div>
+            <li>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./About-us/about.html">About</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Meet-dr-naauman/Dr-Naauman.html">Meet Dr Naauman</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Meet-dr-uzair/Dr-uzair.html">Meet Dr Uzaire</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./meet-dr-hurria/dr-hurria.html">Meet Dr Hurria</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./New-Patients/new-patients.html">New Patients</a></ul>
+              <ul class="color-white m-0"><a  class="About-link-desyne" href="./Payment-option/Payment-option.html">Payment Options</a></ul>
+              <ul class="color-white m-0">Career</ul>
+              <ul class="color-white m-0">Technology</ul>
+              <ul class="color-white m-0">Blog</ul>
+            </li>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Problems We Treat Modal -->
+  <div class="modal fade modal-z-index" id="problemModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog model-wraper">
+      <div class="modal-content model-things colour-black">
+
+        <!-- <button style="top: 0px;" type="button" class="btn-close color-white" data-bs-dismiss="modal" aria-label="Close"></button> -->
+
+        <span><i class="fa-solid fa-xmark cancel-btn" data-bs-dismiss="modal"></i></span>
+
+        <div style="gap: 50px;" class="model-info row m-0">
+          <div class="col-md-5">
+            <img class="img-fluid modal-img" src="./images/slider2.jpg" alt="Img Here">
+
+          </div>
+          <div class="col-md-6">
+            <h1 class="color-white f-weight">Problems We Treat</h1>
+            <div class="divider"></div>
+            <li>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./All-Problems-We-Treat/Problems.html">All Problems</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Bad-Breath/bad-breath.html">Bad Breath / Halitosis</a></ul>
+              <ul class="color-white m-0">Infant Frenectomies</ul>
+              <ul class="color-white m-0">Gum Disease</ul>
+              <ul class="color-white m-0">Teeth Grinding</ul>
+              <ul class="color-white m-0">Sleep Apnea & Snoring</ul>
+              <ul class="color-white m-0">Missing Teeth</ul>
+              <ul class="color-white m-0">Chipped / Cracked tooth repair</ul>
+              <ul class="color-white m-0">Dental Anxiety</ul>
+              <ul class="color-white m-0">Sensitivity</ul>
+              <ul class="color-white m-0">Crooked Teeth</ul>
+              <ul class="color-white m-0">Denture Repair</ul>
+              <ul class="color-white m-0">Stained Teeth</ul>
+            </li>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Services Modal -->
+  <div class="modal fade modal-z-index" id="servicesModal" tabindex="-1" aria-labelledby="modalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog model-wraper">
+      <div class="modal-content model-things colour-black">
+
+        <!-- <button style="top: 0px;" type="button" class="btn-close color-white" data-bs-dismiss="modal" aria-label="Close"></button> -->
+
+        <span><i class="fa-solid fa-xmark cancel-btn" data-bs-dismiss="modal"></i></span>
+
+        <div class="model-info row m-0">
+          <div class="col-md-4">
+            <img class="img-fluid modal-img" src="./images/learnMore2.jpg" alt="Img Here">
+          </div>
+          <div class="col-md-8">
+            <h1 class="color-white f-weight">Treatment Options</h1>
+            <div class="divider"></div>
+            <div class="row m-0">
+              <li class="col-md-4">
+                <ul class="list-header">General Services</ul>
+                <ul class="color-white m-0">General Dentistry</ul>
+                <ul class="color-white m-0">Bridges</ul>
+                <ul class="color-white m-0">Crowns</ul>
+                <ul class="color-white m-0">Dentures</ul>
+                <ul class="color-white m-0">Bonding and White Filling</ul>
+                <ul class="color-white m-0">Cleanings & Exams</ul>
+                <ul class="color-white m-0">TMJ & TMD Treatment</ul>
+                <ul class="color-white m-0">Dental Sealants</ul>
+                <ul class="color-white m-0">Emergency Dentist</ul>
+                <ul class="color-white m-0">Family Dentistry</ul>
+                <ul class="color-white m-0">Mandibular Advance Devices</ul>
+              </li>
+
+              <li class="col-md-4">
+                <ul class="list-header">Cosmetic Services</ul>
+                <ul class="color-white m-0">Cosmetic Dentistry</ul>
+                <ul class="color-white m-0">Invisalign</ul>
+                <ul class="color-white m-0">Veneers</ul>
+                <ul class="color-white m-0">Whitening</ul>
+                <ul class="color-white m-0">Botox</ul>
+                <ul class="color-white m-0">Full Mouth Rehab</ul>
+                <ul class="color-white m-0">Gummy Smile Reduction</ul>
+              </li>
+
+              <li class="col-md-4">
+                <ul class="list-header">Surgical Services</ul>
+                <ul class="color-white m-0">Surgical Dentistry</ul>
+                <ul class="color-white m-0">Implants</ul>
+                <ul class="color-white m-0">Root Canal</ul>
+                <ul class="color-white m-0">Extractions</ul>
+                <ul class="color-white m-0">All-on-4 Implants</ul>
+                <ul class="color-white m-0">Same Day Implants</ul>
+                <ul class="color-white m-0">Overdentures</ul>
+                <ul class="color-white m-0">Full Mouth Reconstruction</ul>
+                <ul class="color-white m-0">Yomi Robotic Implant</ul>
+                <ul class="color-white m-0">Technology</ul>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <!-- Script file -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8.0.7/swiper-bundle.min.js"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+body {
+    font-size: 18px;
+}
+
+.aboutus-back-img {
+    background-image: url(./../images/slider2.jpg);
+    background-size: cover;
+}
+
+.important-height {
+    height: 86dvh;
+}
+
+.p-155-80 {
+    padding-top: 155px;
+    padding-inline: 80px;
+}
+
+.divider-about-us {
+    height: 3px;
+    width: 20%;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+.bg-color-primary {
+    background-color: #5dff34;
+}
+
+.helping-you-sect {
+    padding: 50px;
+    align-items: center;
+}
+
+.help-title {
+    font-size: 72px;
+    font-weight: 300;
+}
+
+.help-words {
+    padding-left: 101px;
+}
+
+.dental-anxiety-sect {
+    background-image: url(./../images/solea-background.jpg);
+    background-size: cover;
+    display: flex;
+    padding-block: 50px;
+}
+
+.anxiety-title {
+    color: white;
+    font-size: 54px;
+    font-weight: 300;
+}
+
+.anxiety-text {
+    width: auto;
+    color: white;
+}
+
+.problems-section {
+    height: auto;
+    padding-top: 105px;
+}
+
+.problem-title {
+    font-size: 70px;
+    text-align: center;
+}
+
+.title-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dental-problems {
+    height: auto;
+    background-image: url(./../images/slider2.jpg);
+    background-size: cover;
+    padding-inline: 105px;
+    padding-block: 75px;
+}
+
+.dental-title {
+    font-size: 75px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.dental-list {
+    color: white;
+    font-weight: 600;
+}
+
+.Question-section {
+    height: auto;
+    padding: 72px;
+}
+
+.question-title {
+    font-weight: 600;
+    font-size: 72px;
+    text-align: center;
+}
+
+.question-title-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-word-div {
+    display: flex;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.question-card {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.heading-size {
+    font-size: 56px;
+}
+
+.anxiety-margin {
+    padding-inline: 110px;
+}
+
+@media screen and (max-width: 768px) {
+    .helping-you-sect {
+        padding: 20px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .help-padding-0 {
+        padding: 0px;
+    }
+
+    .help-words {
+        padding: 0px;
+    }
+
+    .help-title {
+        font-size: 36px;
+    }
+
+    .p-155-80 {
+        padding-inline: 20px;
+    }
+
+    .heading-size {
+        font-size: 36px;
+    }
+
+    .anxiety-title {
+        color: white;
+        font-size: 36px;
+    }
+
+    .anxiety-margin {
+        padding-inline: 20px;
+    }
+
+    .problem-responsive {
+        flex-direction: column;
+    }
+
+    .problem-title {
+        font-size: 36px;
+    }
+
+    .dental-title {
+        font-size: 36px;
+    }
+
+    .dental-problems {
+        padding-inline: 20px;
+    }
+
+    .question-title {
+        font-size: 36px;
+    }
+
+    .question-word-div {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Question-section {
+        padding: 20px;
+        padding-top: 50px;
+    }
+}

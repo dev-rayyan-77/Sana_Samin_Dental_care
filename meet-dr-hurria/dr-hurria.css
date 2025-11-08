@@ -1,0 +1,155 @@
+body {
+    font-size: 18px;
+}
+
+.docters-style-btn {
+  flex-direction: column;
+}
+
+.main-img {
+  background-image: url(./../images/learnMore2.jpg);
+  background-size: cover;
+  height: 95dvh;
+}
+
+.person-info-section {
+  height: auto;
+  padding: 50px;
+}
+
+.person-text {
+  padding-left: 40px;
+}
+
+.person-name {
+  font-size: 72px;
+}
+
+.divider-about-us {
+  height: 3px;
+  width: 20%;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.bg-color-primary {
+  background-color: #5dff34;
+}
+
+.img-div {
+  height: 100%;
+  object-fit: contain;
+  height: auto;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 18px 0 rgb(0 0 0 / .3);
+}
+
+.focus-section {
+  height: auto;
+  padding-inline: 135px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f7f7f7;
+  gap: 40px;
+}
+
+.area-focus-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.focus-title {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  gap: 60px;
+  justify-content: center;
+}
+
+.card {
+  height: 290px;
+  border-radius: 0;
+  padding: 20px;
+  gap: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  height: 80px;
+  width: 80px;
+}
+
+.card-text {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+}
+
+.Approach-section {
+  background-image: url(./../images/learnMore2.jpg);
+  height: auto;
+  background-size: cover;
+}
+
+.approach-words {
+  color: white;
+  padding-left: 110px;
+  padding-top: 120px;
+}
+
+.approach-title {
+  font-weight: 600;
+  font-size: 38px;
+}
+
+.Approach-text {
+  color: white;
+  padding-bottom: 120px;
+}
+
+.Education-section {
+  padding-block: 64px;
+}
+
+.area-focus-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.focus-title {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.edu-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.edu-info {
+  padding: 30px;
+}
+
+.edu-title {
+  font-size: 24px;
+  font-weight: 500;
+}
