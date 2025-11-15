@@ -38,7 +38,7 @@
     <nav class="nav-bar row m-0" id="navbar">
       <div class="logo-container col-12 col-md-5">
         <a href="./index.html">
-        <img class="img-fluid logo-style" src="./images/Logo.png" alt="Logo Here" />
+          <img class="img-fluid logo-style" src="./images/Logo.png" alt="Logo Here" />
         </a>
         <span class="toggle-button .d-none .d-md-block .d-lg-none">
           <i class="fa-solid fa-bars bars"></i>
@@ -82,7 +82,8 @@
     </video>
     <section class="doctors-section row m-0">
       <div class="col-md-3 img-padding">
-        <img class="img-fluid height-400" style="width: 100%; object-fit: cover;" src="./images/1.JPG" alt="docter here" />
+        <img class="img-fluid height-400" style="width: 100%; object-fit: cover;" src="./images/1.JPG"
+          alt="docter here" />
       </div>
       <div class="col-md-3 img-padding">
         <img class="img-fluid height-400" src="./images/2.png" alt="docter here" />
@@ -161,7 +162,7 @@
         <h2 style="font-weight: 600;">no insurance? no problem</h2>
         <p class="insurance-text">affordable dental care with our in-house savings plan — no<br> deductibles,
           no waiting, just quality care.</p>
-          <button class="insurance-button">Explore Savings Plan</button>
+        <button class="insurance-button">Explore Savings Plan</button>
       </div>
     </section>
     <!-- 
@@ -628,15 +629,43 @@
 
 
   <dialog class="dialog-style">
-    <i id="crossmark" class="fa-solid fa-xmark" style="float: right;"></i>
-    <div class="div-divider">
-      <button class="div-divider-button"><a class="div-divider-link" href="">About</a></button>
+    <i id="crossmark" class="fa-solid fa-xmark"></i>
+    <div style="padding-top: 10px;">
+      <div class="div-divider">
+        <button class="div-divider-button"><a class="div-divider-link" href="">About</a></button>
+        <i class="fa-solid fa-plus" onclick="toggleSubMenu()"></i>
+      </div>
+
+      <li style="list-style: none; padding: 10px;" id="subMenuList">
+        <ul style="padding-top: 10px;" class="color-white m-0 "><a class="About-link-desyne"
+            href="./About-us/about.html">About</a></ul>
+        <ul style="padding-top: 10px;" class="color-white m-0 "><a class="About-link-desyne"
+            href="./Meet-dr-naauman/Dr-Naauman.html">Meet Dr
+            Naauman</a></ul>
+        <ul style="padding-top: 10px;" class="color-white m-0 "><a class="About-link-desyne"
+            href="./Meet-dr-uzair/Dr-uzair.html">Meet Dr
+            Uzaire</a></ul>
+        <ul style="padding-top: 10px;" class="color-white m-0 "><a class="About-link-desyne"
+            href="./meet-dr-hurria/dr-hurria.html">Meet Dr
+            Hurria</a></ul>
+        <ul style="padding-top: 10px;" class="color-white m-0 "><a class="About-link-desyne"
+            href="./New-Patients/new-patients.html">New
+            Patients</a></ul>
+        <ul style="padding-top: 10px;" class="color-white m-0"><a class="About-link-desyne"
+            href="./Payment-option/Payment-option.html">Payment
+            Options</a></ul>
+        <ul style="padding-top: 10px;" class="color-white m-0">Career</ul>
+        <ul style="padding-top: 10px;" class="color-white m-0">Technology</ul>
+        <ul style="padding-top: 10px;" class="color-white m-0">Blog</ul>
+      </li>
     </div>
     <div class="div-divider">
       <button class="div-divider-button"><a class="div-divider-link" href="">Services</a></button>
+      <i class="fa-solid fa-plus"></i>
     </div>
     <div class="div-divider">
       <button class="div-divider-button"><a class="div-divider-link" href="">Problems We Treat</a></button>
+      <i class="fa-solid fa-plus"></i>
     </div>
     <div class="div-divider">
       <button class="div-divider-button"><a class="div-divider-link" href="">(816) 608-8457</a></button>
@@ -663,11 +692,16 @@
             <div class="divider"></div>
             <li>
               <ul class="color-white m-0 "><a class="About-link-desyne" href="./About-us/about.html">About</a></ul>
-              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Meet-dr-naauman/Dr-Naauman.html">Meet Dr Naauman</a></ul>
-              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Meet-dr-uzair/Dr-uzair.html">Meet Dr Uzaire</a></ul>
-              <ul class="color-white m-0 "><a class="About-link-desyne" href="./meet-dr-hurria/dr-hurria.html">Meet Dr Hurria</a></ul>
-              <ul class="color-white m-0 "><a class="About-link-desyne" href="./New-Patients/new-patients.html">New Patients</a></ul>
-              <ul class="color-white m-0"><a  class="About-link-desyne" href="./Payment-option/Payment-option.html">Payment Options</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Meet-dr-naauman/Dr-Naauman.html">Meet Dr
+                  Naauman</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Meet-dr-uzair/Dr-uzair.html">Meet Dr
+                  Uzaire</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./meet-dr-hurria/dr-hurria.html">Meet Dr
+                  Hurria</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./New-Patients/new-patients.html">New
+                  Patients</a></ul>
+              <ul class="color-white m-0"><a class="About-link-desyne"
+                  href="./Payment-option/Payment-option.html">Payment Options</a></ul>
               <ul class="color-white m-0">Career</ul>
               <ul class="color-white m-0">Technology</ul>
               <ul class="color-white m-0">Blog</ul>
@@ -698,8 +732,10 @@
             <h1 class="color-white f-weight">Problems We Treat</h1>
             <div class="divider"></div>
             <li>
-              <ul class="color-white m-0 "><a class="About-link-desyne" href="./All-Problems-We-Treat/Problems.html">All Problems</a></ul>
-              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Bad-Breath/bad-breath.html">Bad Breath / Halitosis</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./All-Problems-We-Treat/Problems.html">All
+                  Problems</a></ul>
+              <ul class="color-white m-0 "><a class="About-link-desyne" href="./Bad-Breath/bad-breath.html">Bad Breath /
+                  Halitosis</a></ul>
               <ul class="color-white m-0">Infant Frenectomies</ul>
               <ul class="color-white m-0">Gum Disease</ul>
               <ul class="color-white m-0">Teeth Grinding</ul>
@@ -783,7 +819,7 @@
 
     </div>
   </div>
-  
+
   <!-- Script file -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8.0.7/swiper-bundle.min.js"></script>
   <script src="./script.js"></script>
