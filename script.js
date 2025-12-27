@@ -70,4 +70,3 @@ function toggleSubMenu() {
 		element.style.display = "none";
 	}
 }
- 
