@@ -1,0 +1,47 @@
+body {
+    font-size: 18px;
+}
+
+.payment-back-img {
+    background-image: url(./../images/slider1.jpg);
+    background-size: cover;
+}
+
+
+.pay-buttons {
+    flex-direction: column;
+}
+
+.f70 {
+    font-size: 70px;
+}
+
+.btn-container-modi {
+  display: flex;
+  gap: 30px;
+  
+}
+
+.join-section {
+    padding: 60px;
+}
+
+.divider-about-us {
+  height: 3px;
+  width: 20%;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.joinTitle {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.padding-prince {
+    padding-right: 60px;
+}
+
+.padding-prince {
+    padding-left: 60px;
+}
