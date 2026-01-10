@@ -17,9 +17,9 @@ body {
 }
 
 .btn-container-modi {
-  display: flex;
-  gap: 30px;
-  
+    display: flex;
+    gap: 30px;
+
 }
 
 .join-section {
@@ -27,10 +27,10 @@ body {
 }
 
 .divider-about-us {
-  height: 3px;
-  width: 20%;
-  opacity: 1;
-  margin-bottom: 50px;
+    height: 3px;
+    width: 20%;
+    opacity: 1;
+    margin-bottom: 50px;
 }
 
 .joinTitle {
@@ -40,8 +40,101 @@ body {
 
 .padding-prince {
     padding-right: 60px;
+    padding-left: 60px;
 }
 
-.padding-prince {
-    padding-left: 60px;
+.review-section {
+    padding: 70px;
+    gap: 20px;
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+
+}
+
+.review-box {
+    background-color: white;
+    padding: 30px;
+    position: relative;
+}
+
+.sche-title2 {
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+
+.decorater {
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.review-people {
+    font-weight: 600;
+}
+
+.open-section {
+    background-image: url(./../images/learnMore2.jpg);
+    height: 425px;
+    background-blend-mode: overlay;
+    padding-inline: 135px;
+    padding-top: 40px;
+    padding-bottom: 135px;
+    display: flex;
+    gap: 70px;
+}
+
+.open-title {
+    font-weight: 600;
+    font-size: 38px;
+    color: white;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #56ee30;
+    position: absolute;
+    top: -15px;
+    left: 37%;
+}
+
+@media screen and (max-width: 768px) {
+    .f70 {
+        font-size: 36px;
+    }
+
+    .join-section {
+        padding: 20px;
+    }
+
+    .padding-prince {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .review-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .open-section {
+        height: auto;
+        padding-inline: 20px;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .decorater {
+        padding: 20px;
+    }
+
 }
