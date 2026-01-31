@@ -159,7 +159,7 @@ body {
   background-color: black;
   padding-bottom: 20px;
   padding-top: 50px;
-  justify-content: centera;
+  justify-content: center;
   align-items: center;
 }
 
@@ -669,6 +669,9 @@ body {
 
 .follow-us-sect {
   padding-top: 100px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
 
 .follow-us-btn {
