@@ -25,6 +25,8 @@ body {
     padding: 65px;
     display: flex;
     gap: 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 .deserve-title {
@@ -107,7 +109,7 @@ body {
     padding-bottom: 120px;
 }
 
-.top-rated-title{
+.top-rated-title {
     font-size: 70px;
 }
 
@@ -120,4 +122,101 @@ body {
     background-image: url(./../images/slider4.jpg);
     height: auto;
     background-size: cover;
+}
+
+.robot-section {
+    background-color: #f7f7f7;
+    padding: 30px;
+}
+
+.robot-briefcase {
+    background-color: #5dff34;
+    height: auto;
+    padding: 20px;
+}
+
+.robot-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.routine-dental-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.routine-dental {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+/*     transition: color 600ms ease-out 0ms, box-shadow 600ms ease-out 0ms */
+
+.routine-dental:hover {
+    box-shadow: inset 0 16px 540px 0 rgb(51 255 0 / .7);
+}
+
+.robot-img {
+    background-image: url(./../images/laserFilling.jpeg);
+}
+
+.robot-img2 {
+    background-image: url(./../images/learnMore2.jpg);
+    background-size: cover;
+
+}
+
+.beautiful-hover {
+    color: #333;
+    transition: color 600ms ease-out, box-shadow 600ms ease-out;
+}
+
+.beautiful-hover:hover {
+    color: #022C22; /* extremely dark green */
+    box-shadow: 0 0 12px rgba(2, 44, 34, 0.7);
+}
+
+
+/*     box-shadow: inset 0 16px 540px 0 rgb(51 255 0 / .7); */
+
+.robot-img3 {
+    background-image: url(./../images/light.jpg);
+}
+
+@media screen and (max-width: 768px) {
+    .deserve-section {
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .innovation-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .innovation-examples {
+        width: auto;
+    }
+
+    .innovate-section {
+        padding: 20px;
+    }
+
+    .technology-text-box {
+        color: white;
+        padding-inline: 20px;
+        padding-top: 50px;
+    }
+
+    .f70 {
+        font-size: 36px;
+    }
 }

@@ -943,6 +943,10 @@ body {
   font-size: 25px;
 }
 
+.f50 {
+  font-size: 50px;
+}
+
 .box-shadow {
   box-shadow: 0 12px 18px -6px rgb(0 0 0 / .3);
 }
