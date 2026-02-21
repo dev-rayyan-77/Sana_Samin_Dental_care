@@ -947,6 +947,14 @@ body {
   font-size: 50px;
 }
 
+.f70{
+  font-size: 70px;
+}
+
+.f36 {
+  font-size: 36px;
+}
+
 .box-shadow {
   box-shadow: 0 12px 18px -6px rgb(0 0 0 / .3);
 }
