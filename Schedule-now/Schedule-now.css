@@ -1,0 +1,66 @@
+body {
+    font-size: 18px;
+}
+
+.payment-back-img {
+    background-image: url(./../images/slider2.jpg);
+    background-size: cover;
+}
+
+.pay-buttons {
+    flex-direction: column;
+}
+
+.f70 {
+    font-size: 70px;
+}
+
+.btn-container-modi {
+    display: flex;
+    gap: 30px;
+}
+
+.divider-about-us {
+  height: 3px;
+  width: 20%;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+
+.call-title {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    justify-content: left;
+}
+
+.appointment-section {
+    background-color: #f7f7f7;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+
+.apointment-second-part{
+    background-color: #232323;
+    padding: 40px;
+    margin-top: -150px;
+}
+
+.appointment-title {
+    color: white;
+    font-size: 45px;
+}
+
+@media screen and (max-width: 768px) {
+    .appointment-section {
+        flex-direction: column;
+    }
+
+    .apointment-second-part {
+        margin-top: 0px;
+    }
+}

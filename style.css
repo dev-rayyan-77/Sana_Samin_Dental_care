@@ -54,6 +54,12 @@ body {
   color: #000000;
 }
 
+
+.schedule-btn>a {
+    text-decoration: none;
+    color: black;
+}
+
 .black-btn {
  background-color: #56ee30;
   padding: 12px 25px 12px 25px;
@@ -969,6 +975,7 @@ body {
   width: 2px;
   margin-bottom: 40px;
 }
+
 
 @media screen and (max-width: 816px) {
   .video-disappear {
