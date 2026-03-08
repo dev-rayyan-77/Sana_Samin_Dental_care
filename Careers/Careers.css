@@ -137,4 +137,8 @@ body {
         padding: 20px;
     }
 
+    .btn-container-modi {
+        flex-direction: column;
+        gap: 10px;
+    }
 }

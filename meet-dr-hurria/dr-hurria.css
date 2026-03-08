@@ -1,5 +1,5 @@
 body {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .docters-style-btn {
@@ -152,4 +152,46 @@ body {
 .edu-title {
   font-size: 24px;
   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .edu-row {
+    flex-direction: column;
+  }
+
+  .focus-title {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  .focus-section {
+    padding-inline: 50px;
+    padding-block: 50px;
+  }
+
+  .card-row {
+    flex-direction: column;
+  }
+
+  .approach-words {
+    padding: 20px;
+    padding-top: 40px;
+  }
+
+  .person-info-section {
+    padding: 20px;
+  }
+
+  .Education-section {
+    padding-block: 64px;
+    padding-inline: 20px;
+  }
+
+  .person-text {
+    padding: 0;
+  }
+
+  .person-name {
+    font-size: 48px;
+  }
 }
