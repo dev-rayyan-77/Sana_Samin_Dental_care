@@ -11,10 +11,6 @@ body {
     flex-direction: column;
 }
 
-.f70 {
-    font-size: 70px;
-}
-
 .btn-container-modi {
     display: flex;
     gap: 30px;
