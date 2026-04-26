@@ -1,0 +1,62 @@
+body {
+    font-size: 18px;
+}
+
+.dentures-back-img {
+    background-image: url("./../images/slider2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.f56 {
+    font-size: 56px;
+}
+
+.denture-option-sect {
+    padding: 60px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.denture-options-box {
+    height: auto;
+    width: 30%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.denture-options-box h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.denture-row {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.producing-alighn {
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width: 910px) {
+    .f56 {
+        font-size: 36px;
+    }
+
+    .denture-row {
+        flex-direction: column;
+        
+    }
+
+    .denture-options-box{
+        width: 100%;
+    }
+}

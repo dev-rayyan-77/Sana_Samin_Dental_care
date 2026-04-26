@@ -1,0 +1,18 @@
+body {
+    font-size: 18px;
+}
+
+.crowns-back-img {
+    background-image: url("./../images/learnMore2.jpg");
+    background-size: cover;
+}
+
+.most-common-row2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.most-common-row2 >.most-common-box {
+    width: 40%;
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef6f7, #f8fbfc);
+    margin: 0;
+}
+
+.container {
+    width: auto;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-3px);
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 13px;
+    color: #333;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 11px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #dcdcdc;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #33ff00;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(10,108,116,0.1);
+}
+
+.feedbackbutton {
+    width: 100%;
+    margin-top: 10px;
+    padding: 13px;
+    background: linear-gradient(135deg, #4cc72d , #33ff00);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.feedbackbutton:hover {
+    background: linear-gradient(135deg, #447e1e, #33ff00);
+    transform: scale(1.02);
+}
+
+.success {
+    text-align: center;
+    color: #2ecc71;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+.feed-back-nav-bar {
+    background-color: black;   
+}
+
+.feedback-primary-col {
+    color: #33ff00;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.feedback-image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.feed-back-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: black;
+}

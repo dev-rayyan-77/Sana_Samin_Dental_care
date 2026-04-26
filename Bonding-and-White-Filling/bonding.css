@@ -1,0 +1,13 @@
+body {
+    font-size: 18px;
+}
+
+.bonding-back-img {
+    background-image: url("./../images/learnMore2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.f56 {
+    font-size: 56px;
+}
