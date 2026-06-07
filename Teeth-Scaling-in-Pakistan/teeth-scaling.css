@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+}
+
+.blog2-back-img {
+    background-image: url(./../images/learnMore2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.teeth-scaling-image{
+    height: 467px;
+    width: 748px;
+}
+
+.coloring-p{
+    color: #33ff00;
+}
+
+.small-topics{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.coloring-h3-topics{
+    font-size: 22px;
+    color: #33ff00;
+    font-weight: 500;
+}
+
+.teeth-scaling-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: start;
+    padding: 80px;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .teeth-scaling-image {
+        height: auto;
+    }
+}

@@ -1,0 +1,63 @@
+body {
+    font-size: 18px;
+}
+
+.blog1-back-img {
+    background-image: url(./../images/learnMore2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.clear-aligners-section {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-1 {
+    height: 438px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.paragraph-1 {
+    font-size: 16px;
+}
+
+.coloring-font-1 {
+    color: #33ff00;
+}
+
+.sizing {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.lists {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.img-2 {
+    height: 383px;
+    width: auto;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .img-1 {
+        height: auto;
+    }
+
+
+    .clear-aligners-section {
+        padding: 20px;
+    }
+
+    .blog1-back-img {
+        background-image: none;
+    }
+}

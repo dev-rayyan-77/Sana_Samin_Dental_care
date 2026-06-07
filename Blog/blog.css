@@ -1,0 +1,23 @@
+body {
+    font-size: 18px;
+}
+
+.blog-back-img {
+    background-image: url("./../images/slider6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-section {
+    padding-block: 80px;
+    padding-inline: 120px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

@@ -1,13 +1,367 @@
 body {
-    font-size: 18px;
+   font-size: 18px;
 }
 
-.bonding-back-img {
-    background-image: url("./../images/learnMore2.jpg");
-    background-size: cover;
-    background-position: center;
-}
+/* .bonding-back-img {
+   background-image: url("./../images/learnMore2.jpg");
+   background-size: cover;
+   background-position: center;
+} */
 
 .f56 {
-    font-size: 56px;
+   font-size: 56px;
+}
+
+
+.img-box {
+   width: 55.2%;
+   margin-right: 3%;
+   background-color: rgb(0, 0, 0);
+   background-position-x: center;
+   background-position-y: top;
+   background-image: url(./../images/slider6.jpg);
+   box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+   background-repeat: no-repeat;
+   background-size: contain;
+   position: relative;
+   float: left;
+   z-index: 2;
+   min-height: 1px;
+}
+
+.context-box {
+   background-color: rgb(0, 0, 0);
+}
+
+.heading {
+   font-size: 72px;
+   font-weight: 100;
+   color: rgb(255, 255, 255);
+   margin-left: -50px;
+   position: relative;
+   z-index: 111;
+}
+
+.skkiny {
+   font-weight: 900;
+}
+
+.fat {
+   display: block;
+   width: 50px;
+   height: 4px;
+   background-color: #33ff00;
+}
+
+.babies {
+   font-size: 18px;
+   color: rgb(255, 255, 255);
+}
+
+.lists {
+   color: white;
+   font-size: 16px;
+}
+
+.second-heading {
+   color: white;
+   font-size: 29px;
+}
+
+.second-last-p {
+   color: white;
+   font-size: 18px;
+}
+
+.last-p {
+   color: white;
+   font-size: 18px;
+}
+
+.main-solea {
+   width: 100%;
+   max-width: 100%;
+   padding-top: 100px;
+   margin: auto;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+}
+
+.main-pain {
+   color: white;
+   display: flex;
+   height: auto;
+}
+
+.pain-part1 {
+   width: 50%;
+   margin: 0px 30px 0px 0px;
+   padding: 100px 50px;
+   color: white;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.pain-head {
+   font-size: 72px;
+   color: black;
+   font-weight: 600;
+}
+
+.captain-pain {
+   font-weight: 300;
+}
+
+.fat-pain {
+   width: 80px;
+   height: 2px;
+   display: block;
+   background-color: #33ff00;
+}
+
+.small-captain {
+   font-size: 18px;
+   padding-block-start: 18px;
+   color: black;
+}
+
+.last-p {
+   color: black;
+   font-size: 18px;
+}
+
+.pain-is-column {
+   width: 50%;
+   margin: 0px 30px 0px 0px;
+   padding: 100px 50px;
+   color: white;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.picture-pain {
+   width: 500px;
+}
+
+.filling-section {
+   display: flex;
+   flex-direction: column;
+   padding: 80px;
+   justify-content: center;
+   align-items: center;
+}
+
+.filling-heading {
+   font-size: 72px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.filling-box {
+   width: 25%;
+   background-color: #33ff00;
+   padding: 30px;
+   height: auto;
+}
+
+.filling-row {
+   display: flex;
+   justify-content: space-around;
+}
+
+.filling-box-title {
+   color: black;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;
+}
+
+.filling-box-para {
+   color: black;
+   font-weight: 100;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;
+}
+
+.question-section {
+   height: auto;
+   padding: 80px;
+}
+
+.question-heading {
+   font-size: 54px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.question-open-and-close-box {
+   background-color: #f7f7f7;
+   border: 1px solid black;
+   padding: 20px;
+}
+
+.opentitle {
+   font-weight: 500;
+   color: #666666;
+}
+
+/*  */
+
+.simple-approach-main {
+   padding-block: 80px;
+}
+
+.simple-approach-section {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(255, 255, 255);
+   height: 300px;
+   width: 100%;
+}
+
+.simple-approach-heading {
+   font-size: 72px;
+   color: black;
+   text-align: center;
+}
+
+.littleboxes {
+   height: 60px;
+   width: 60px;
+   background-color: white;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 3px solid #33ff00;
+}
+
+.pictures {
+   font-size: 36px;
+   color: #33ff00;
+}
+
+.texticon-holder {
+   height: 250px;
+   width: 193px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+}
+
+.simple-approach-text {
+   font-size: 28px;
+   font-weight: 500;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-low-weight {
+   font-weight: 100;
+}
+
+.left-border {
+   display: block;
+   height: 50px;
+   width: 2px;
+   background-color: #33ff00;
+   margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+   .partner-align {
+      justify-content: center;
+      align-items: center;
+   }
+
+   .f56 {
+      font-size: 36px;
+      padding-top: 20px;
+   }
+
+   .main-solea {
+      flex-direction: column;
+      padding: 8px;
+      padding-top: 40px;
+   }
+
+   .heading {
+      font-size: 36px;
+      font-weight: 100;
+      color: rgb(255, 255, 255);
+      margin-left: 0px;
+      z-index: 0;
+      padding-top: 20px;
+   }
+
+   .main-pain {
+      flex-direction: column;
+      padding: 20px;
+      padding-top: 40px;
+   }
+
+   .pain-part1 {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+   }
+
+   .pain-head {
+      font-size: 36px;
+   }
+
+   .pain-is-column {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+   }
+
+   .picture-pain {
+      width: 100%;
+   }
+
+   .simple-approach-section {
+      flex-direction: column;
+      padding: 20px;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+   }
+
+   .simple-approach-heading {
+      font-size: 36px;
+   }
+
+   .filling-heading {
+      font-size: 36px;
+   }
+
+   .filling-row {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .filling-section {
+      padding: 20px;
+      padding-top: 40px;
+   }
+
+   .filling-box {
+      width: 100%;
+   }
+
+   .filling-row {
+      gap: 20px;
+   }
+
+   .filling-heading {
+      padding-top: 40px;
+   }
 }
