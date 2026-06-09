@@ -10,7 +10,8 @@ body {
 
 .teeth-scaling-image{
     height: 467px;
-    width: 748px;
+    width: auto;
+    margin-bottom: 50px;
 }
 
 .coloring-p{
@@ -42,4 +43,13 @@ body {
     .teeth-scaling-image {
         height: auto;
     }
+
+.blog2-back-img {
+    background-image: none;
+}
+
+.teeth-scaling-image {
+    height: auto;
+}
+    
 }
