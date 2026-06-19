@@ -1,0 +1,81 @@
+body {
+  font-size: 18px;
+}
+
+.we-consider-sect {
+  padding: 80px;
+  height: auto;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.consider-title {
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.we-consider-small-section {
+  background-color: #f7f7f7;
+  padding: 40px 20px 40px 20px;
+}
+
+.icon-span {
+  border: 2px solid #5dff34;
+  height: 60px;
+  width: 60px;
+  border-radius: 999em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  text-align: center;
+  font-size: 54px;
+}
+
+.Oral-question-section {
+  padding: 120px 80px 120px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.oral-hygiene-row {
+  display: flex;
+  gap: 40px;
+  flex-wrap: nowrap;
+}
+
+.oral-hygiene-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.oral-hygiene-box-title {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .we-consider-sect {
+    padding: 20px;
+  }
+
+  .consider-title {
+    font-size: 36px;
+  }
+
+  .oral-hygiene-row {
+    flex-direction: column;
+  }
+
+  .Oral-question-section {
+    padding: 20px;
+    padding-block: 80px;
+  }
+
+}

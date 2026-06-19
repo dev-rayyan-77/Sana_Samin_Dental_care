@@ -40,9 +40,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-    .teeth-scaling-image {
-        height: auto;
-    }
 
 .blog2-back-img {
     background-image: none;
@@ -50,6 +47,11 @@ body {
 
 .teeth-scaling-image {
     height: auto;
+    max-width: 100%;
+}
+
+.teeth-scaling-section {
+    padding: 20px;
 }
     
 }
