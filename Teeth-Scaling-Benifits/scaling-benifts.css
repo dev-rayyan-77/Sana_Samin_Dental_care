@@ -1,0 +1,70 @@
+body {
+    font-size: 18px;
+}
+
+.blog3-back-img {
+    background-image: url(./../images/sittingArea.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.topic-3 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.image-1 {
+    width: 85%;
+}
+
+.small-topics-3 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.coloring-p-3 {
+    color: #33ff00;
+    font-weight: 600;
+}
+
+.turning-p-bold {
+    font-weight: 600;
+}
+
+.coloring-small-topics-3 {
+    color: #33ff00;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.img-2 {
+    height: 218px;
+    width: auto;
+}
+
+.img-3 {
+    height: 350px;
+    width: auto;
+}
+
+.scaling-benefits-sect {
+    padding: 100px 80px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .scaling-benefits-sect {
+        padding: 20px;
+    }
+
+    .image-1 {
+        width: auto;
+    }
+
+    .blog3-back-img {
+        background-image: none;
+    }
+}
