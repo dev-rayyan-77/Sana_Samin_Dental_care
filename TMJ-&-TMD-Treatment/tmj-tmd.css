@@ -6,3 +6,29 @@ body {
     text-align: center;
     font-size: 70px;
 }
+
+.other-tmj-heading {
+    font-weight: 600;
+    font-size: 29px;
+}
+
+.font-fat-weight {
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .pay-responsive-size {
+        font-size: 36px;
+    }
+
+    .first-title {
+        font-size: 36px;
+    }
+
+    .producing-nice-size {
+        font-size: 36px;
+    }
+
+}
