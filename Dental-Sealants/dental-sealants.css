@@ -1,0 +1,15 @@
+.sealants-row {
+    flex-wrap: nowrap;
+    gap: 55px;
+}
+
+.office-main-portion {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) { 
+    .sealants-row {
+        flex-direction: column;
+    }
+}
+    

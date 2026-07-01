@@ -1,0 +1,61 @@
+.entry-topic {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.image-1-4 {
+    height: 467px;
+    width: 748px;
+}
+
+.bold-p {
+    font-weight: 600;
+}
+
+.coloring-p-4 {
+    color: #33ff00;
+    font-weight: 600;
+}
+
+.small-topics-4 {
+    font-size: 26px;
+}
+
+.coloring-small-topics-4 {
+    color: #33ff00;
+    font-size: 22px;
+}
+
+.list-p {
+    font-weight: 600;
+    padding: 0px 0px 17px;
+}
+
+.image-2-4 {
+    height: 256px;
+    width: 493px;
+}
+
+.image3-4 {
+    height: 337px;
+    width: 473px;
+}
+
+.blog4-back-img {
+    background-image: url("./../images/Retainers-After-Braces.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.retrainer-section {
+    padding: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .retrainer-section {
+        padding: 20px;
+    }
+    .blog4-back-img {
+        background-image: none;
+    }
+}

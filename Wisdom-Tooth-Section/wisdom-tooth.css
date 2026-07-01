@@ -1,0 +1,42 @@
+.blog5-back-img {
+    background-image: url("./../images/sittingArea.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-topic-5 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.image-1-5 {
+    height: 466px;
+    width: 748px;
+}
+
+.coloring-p-5 {
+    color: #33ff00;
+}
+
+.bold-p-5 {
+    font-weight: 600;
+}
+
+.small-topics-5 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.coloring-small-topics-5 {
+    font-size: 22px;
+    color: #33ff00;
+}
+
+.image-2-5 {
+    height: 459px;
+    width: 688px;
+}
+
+.wisdom-tooth-sect {
+    padding: 80px;
+}

@@ -16,11 +16,23 @@ body {
     font-weight: 600;
 }
 
+.producing-nice-size {
+    font-size: 29px;
+}
+
+.producing-padding {
+    padding: 40px 60px;
+}
+
+.oral-appropriet-colour {
+    background-color: #f7f7f7;
+}
+
 
 @media screen and (max-width: 768px) {
 
     .pay-responsive-size {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .first-title {

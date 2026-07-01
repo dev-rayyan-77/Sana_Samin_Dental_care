@@ -736,6 +736,14 @@ body {
   text-decoration: none;
 }
 
+.divider-about-us {
+  height: 3px;
+  width: 20%;
+  opacity: 1;
+  margin-bottom: 50px;
+  color: #33ff00;
+}
+
 .list:hover {
   color: white;
   text-decoration: none;
@@ -1021,8 +1029,8 @@ body {
 }
 
 .rating label.white-star {
-     background: linear-gradient(145deg, #ffffff, #ffffff);
-    -webkit-background-clip: text;
+  background: linear-gradient(145deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
 }
 
 
