@@ -7,9 +7,20 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .sealants-row {
         flex-direction: column;
     }
+
+    .sealant-office-flex {
+        flex-direction: column;
+    }
+
+    .office-words {
+        padding-top: 20px;
+    }
+
+    .office-text {
+        padding-bottom: 0px;
+    }
 }
-    
