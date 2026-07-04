@@ -38,5 +38,15 @@
 }
 
 .wisdom-tooth-sect {
-    padding: 80px;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .wisdom-tooth-sect {
+        padding: 20px;
+    }
 }
