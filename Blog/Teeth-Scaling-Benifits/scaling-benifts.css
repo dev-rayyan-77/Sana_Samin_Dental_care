@@ -3,7 +3,7 @@ body {
 }
 
 .blog3-back-img {
-    background-image: url(./../images/sittingArea.JPG);
+    background-image: url(./../../images/sittingArea.JPG);
     background-size: cover;
     background-position: center;
 }

@@ -3,7 +3,7 @@ body {
 }
 
 .blog1-back-img {
-    background-image: url(./../images/learnMore2.jpg);
+    background-image: url(./../../images/learnMore2.jpg);
     background-size: cover;
     background-position: center;
 }
