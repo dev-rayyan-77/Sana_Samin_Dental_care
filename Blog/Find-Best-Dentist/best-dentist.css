@@ -1,0 +1,44 @@
+.blog6-back-img {
+    background-image: url("./../../images/slider6.jpg");
+    background-size: cover;
+}
+
+.main-topic-6 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.small-topics-6 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.bold-topic-6 {
+    font-weight: 600;
+}
+
+.coloured-p-6 {
+    color: #33ff00;
+}
+
+
+.best-dentist-section {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: start;
+    text-align: start;
+}
+
+
+@media screen and (max-width: 768px) {
+    .best-dentist-section {
+        padding: 20px;
+    }
+
+    .blog6-back-img {
+        background-image: none;
+    }
+}

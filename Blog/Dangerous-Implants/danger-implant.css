@@ -1,0 +1,37 @@
+.main-topic-7 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.blog7-back-img {
+    background-image: url("./../../images/slider6.jpg");
+    background-size: cover;
+}
+
+.small-topics-7 {
+    font-size: 26px;
+    font-size: 600;
+}
+
+.coloring-p-7 {
+    color: #33ff00;
+}
+
+.h3-topics {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.dangerous-implants-section {
+    padding: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .dangerous-implants-section {
+        padding: 20px;
+    }
+
+    .blog7-back-img {
+        background-image: none;
+    }
+}

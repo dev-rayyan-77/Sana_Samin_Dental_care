@@ -1,0 +1,38 @@
+.blog8-back-img {
+    background-image: url(./../../images/slider6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-topic-8{
+    font-size: 30px;
+}
+
+.small-topics-8{
+    font-size: 22px;
+}
+
+.coloring-h3-topics-8{
+    font-size: 22px;
+    color: #3f0;
+}
+
+.coloring-p-8{
+    color: #3f0;
+}
+
+.tooth-medicine-section {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .tooth-medicine-section {
+        padding: 20px;
+    }
+    .blog8-back-img {
+        background-image: none;
+    }
+}
