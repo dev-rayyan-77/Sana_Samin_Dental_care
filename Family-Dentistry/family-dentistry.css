@@ -1,0 +1,13 @@
+.oral-background {
+    background-color: #f7f7f7;
+}
+
+.family-office {
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .family-office {
+        padding: 20px;
+    }
+}
