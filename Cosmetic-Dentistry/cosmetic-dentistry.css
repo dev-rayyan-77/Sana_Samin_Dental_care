@@ -1,0 +1,19 @@
+.expertise-cosmetic-form {
+    width: 50%;
+}
+
+.cosmic-title {
+    font-size: 70px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .expertise-cosmetic-form {
+        flex-direction: column;
+    }
+
+    .expertise-cosmetic-form {
+        width: 100%;
+    }
+}

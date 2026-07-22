@@ -25,3 +25,21 @@ body {
 .blog-content-holder {
     display: flex;
 }
+
+.technology-btn-container {
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .technology-btn-container {
+        flex-wrap: wrap;
+    }
+
+    .blog-back-img {
+        background-image: none;
+    }
+
+    .blog-section {
+        padding: 20px;
+    }
+}

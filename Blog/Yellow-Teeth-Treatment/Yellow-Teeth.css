@@ -1,0 +1,33 @@
+.blog9-back-img {
+    background-image: url("./../../images/sittingArea.JPG");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-topic-9 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.small-topics-9 {
+    font-size: 22px;
+    color: #33ff00;
+    font-weight: 400;
+}
+
+.coloring-p-9 {
+    color: #33ff00;
+}
+
+.yellow-container {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .yellow-container {
+        padding: 20px;
+    }
+}

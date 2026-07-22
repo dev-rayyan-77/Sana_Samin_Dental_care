@@ -53,10 +53,14 @@ body {
 
     .denture-row {
         flex-direction: column;
-        
+
     }
 
-    .denture-options-box{
+    .denture-options-box {
         width: 100%;
+    }
+
+    .dentures-back-img {
+        background-image: none;
     }
 }

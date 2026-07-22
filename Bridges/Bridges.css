@@ -181,4 +181,8 @@ body {
     .most-common-box {
         width: 100%;
     }
+
+    .payment-back-img {
+        background-image: none;
+    }
 }

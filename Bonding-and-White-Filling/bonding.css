@@ -368,4 +368,12 @@ body {
    .bonding-back-img {
       background-image: none;
    }
+
+   .question-heading {
+      font-size: 36px;
+   }
+
+   .question-section {
+      padding: 20px;
+   }
 }

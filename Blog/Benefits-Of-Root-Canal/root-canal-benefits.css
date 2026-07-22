@@ -1,0 +1,19 @@
+.main-topic-10 {
+    font-size: 30px;
+}
+
+.small-topics-10 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.coloring-p-10 {
+    color: #33ff00;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .main-topic-10 {
+        padding: 20px;
+    }
+}

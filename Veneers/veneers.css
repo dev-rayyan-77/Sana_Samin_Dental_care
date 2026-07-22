@@ -1,0 +1,74 @@
+.enhance-section-topic-1 {
+    font-weight: 400;
+}
+
+.enhance-section-topic-1-sizing {
+    font-size: 72px;
+}
+
+
+.enhance-veneers-section {
+    padding: 50px;
+}
+
+.main-topic-section-2 {
+    font-size: 72px;
+}
+
+.not-bold {
+    font-weight: 100;
+}
+
+.visit-topic {
+    font-size: 18px;
+}
+
+.box-small {
+    background-color: #1f9900;
+    margin-right: 60px;
+}
+
+.small-topic-section {
+    font-size: 24px;
+}
+
+.image-box {
+    background-color: #000000;
+    height: auto;
+    width: auto;
+}
+
+.color-box {
+    display: block;
+    width: 50%;
+    background-color: #33ff00;
+    text-align: end;
+}
+
+.box-small-2 {
+    height: 24px;
+    background-color: #33ff00;
+    margin-right: 60px;
+}
+
+.fresh-new-section {
+    padding-block: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .enhance-veneers-section {
+        padding: 20px;
+    }
+
+    .enhance-section-topic-1-sizing {
+        font-size: 36px;
+    }
+
+    .enhance-row {
+        flex-direction: column;
+    }
+
+    .main-topic-section-2 {
+        font-size: 36px;
+    }
+}

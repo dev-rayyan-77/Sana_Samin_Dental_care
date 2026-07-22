@@ -1,0 +1,104 @@
+.light-text {
+    font-weight: 300;
+}
+
+.topic {
+    font-size: 54px;
+}
+
+.text-alingement {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topic-2 {
+    font-size: 72px;
+    text-align: center;
+}
+
+.vertical-line {
+    height: 34px;
+    border-left: 2px solid #33ff00;
+    width: 1px;
+}
+
+.sm-tp {
+    font-size: 28px;
+}
+
+.padding {
+    padding: 80px;
+}
+
+.topic-3 {
+    font-size: 45px;
+    color: white;
+    padding-left: 30px;
+}
+
+.white-text {
+    color: white;
+}
+
+.img-back {
+    background-image: url(./../images/sittingArea.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-box {
+    height: 60px;
+    width: 60px;
+    margin: 0px 0px 30px;
+    border: solid 3px #33ff00;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aligning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 28px;
+    text-align: center;
+}
+
+.img-size {
+    height: 40px;
+    width: 40px;
+}
+
+.font-evade {
+    font-size: 70px;
+}
+
+@media screen and (max-width: 768px) {
+    .padding {
+        padding: 20px;
+    }
+
+    .topic-3 {
+        font-size: 36px;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .topic-2 {
+        font-size: 36px;
+    }
+
+    .topic {
+        font-size: 36px;
+    }
+
+    .font-evade {
+        font-size: 36px;
+    }
+}

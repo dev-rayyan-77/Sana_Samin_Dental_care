@@ -260,4 +260,7 @@ body {
         width: 100%;
     }
 
+    .payment-back-img {
+        background-image: none;
+    }
 }

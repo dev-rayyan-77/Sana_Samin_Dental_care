@@ -1,0 +1,588 @@
+/* ===============================
+   Teeth Whitening Section
+================================== */
+
+.whitening-section {
+    padding: 80px;
+    background: #fff;
+}
+
+.whitening-container {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.whitening-image {
+    flex: 1;
+}
+
+.whitening-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.whitening-content {
+    flex: 1;
+}
+
+.whitening-content h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    line-height: 1.05;
+    color: #111;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.whitening-content .bold {
+    font-weight: 700;
+}
+
+.whitening-content .light {
+    font-weight: 300;
+}
+
+.divider {
+    width: 90px;
+    height: 3px;
+    background: #33ff00;
+    margin-bottom: 35px;
+}
+
+.whitening-content p {
+    line-height: 1.8;
+    color: #333;
+    max-width: 720px;
+}
+
+/* ===============================
+   Responsive
+================================== */
+
+@media(max-width:992px) {
+
+    .whitening-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .whitening-content h2 {
+        font-size: 52px;
+    }
+
+    .whitening-content p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .whitening-section {
+        padding: 40px 20px;
+    }
+
+    .whitening-content h2 {
+        font-size: 40px;
+    }
+
+    .whitening-content p {
+        font-size: 16px;
+    }
+}
+
+/*==========================
+   Whitening Treatments
+===========================*/
+
+.treatment-section {
+    padding: 80px;
+    background: #fff;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.section-heading h2 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #111;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+.section-heading h3 {
+    font-size: 56px;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 28px;
+}
+
+.heading-divider {
+    width: 3px;
+    height: 80px;
+    background: #33ff00;
+    margin: auto;
+}
+
+.treatment-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.treatment-card {
+    flex: 1;
+    background: #33ff00;
+    padding: 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .12);
+}
+
+.treatment-card h4 {
+    font-size: 42px;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+.treatment-card p,
+.treatment-card li {
+    color: #222;
+}
+
+.treatment-card p {
+    margin-bottom: 25px;
+}
+
+.treatment-card ol {
+    padding-left: 28px;
+}
+
+.treatment-card li {
+    margin-bottom: 15px;
+}
+
+/*==========================
+      Responsive
+===========================*/
+
+@media(max-width:992px) {
+
+    .treatment-container {
+        flex-direction: column;
+    }
+
+    .section-heading h2 {
+        font-size: 48px;
+    }
+
+    .section-heading h3 {
+        font-size: 38px;
+    }
+
+    .treatment-card h4 {
+        font-size: 32px;
+    }
+
+    .treatment-card p,
+    .treatment-card li {
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .treatment-section {
+        padding: 40px 20px;
+    }
+
+    .section-heading {
+        margin-bottom: 50px;
+    }
+
+    .section-heading h2 {
+        font-size: 36px;
+    }
+
+    .section-heading h3 {
+        font-size: 28px;
+    }
+
+    .heading-divider {
+        height: 60px;
+    }
+
+    .treatment-card {
+        padding: 30px;
+    }
+
+}
+
+/*=========================
+      Fun Facts Section
+==========================*/
+
+.facts-section {
+    padding: 80px;
+    background: #fff;
+}
+
+.facts-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.facts-heading h3 {
+    font-size: 72px;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+.facts-heading h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 30px;
+    text-transform: lowercase;
+}
+
+.facts-divider {
+    width: 3px;
+    height: 80px;
+    background: #33ff00;
+    margin: auto;
+}
+
+/*========================*/
+
+.facts-container {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.fact-card {
+    flex: 1;
+}
+
+.fact-title {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.fact-icon {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #33ff00;
+    color: #33ff00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.fact-title h4 {
+    font-size: 36px;
+    color: #111;
+    line-height: 1.2;
+}
+
+.fact-card p,
+.fact-card li {
+    color: #222;
+}
+
+.fact-card ul {
+    padding-left: 70px;
+}
+
+.fact-card li {
+    margin-bottom: 10px;
+}
+
+/*=========================
+      Responsive
+==========================*/
+
+@media (max-width:992px) {
+
+    .facts-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .facts-heading h2,
+    .facts-heading h3 {
+        font-size: 50px;
+    }
+
+    .fact-title h4 {
+        font-size: 30px;
+    }
+
+    .fact-card p,
+    .fact-card li {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .facts-section {
+        padding: 40px 20px;
+    }
+
+    .facts-heading h2,
+    .facts-heading h3 {
+        font-size: 36px;
+    }
+
+    .facts-divider {
+        height: 60px;
+    }
+
+    .fact-title h4 {
+        font-size: 26px;
+    }
+
+    .fact-card ul {
+        padding-left: 60px;
+    }
+
+}
+
+.about-banner {
+    position: relative;
+    background: url("./../images/sittingArea.JPG") center center/cover no-repeat;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .45);
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    max-width: 560px;
+    color: #fff;
+}
+
+.banner-content h2 {
+    font-size: 72px;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.banner-content h2 span {
+    font-weight: 300;
+}
+
+.banner-content h2 strong {
+    font-weight: 700;
+}
+
+.banner-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.about-btn {
+    display: inline-block;
+    background: #33ff00;
+    color: #000;
+    text-decoration: none;
+    padding: 18px 45px;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: lowercase;
+    transition: .3s;
+}
+
+.about-btn:hover {
+    background: #2de600;
+    transform: translateY(-3px);
+}
+
+@media (max-width:992px) {
+
+    .about-banner {
+        padding: 60px 40px;
+    }
+
+    .banner-content h2 {
+        font-size: 54px;
+    }
+
+    .banner-content p {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .about-banner {
+        padding: 40px 20px;
+        min-height: 500px;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .about-btn {
+        font-size: 18px;
+        padding: 15px 35px;
+    }
+
+}
+
+/*==================================
+      Approach To Care Section
+===================================*/
+
+.approach-section {
+    padding: 80px;
+    background: #fff;
+}
+
+.approach-heading {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.approach-heading h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.approach-heading h3 {
+    font-size: 68px;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 30px;
+}
+
+.approach-divider {
+    width: 3px;
+    height: 80px;
+    background: #33ff00;
+    margin: auto;
+}
+
+/*=============================*/
+
+.approach-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: center;
+}
+
+.approach-card {
+    flex: 1;
+}
+
+.approach-icon {
+    width: 74px;
+    height: 74px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px;
+}
+
+.approach-icon i {
+    font-size: 32px;
+    color: #33ff00;
+}
+
+.approach-card h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #111;
+}
+
+/*==================================
+            Responsive
+===================================*/
+
+@media(max-width:992px) {
+
+    .approach-container {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .approach-card {
+        flex: 0 0 calc(50% - 25px);
+    }
+
+    .approach-heading h2 {
+        font-size: 48px;
+    }
+
+    .approach-heading h3 {
+        font-size: 44px;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .approach-section {
+        padding: 40px 20px;
+    }
+
+    .approach-container {
+        flex-direction: column;
+    }
+
+    .approach-card {
+        flex: 100%;
+    }
+
+    .approach-heading h2 {
+        font-size: 34px;
+    }
+
+    .approach-heading h3 {
+        font-size: 30px;
+    }
+
+    .approach-divider {
+        height: 60px;
+    }
+
+    .approach-card h4 {
+        font-size: 22px;
+    }
+
+}

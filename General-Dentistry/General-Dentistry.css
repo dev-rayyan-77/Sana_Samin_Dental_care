@@ -157,4 +157,12 @@ body {
     .btn-container-modi {
         flex-direction: column;
     }
+
+    .payment-back-img {
+        background-image: none;
+    }
+
+    .general-dentistry-title {
+        font-size: 36px;
+    }
 }

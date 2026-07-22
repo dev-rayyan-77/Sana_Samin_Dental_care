@@ -1284,4 +1284,8 @@ body {
   .text-style {
     font-size: 25px;
   }
-}
+
+  .btn-container-modi{
+    flex-wrap: wrap;
+  }
+}      
