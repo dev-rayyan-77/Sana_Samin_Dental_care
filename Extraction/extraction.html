@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Best Dental technology | Sana Samin Dental care</title>
+    <title>Tooth Extractions Lahore | Sana Samin Dental Care</title>
 
     <!-- SEO -->
     <meta name="description"
-        content="Sana Samin Dental Care uses advanced dental technology in DHA Phase 1 Lahore, Pakistan. Our modern digital equipment ensures safe, painless, and precise dental treatments for better results.">
+        content="Discover Sana Samin Dental Care in DHA Phase 1 Lahore, Pakistan. Learn about our expert dentists, modern dental treatments, and our commitment to providing compassionate, high-quality dental care.">
 
     <meta name="keywords"
-        content="Advanced dental technology Lahore, Modern dental clinic DHA Phase 1, Digital dentistry Lahore, Painless dental treatment DHA Lahore, High-tech dental equipment Pakistan">
+        content="About Sana Samin Dental Care, Dentists in DHA Lahore, Dental clinic team, Modern dentistry Lahore, Trusted dental clinic Pakistan">
 
     <meta name="robots" content="index, follow">
 
-    <link rel="canonical" href="https://sanasamindentalcare.com/Technology/technology.html">
+    <link rel="canonical" href="https://sanasamindentalcare.com/cleanings-and-exams/cleanings-exams.html" />
 
     <!-- ✅ Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -23,7 +23,11 @@
 
     <!-- ✅ Custom CSS (load after Bootstrap so you can override styles) -->
     <link rel="stylesheet" href="./../style.css" />
-    <link rel="stylesheet" href="./technology.css" />
+    <link rel="stylesheet" href="./../About-us/about.css" />
+    <link rel="stylesheet" href="./../New-Patients/new-patients.css" />
+    <link rel="stylesheet" href="./../Cleanings-and-exams/Cleaning-exam.css" />
+    <link rel="stylesheet" href="./../Dental-Sealants/dental-sealants.css" />
+    <link rel="stylesheet" href="./extraction.css" />
     <!-- ✅ Font & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,13 +45,17 @@
 
     <!-- ✅ Bootstrap JS Bundle (includes Popper) – only include once -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Gsap animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 
 
 <body>
 
     <!-- Nav Bar :)-->
-    <div style="height: 100dvh;" class="container-fluid m-0 p-0 payment-back-img img-fluid">
+    <div class="container-fluid m-0 p-0 aboutus-back-img img-fluid">
         <nav class="nav-bar row m-0" id="navbar">
             <div class="logo-container col-12 col-md-5">
                 <a href="./../index.html">
@@ -75,20 +83,18 @@
 
             </div>
         </nav>
-
-        <div id="name" class="control-div pay-buttons padding-king">
+        <div id="name" class="control-div about-us-buttons padding-king">
             <div class="col-12">
                 <span class="heading-container">
-                    <h1 class="heading f70">liberty dental technology</h1>
-                    <h1 class="heading2 f70">modern dental technology that provides a premier care experience</h1>
-                    <hr class="divider-about-us bg-white color-white">
+                    <h1 class="heading">tooth extractions </h1>
+                    <h1 class="heading2">in Lahore</h1>
                 </span>
             </div>
             <!-- Button container -->
-            <div style="align-items: start;" class="col-12 btn-container-modi technology-btn-container">
+            <div style="align-items: start;" class="col-12 btn-container">
                 <a style="display: block;" class="schedule-btn nav-btn"
-                    href="./../Schedule-now/Schedule-now.html">Schedule Now</a>
-
+                    href="./../Schedule-now/Schedule-now.html">Schedule
+                    Now</a>
 
                 <button class="schedule-btn call-btn">
                     Call (042) 35746003-4
@@ -98,197 +104,393 @@
 
     </div>
 
-    <!-- Deserve Section -->
-    <section class="deserve-section row m-0">
-        <div class="col-12 col-md-5">
-            <p class="deserve-title"><span style="font-weight: 300;">you<br> deserve</span>
-                <br> <strong>the best</strong>
-            </p>
-            <hr class="divider-about-us bg-green color-green">
-            <p>
-                At Sana Samin Dental Care, we take immense pride in offering our patients a comprehensive
-                and state-of-the-art dental experience. Our commitment to excellence drives us to
-                constantly invest in cutting-edge dental technology, ensuring you receive the best
-                care possible.
-            </p>
+    <!-- Extraction Section -->
+    <section class="extraction-section">
+        <div class="container-fluid">
+            <div class="row align-items-center">
 
-            <p>
-                With a combination of cutting-edge tools, a modern office, and our highly skilled top Liberty dentists,
-                we aim to make your visit to our office as comfortable, efficient, and luxurious as possible
-            </p>
+                <!-- Left Content -->
+                <div class="col-lg-5 order-2 order-lg-1">
 
-            <p>
-                Call or text us at (816) 608-8457 and welcome a brighter, healthier smile.
-            </p>
-        </div>
-        <div class="col-12 col-md-5 img-fluid">
-            <img class="img-fluid" src="./../images/learnMore3.jpg" alt="Img Here">
-        </div>
-    </section>
+                    <div class="extraction-content">
 
-    <!-- Innovate Section  -->
-    <section class="innovate-section">
-        <p class="innovate-title"><span style="font-weight: 300;">how our innovative</span><strong><br>dental technology
-                helps you</strong></p>
-        <div class="vertical-divider"></div>
-        <div class="innovation-row row m-0">
-            <div class="col-12 col-md-3 innovation-examples box-shadow">
-                <span class="icon-box"><i class="fa-solid fa-user"></i></span>
-                <p class="innovation-box-title">improved accuracy</p>
-                Cutting-edge dental technology allows us to diagnose and treat dental issues with unmatched precision.
-                More accurate treatment planning and fewer complications lead to better outcomes and faster recoveries.
-            </div>
-            <div class="col-12 col-md-3 innovation-examples box-shadow">
-                <span class="icon-box"><i class="fa-solid fa-couch"></i></span>
-                <p class="innovation-box-title">enhanced patient comfort</p>
-                Many of our advanced technologies are designed to minimize discomfort during procedures. Receive the
-                care you need without unnecessary pain or anxiety.
-            </div>
-            <div class="col-12 col-md-3 innovation-examples box-shadow">
-                <span class="icon-box"><i class="fa-solid fa-house"></i></span>
-                <p class="innovation-box-title">single-visit dentistry</p>
-                Modern dental technology streamlines the treatment process, reducing the time you spend in the dental
-                chair, often to just a single visit. Fewer appointments, a quicker recovery, and more convenience for
-                you.
-            </div>
-            <div class="col-12 col-md-3 innovation-examples box-shadow">
-                <span class="icon-box"><i class="fa-regular fa-handshake"></i></span>
-                <p class="innovation-box-title">better communication</p>
-                Advanced tools facilitate better communication between you and our team. We can visually show you the
-                state of your oral health and discuss treatment options more effectively, empowering you to make
-                informed decisions about your care.
+                        <h3>Gentle, Comfortable</h3>
+
+                        <h2>Tooth Extractions</h2>
+
+                        <div class="section-line"></div>
+
+                        <p>
+                            Our first priority is to save your tooth, but when tooth damage
+                            is so extensive that it cannot be repaired, a dental extraction
+                            may be necessary. Additionally, wisdom teeth often need to be
+                            extracted to make room in your jaw or improve your dental health.
+                        </p>
+
+                        <p>
+                            Our office specializes in comfortable, high-quality care —
+                            including dental extractions for all ages. If you think you may
+                            need a tooth removed, contact our office today for a consultation.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-7 order-1 order-lg-2 mb-4 mb-lg-0">
+
+                    <div class="extraction-image">
+
+                        <img src="./../images/learnMore3.jpg" class="img-fluid" alt="Tooth Extraction">
+
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Technology Section -->
+    <!-- Emergency_Sections -->
+    <section class="emergency-section">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-lg-8">
+
+                    <div class="emergency-content">
+
+                        <h3>Are you in pain?</h3>
+
+                        <h2>Get Help ASAP</h2>
+
+                        <div class="emergency-line"></div>
+
+                        <p>
+                            When you're in pain and need a tooth removed right away,
+                            we'll get you in as fast as possible and provide you with
+                            a positive and efficient experience.
+                        </p>
+
+                        <p class="phone-text">
+                            Call or Text
+                            <a href="tel:+923001234567">(0300) 123-4567</a>
+                            Now.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Extaction-After-Effects -->
+    <section class="extraction-section">
+        <div class="container text-center">
+
+            <h1>reasons for an extraction</h1>
+            <h2>may include:</h2>
+
+            <div class="green-line"></div>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="reason-card">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <h3>infected or<br>abscessed<br>tooth</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="reason-card">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <h3>broken &amp;<br>damaged teeth</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="reason-card">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <h3>wisdom teeth<br>causing<br>problems</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="reason-card">
+                        <div class="icon-circle">
+                            <i class="fa-solid fa-teeth"></i>
+                        </div>
+                        <h3>overcrowding</h3>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Better Result Extraction -->
     <section class="technology-section">
-        <div class="col-12 col-md-6 technology-text-box">
-            <p class="technology-title"><strong>our dental technology</strong></p>
-            <hr class="divider-about-us">
-            </hr>
-            <p class="technology-text">
-                At Sana Samin Dental Care, our investment in cutting-edge dental
-                technology is a testament to our dedication to your oral health and overall well-being.
-                Experience the difference of modern dentistry with us, and let us help you achieve and
-                maintain a healthy, beautiful smile.
-            </p>
+        <div class="container">
+            <div class="row align-items-start g-5">
+
+                <!-- Left Content -->
+                <div class="col-lg-4">
+                    <h1 class="main-title">
+                        better results<br>
+                        through<br>
+                        <strong>advanced<br>technology</strong>
+                    </h1>
+
+                    <div class="accent-line"></div>
+
+                    <p class="description">
+                        Just because you need a tooth removed doesn’t mean you should
+                        settle for an uncomfortable or rushed diagnosis and treatment.
+                        Thanks to CBCT 3D imaging, Dr. Naauman will visualize your dental
+                        health situation and outline whether or not an extraction is
+                        necessary. If so, we’ll make a plan for replacing the tooth after
+                        it’s removed, as necessary.
+                    </p>
+                </div>
+
+                <!-- Video Image -->
+                <div class="col-lg-8">
+                    <div class="video-box">
+                        <img src="./../images/learnMore2.jpg" alt="Dentist explaining CBCT technology"
+                            class="img-fluid">
+
+                        <a href="#" class="play-button" aria-label="Play video">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Faq Extraction -->
+    <section class="extraction-faq">
+        <div class="container">
+
+            <!-- Heading -->
+            <div class="faq-heading text-center">
+                <h2>
+                    Dr. Naauman answers your most common<br class="d-none d-lg-block">
+                    questions about tooth extractions
+                </h2>
+
+                <div class="heading-line"></div>
+            </div>
+
+            <!-- FAQ Grid -->
+            <div class="row g-5">
+
+                <!-- Question 1 -->
+                <div class="col-lg-6">
+                    <div class="faq-item">
+                        <div class="faq-icon">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="faq-content">
+                            <h3>Do you remove wisdom teeth?</h3>
+
+                            <p>
+                                Yes! We work with patients of all ages who need their wisdom
+                                teeth extracted. Not everyone needs to have their wisdom teeth
+                                extracted. We’ll help you understand whether or not removing
+                                your wisdom tooth is important for your long-term health and
+                                wellness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="col-lg-6">
+                    <div class="faq-item">
+                        <div class="faq-icon">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="faq-content">
+                            <h3>Does a tooth extraction hurt?</h3>
+
+                            <p>
+                                We’ll ensure you’re fully numb and comfortable during the
+                                procedure. We may prescribe you pain medication to take after
+                                surgery. You can also use an ice pack to alleviate any
+                                discomfort in the day or so after the procedure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="col-lg-6">
+                    <div class="faq-item">
+                        <div class="faq-icon">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="faq-content">
+                            <h3>
+                                How long will it take to recover<br class="d-none d-xl-block">
+                                from a dental extraction?
+                            </h3>
+
+                            <p>
+                                After the surgery, you will need to rest. If anesthesia was
+                                administered, you’ll need to be driven home by a friend or
+                                family member. We’ll apply gauze at the end of the surgery,
+                                and you’ll need to change it periodically. If bleeding
+                                continues for longer than 24 hours, give us a call. Rest when
+                                you return home, but avoid lying flat as it could prolong the
+                                bleeding. Instead, prop your head up on a pillow.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="col-lg-6">
+                    <div class="faq-item">
+                        <div class="faq-icon">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+
+                        <div class="faq-content">
+                            <h3>
+                                Can I eat and drink immediately<br class="d-none d-xl-block">
+                                following an extraction?
+                            </h3>
+
+                            <p>
+                                We’ll ask you to limit soft foods for a few days after your
+                                surgery. Instead, some recommended foods are:
+                            </p>
+
+                            <ul>
+                                <li>Gelatin</li>
+                                <li>Pudding</li>
+                                <li>Yogurt</li>
+                                <li>Mashed potatoes</li>
+                                <li>Ice cream</li>
+                                <li>Thin soups</li>
+                            </ul>
+
+                            <p class="mb-0">
+                                When drinking, avoid using a straw. The sucking motion can
+                                loosen your sutures and slow the clotting process. The same
+                                goes for smoking and vaping.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Expect-Section -->
+    <section class="expect-section">
+        <div class="container">
+            <div class="row align-items-stretch g-5">
+
+                <!-- Left Image -->
+                <div class="col-lg-5">
+                    <div class="expect-image">
+                        <img src="./../images/learnMore3.jpg" alt="Patient receiving dental care">
+                    </div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-lg-7">
+                    <div class="expect-content">
+
+                        <h2>
+                            what to expect during<br>
+                            an extraction at<br>
+                            Sana Samin<br>
+                            Dental Care
+                        </h2>
+
+                        <div class="accent-line"></div>
+
+                        <p class="intro-text">
+                            Our dentist, hygienists, and staff are friendly, attentive, and
+                            passionate about helping you feel confident and relaxed. We’ll
+                            answer all your questions and make sure you know what to expect.
+                            We know you’ll enjoy our patient-first approach.
+                        </p>
+
+                        <div class="amenities-box">
+
+                            <div class="amenity-item">
+                                <div class="amenity-icon">
+                                    <i class="fa-solid fa-headphones"></i>
+                                </div>
+
+                                <h3>
+                                    therapeutic amenities to help<br>
+                                    you relax
+                                </h3>
+                            </div>
+
+                            <div class="amenity-item">
+                                <div class="amenity-icon">
+                                    <i class="fa-solid fa-chair"></i>
+                                </div>
+
+                                <h3>advanced diagnostic technology</h3>
+                            </div>
+
+                            <div class="amenity-item">
+                                <div class="amenity-icon">
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+
+                                <h3>warm &amp; welcoming team</h3>
+                            </div>
+
+                            <div class="amenity-item">
+                                <div class="amenity-icon">
+                                    <i class="fa-solid fa-syringe"></i>
+                                </div>
+
+                                <h3>fast, efficient process</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
 
-    <!-- Robot section -->
-    <Section class="robot-section">
-        <div style="gap: 30px; justify-content: center;" class="row m-0">
-            <div class="robot-briefcase  col-12 col-md-5">
-                <p class="robot-text">Guided Implant Technique</p>
-                <p style="text-align: center;">
-                    Our Guided Implant Technique takes dental implants to the next level. By using advanced software and
-                    3D imaging, we can create a personalized treatment plan tailored to your unique needs. This
-                    precision not only ensures the successful placement of implants but also minimizes discomfort and
-                    recovery time.
-                </p>
-            </div>
-            <div class="robot-briefcase  col-12 col-md-5">
-                <p class="robot-text">Solea Laser</p>
-                <p style="text-align: center;">
-                    The Solea Laser is a dental game-changer. This innovative tool allows us to perform various
-                    treatments with minimal or no anesthesia. It’s virtually painless and significantly reduces the time
-                    needed for recovery. From cavity fillings to soft tissue procedures, the Solea Laser makes your
-                    visit to the dentist a breeze.
-                </p>
-            </div>
-        </div>
-
-        <div style="padding-top: 30px; gap: 30px; justify-content: center;" class="row m-0">
-            <div class="robot-briefcase  col-12 col-md-5">
-                <p class="robot-text">CEREC Same-Day Crowns</p>
-                <p style="text-align: center;">
-                    With CEREC Same Day Crowns, we can create and place custom, natural-looking crowns in a single
-                    appointment. No more waiting for weeks with temporary crowns – you can leave our office with a
-                    permanent restoration. This not only saves you time but also ensures a perfect fit and a beautifully
-                    restored smile.
-                </p>
-            </div>
-            <div class="robot-briefcase  col-12 col-md-5">
-                <p class="robot-text">CBCT 3D imaging</p>
-                <p style="text-align: center;">
-                    Our Cone Beam Computed Tomography (CBCT) 3D imaging technology provides us with an incredibly
-                    detailed view of your oral anatomy. This allows for more accurate diagnosis and treatment planning
-                    for a wide range of dental procedures, from implant placement to orthodontics. With CBCT, you can
-                    trust that your dental care is based on the most comprehensive and up-to-date information.
-                </p>
-            </div>
-        </div>
-    </Section>
-
-    <!-- Top Rated Section -->
-    <section class="top-rated-section">
-        <div class="col-12 col-md-6 technology-text-box">
-            <p class="top-rated-title"><span style="font-weight: 300;">top-rated<br></span><strong>Lahore<br>
-                    dentists</strong></p>
-            <hr class="divider-about-us">
-            </hr>
-            <p class="top-rated-text">
-                Meet our experienced dentists, Dr. Naauman and Dr. Uzaire, supported by a compassionate
-                clinical team. We always look for the best solution. More importantly, we look for the best solution for
-                you.
-            </p>
-            <button class="schedule-btn height-60 margain">Meet Us</button>
-        </div>
-    </section>
-
-    <!-- beatiful-technology -->
-    <section class="pt-5 d-flex justify-content-center align-items-center flex-column">
-        <p class="f70"><span style="font-weight: 300;">your </span><strong>beautiful smile</strong>
-        </p>
-        <div class="vertical-divider"></div>
-    </section>
-    <div class="row m-0">
-        <div class="routine-dental robot-img col-12 col-md-4" style="background-color: black;border: 2px solid white;">
-            <div class="beautiful-hover">
-                <p class="routine-dental-title">routine dental care</p>
-                <p class="color-white">Clean and healthy has never been this easy — or enjoyable! We’re your entire
-                    family’s
-                    partner in dental health.</p>
-            </div>
-            <button class="schedule-btn height-60 margain">Learn More</button>
-        </div>
-        <div class="routine-dental robot-img2  col-12 col-md-4"
-            style="background-color: black;border: 2px solid white;">
-            <div class="beautiful-hover">
-                <p class="routine-dental-title">cosmetic transformations</p>
-                <p class="color-white">See what’s possible through veneers, GLO whitening, or clear aligners. We’re a
-                    certified Invisalign provider and have designed thousands of confident smiles.</p>
-            </div>
-            <button class="schedule-btn height-60 margain">Learn More</button>
-        </div>
-
-        <div class="routine-dental robot-img3  col-12 col-md-4"
-            style="background-color: black;border: 2px solid white;">
-            <div class="beautiful-hover">
-                <p class="routine-dental-title">restorative procedures</p>
-                <p class="color-white">With advanced training and a focus on full-mouth reconstruction, our doctors
-                    provide
-                    premier care for those dealing with damaged or missing teeth.
-                </p>
-            </div>
-            <button class="schedule-btn height-60 margain">Learn More</button>
-        </div>
-    </div>
-
-    <!-- Schedule Section -->
+    <!-- Schedule Section :) -->
     <section class="schedule-now-sect">
-        <div class="schedule-container decorater">
-            <p class="sche-title2 m-0">
-                join a team that is making Lahore healthier, one smile at a time</p>
-            <p style="text-align: center;">
-                Let’s work together to provide premier dental care for our patients. Contact us today
-                with questions or fill out the form above to submit your resume.
-            </p>
-            <button class="schedule-btn height-60 margain">Contact Us</button>
+        <div class="schedule-container">
+            <p class="sche-title m-0">schedule</p>
+            <p class="sche-subtitle m-0">your first visit</p>
+            <button class="schedule-btn height-60 margain">Learn More</button>
         </div>
     </section>
-
 
     <!-- Map Section :) -->
     <section class="row map-section m-0">
@@ -331,9 +533,8 @@
         </div>
     </section>
 
-    <!-- Follow Us Section -->
     <section class="row m-0 follow-us-sect">
-        <img class="col-md-3" src="./../images/2.png" alt="Img here">
+        <!-- <img class="col-md-3" src="./../images/2.png" alt="Img here"> -->
         <img class="col-md-3" src="./../images/afer-effects.png" alt="Img here">
         <img class="col-md-3" src="./../images/poster 2.png" alt="Img here">
         <!-- <img class="col-md-3" src="./../images/poster.png" alt="Img here"> -->
@@ -344,11 +545,10 @@
         </span>
     </section>
 
-    <!-- Contact Us section -->
     <section class="row contact-us-section m-0">
         <div class="col-12 col-md-6">
             <p class="contact-us-title"><strong>contact</strong> our<br> team</p>
-            <img src="./../images/slider7.jpg" alt="img here" class="img-fluid">
+            <img src="./../images/slider1.jpg" alt="img here" class="img-fluid">
         </div>
         <div class="col-12 col-md-6 ">
             <p class="color-white padding-top"> "<span class="col-red">*</span>" indicates required fields</p>
@@ -371,7 +571,7 @@
                 <textarea class="input-decoration text-area" name="Message" id="Name"></textarea>
             </span>
             <p class="color-white mt-4 follow-us-p">
-                I consent to text-based communications from Sana Samin Dental Care <span class="col-red">*</span>
+                I consent to text-based communications from Sana Samin Dental <span class="col-red">*</span>
             </p>
             <div class="">
                 <input type="radio">
@@ -382,13 +582,11 @@
             <button class="schedule-btn height-60 margain">Submit</button>
         </div>
     </section>
-
-    <!-- Footer section -->
     <footer class="footer-sec ">
         <div class="row m-0 f-padding">
 
             <div class="col-md-3">
-                <h4 class="f-heading">Services</h4>
+                <h4 class="f-heading">Treatments</h4>
                 <li>
                     <ul class="remover"><a class="list" href="">General</a></ul>
                     <ul class="remover"><a class="list" href="">Cosmetic</a></ul>
@@ -419,6 +617,7 @@
             <div class="col-md-3">
                 <h4 class="f-heading">Review Us</h4>
                 <li>
+                    <ul class="remover"><a class="list" href="./../feedback/feedback.html">Feedback</a></ul>
                     <ul class="remover"><a class="list" href="">Google</a></ul>
                     <ul class="remover"><a class="list" href="">Yelp</a></ul>
                     <ul class="remover"><a class="list" href="">Facebook</a></ul>
@@ -469,11 +668,11 @@
         <div class="div-divider">
             <button class="div-divider-button"><a class="div-divider-link" href="">Problems We Treat</a></button>
             <i class="fa-solid fa-plus"></i>
-        </div>
-        <div class="div-divider">
-            <button class="div-divider-button"><a class="div-divider-link" href="">(816) 608-8457</a></button>
-        </div>
-        <button class="schedule-btn" style="width: 100%; margin-top: 20px;">Schedule Now</button>
+
+            <div class="div-divider">
+                <button class="div-divider-button"><a class="div-divider-link" href="">(816) 608-8457</a></button>
+            </div>
+            <button class="schedule-btn" style="width: 100%; margin-top: 20px;">Schedule Now</button>
     </dialog>
 
     <!-- About us Modal -->
@@ -503,7 +702,8 @@
                                     href="./../Meet-dr-uzair/Dr-uzair.html">Meet Dr
                                     Uzaire</a></ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
-                                    href="./../meet-dr-hurria/dr-hurria.html">Meet Dr Hurria</a></ul>
+                                    href="./../meet-dr-hurria/dr-hurria.html">Meet
+                                    Dr Hurria</a></ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
                                     href="./../New-Patients/new-patients.html">New
                                     Patients</a></ul>
@@ -511,13 +711,11 @@
                                     href="./../Payment-option/Payment-option.html">Payment
                                     Options</a></ul>
                             <ul class="color-white m-0"><a class="About-link-desyne"
-                                    href="./../Careers/Career.html">Careers</a>
-                            </ul>
+                                    href="./../Careers/Career.html">Careers</a></ul>
                             <ul class="color-white m-0"><a class="About-link-desyne"
-                                    href="./technology.html">Technology</a></ul>
+                                    href="./../Technology/technology.html">Technology</a></ul>
                             <ul class="color-white m-0"><a class="About-link-desyne"
                                     href="./../Blog/blog.html">Blogs</a>
-                            </ul>
                         </li>
                     </div>
                 </div>
@@ -548,7 +746,8 @@
                             <ul class="color-white m-0 "><a class="About-link-desyne"
                                     href="./../All-Problems-We-Treat/Problems.html">All
                                     Problems</a></ul>
-                            <ul class="color-white m-0 "><a class="About-link-desyne" href="./bad-breath.html">Bad
+                            <ul class="color-white m-0 "><a class="About-link-desyne"
+                                    href="./../Bad-Breath/bad-breath.html">Bad
                                     Breath /
                                     Halitosis</a></ul>
                             <ul class="color-white m-0">Infant Frenectomies</ul>
@@ -591,15 +790,14 @@
                             <li class="col-md-4">
                                 <ul class="list-header">General Services</ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../General-Dentistry/General-Dentistry.html">General Dentistry</a></ul>
+                                        href="./../General-Dentistry/General-Dentistry.html">General
+                                        Dentistry</a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Bridges/Bridges.html">Bridges</a></ul>
-                                <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../General-Dentistry/General-Dentistry.html">General Dentistry</a></ul>
+                                        href="./../Bridges/Bridges.html">
+                                        Bridges</a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Crowns/crowns.html">Crowns</a></ul>
-                                <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Dentures/dentures.html">Dentures</a></ul>
+                                <ul class="color-white m-0"></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Bonding-and-White-Filling/bonding.html">Bonding and White Filling</a>
                                 </ul>
@@ -610,9 +808,9 @@
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Dental-Sealants/dental-sealants.html">Dental Sealants</a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Emergency-Dentist/emergency-dentist.html">Emergency Dentist</a></ul>
+                                        href="./emergency-dentist.html">Emergency Dentist</a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Family-Dentistry/family-dentistry.html">Family Dentistry</a></ul>
+                                        href="./family-dentistry.html">Family Dentistry</a></ul>
                                 <ul class="color-white m-0">Mandibular Advance Devices</ul>
                             </li>
 
@@ -650,7 +848,7 @@
                                         Canal
                                     </a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Extraction/extraction.html">Extractions
+                                        href="./extraction.html">Extractions
                                     </a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../All-on-4-Implants/all-on-4-implants.html">All-on-4 Implants

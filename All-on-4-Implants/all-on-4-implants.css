@@ -1,0 +1,689 @@
+.replace-teeth-section {
+    padding: 80px;
+    background: #fff;
+}
+
+.replace-image {
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .15);
+}
+
+.replace-image img {
+    width: 100%;
+    display: block;
+    transition: .5s ease;
+}
+
+.replace-image:hover img {
+    transform: scale(1.06);
+}
+
+.replace-content h3 {
+    font-size: 68px;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.replace-content h2 {
+    font-size: 82px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.replace-line {
+    width: 80px;
+    height: 3px;
+    background: #33ff00;
+    margin-bottom: 30px;
+}
+
+.replace-content p {
+    font-size: 22px;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+/* Tablet */
+
+@media (max-width:991px) {
+
+    .replace-teeth-section {
+        padding: 60px 40px;
+    }
+
+    .replace-content {
+        margin-top: 40px;
+    }
+
+    .replace-content h3 {
+        font-size: 46px;
+    }
+
+    .replace-content h2 {
+        font-size: 56px;
+    }
+
+    .replace-content p {
+        font-size: 18px;
+    }
+
+}
+
+/* Mobile */
+
+@media (max-width:767px) {
+
+    .replace-teeth-section {
+        padding: 20px;
+    }
+
+    .replace-content {
+        text-align: center;
+    }
+
+    .replace-content h3 {
+        font-size: 34px;
+    }
+
+    .replace-content h2 {
+        font-size: 42px;
+    }
+
+    .replace-line {
+        margin: 0 auto 25px;
+    }
+
+    .replace-content p {
+        font-size: 17px;
+    }
+
+}
+
+.allon4-section {
+    padding: 80px;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background:
+        linear-gradient(rgba(0, 0, 0, .55), rgba(0, 0, 0, .55)),
+        url("./../images/sittingArea.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.allon4-content {
+    max-width: 520px;
+}
+
+.allon4-content h2 {
+    font-size: 68px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.allon4-line {
+    width: 80px;
+    height: 3px;
+    background: #33ff00;
+    margin-bottom: 30px;
+}
+
+.allon4-content p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+/* Tablet */
+
+@media(max-width:991px) {
+
+    .allon4-section {
+        padding: 60px 40px;
+        min-height: 550px;
+    }
+
+    .allon4-content h2 {
+        font-size: 50px;
+    }
+
+    .allon4-content p {
+        font-size: 18px;
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:767px) {
+
+    .allon4-section {
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .allon4-content {
+        max-width: 100%;
+    }
+
+    .allon4-content h2 {
+        font-size: 38px;
+    }
+
+    .allon4-content p {
+        font-size: 17px;
+    }
+
+}
+
+.implant-benefits {
+    padding: 80px;
+    background: #fff;
+}
+
+.benefits-heading {
+    max-width: 950px;
+    margin: auto;
+}
+
+.benefits-heading h3 {
+    font-size: 72px;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.benefits-heading h2 {
+    font-size: 82px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.benefits-line {
+    width: 3px;
+    height: 70px;
+    background: #33ff00;
+    margin: 0 auto 35px;
+}
+
+.benefits-heading p {
+    font-size: 22px;
+    color: #111;
+    max-width: 850px;
+    margin: auto;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.benefit-icon {
+    width: 42px;
+    height: 42px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: .35s;
+}
+
+.benefit-icon i {
+    color: #33ff00;
+    font-size: 18px;
+    transition: .35s;
+}
+
+.benefit-item:hover .benefit-icon {
+    background: #33ff00;
+    transform: rotate(12deg);
+}
+
+.benefit-item:hover .benefit-icon i {
+    color: #fff;
+}
+
+.benefit-item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+    margin: 0;
+}
+
+/* Tablet */
+
+@media(max-width:991px) {
+
+    .implant-benefits {
+        padding: 60px 40px;
+    }
+
+    .benefits-heading h3 {
+        font-size: 48px;
+    }
+
+    .benefits-heading h2 {
+        font-size: 56px;
+    }
+
+    .benefits-heading p {
+        font-size: 18px;
+    }
+
+    .benefit-item h4 {
+        font-size: 20px;
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:767px) {
+
+    .implant-benefits {
+        padding: 20px;
+    }
+
+    .benefits-heading h3 {
+        font-size: 34px;
+    }
+
+    .benefits-heading h2 {
+        font-size: 42px;
+    }
+
+    .benefits-heading p {
+        font-size: 17px;
+    }
+
+    .benefit-item {
+        gap: 15px;
+    }
+
+    .benefit-item h4 {
+        font-size: 18px;
+    }
+
+}
+
+.expect-section {
+    position: relative;
+    background: url("./../images/learnMore2.jpg") center center/cover no-repeat;
+    padding: 90px 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.expect-section .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .55);
+}
+
+.expect-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.expect-title {
+    font-size: 60px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+}
+
+.expect-title strong {
+    font-weight: 700;
+    color: #fff;
+}
+
+.title-line {
+    width: 80px;
+    height: 3px;
+    background: #33ff00;
+    margin-bottom: 30px;
+}
+
+.intro,
+.ending,
+.expect-list {
+    font-size: 25px;
+    line-height: 1.9;
+    color: #fff;
+}
+
+.expect-list {
+    padding-left: 28px;
+    margin: 25px 0;
+}
+
+.expect-list li {
+    margin-bottom: 16px;
+}
+
+@media(max-width:991px) {
+
+    .expect-section {
+        padding: 70px 0;
+    }
+
+    .expect-title {
+        font-size: 44px;
+    }
+
+    .intro,
+    .ending,
+    .expect-list {
+        font-size: 18px;
+    }
+
+}
+
+.technology-section {
+    padding: 90px 0;
+    background: #fff;
+}
+
+.tech2-heading {
+    font-size: 66px;
+    line-height: 0.95;
+    font-weight: 300;
+    color: #111;
+    margin-bottom: 25px;
+}
+
+.tech2-heading span {
+    font-weight: 700;
+}
+
+.green-line {
+    width: 80px;
+    height: 3px;
+    background: #33ff00;
+    margin: 25px 0 30px;
+}
+
+.technology-section p {
+    font-size: 18px;
+    line-height: 1.9;
+    color: #222;
+    max-width: 360px;
+}
+
+.video-box {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .18);
+}
+
+.video-box img {
+    width: 100%;
+    display: block;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 95px;
+    height: 95px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+    font-size: 38px;
+    text-decoration: none;
+
+    transition: .3s;
+}
+
+.play-btn:hover {
+    background: #33ff00;
+    border-color: #33ff00;
+    color: #111;
+}
+
+@media(max-width:992px) {
+
+    .tech2-heading {
+        font-size: 48px;
+    }
+
+    .technology-section {
+        padding: 70px 0;
+    }
+
+    .technology-section p {
+        max-width: 100%;
+    }
+
+    .play-btn {
+        width: 75px;
+        height: 75px;
+        font-size: 28px;
+    }
+
+}
+
+.faq-section {
+    background: #f7f7f7;
+    padding: 95px 0 100px;
+    color: #000;
+}
+
+.faq-header {
+    margin-bottom: 55px;
+}
+
+.faq-header h2 {
+    font-size: 50px;
+    line-height: 1.18;
+    font-weight: 700;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.faq-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 18px auto 0;
+}
+
+.faq-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 35px;
+}
+
+.faq-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.faq-item h3 {
+    font-size: 29px;
+    line-height: 1.18;
+    font-weight: 500;
+    margin: 0 0 12px;
+}
+
+.faq-item p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+    max-width: 520px;
+}
+
+@media (max-width: 991px) {
+    .faq-section {
+        padding: 70px 0;
+    }
+
+    .faq-header h2 {
+        font-size: 38px;
+    }
+
+    .faq-item h3 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .faq-header h2 {
+        font-size: 30px;
+    }
+
+    .faq-item {
+        gap: 12px;
+    }
+
+    .faq-icon {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+    }
+
+    .faq-item h3 {
+        font-size: 22px;
+    }
+
+    .faq-item p {
+        font-size: 16px;
+    }
+}
+
+.care-section {
+    background: #ffffff;
+    padding: 95px 0 105px;
+    color: #000;
+}
+
+.care-heading {
+    margin-bottom: 25px;
+}
+
+.care-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.care-heading strong {
+    display: block;
+    font-size: 68px;
+    font-weight: 700;
+}
+
+.care-heading span {
+    display: block;
+    font-size: 62px;
+    font-weight: 300;
+    margin-top: 18px;
+}
+
+.care-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 25px auto 25px;
+}
+
+.care-item {
+    padding-top: 0;
+}
+
+.care-icon {
+    width: 62px;
+    height: 62px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 28px;
+    font-size: 27px;
+}
+
+.care-item h3 {
+    font-size: 29px;
+    line-height: 1.15;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (max-width: 991px) {
+    .care-section {
+        padding: 70px 0;
+    }
+
+    .care-heading strong {
+        font-size: 48px;
+    }
+
+    .care-heading span {
+        font-size: 44px;
+    }
+
+    .care-item h3 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 576px) {
+    .care-heading strong {
+        font-size: 36px;
+        line-height: 1.1;
+    }
+
+    .care-heading span {
+        font-size: 34px;
+        line-height: 1.1;
+    }
+
+    .care-line {
+        height: 40px;
+    }
+
+    .care-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .care-item h3 {
+        font-size: 20px;
+    }
+}

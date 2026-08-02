@@ -1,0 +1,719 @@
+.modern-denture-section {
+    background: #fff;
+    padding: 80px;
+}
+
+.modern-denture-image img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    display: block;
+}
+
+.modern-denture-content {
+    max-width: 600px;
+    margin-left: 90px;
+}
+
+.modern-denture-content h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.modern-denture-content h2 strong {
+    display: block;
+    font-size: 72px;
+    font-weight: 700;
+    color: #111;
+}
+
+.modern-denture-content h2 span {
+    display: block;
+    margin-top: 12px;
+    font-size: 70px;
+    font-weight: 300;
+    color: #111;
+}
+
+.modern-line {
+    width: 80px;
+    height: 3px;
+    background: #33ff00;
+    margin: 24px 0 30px;
+}
+
+.modern-denture-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #222;
+    margin-bottom: 24px;
+}
+
+@media(max-width:991px) {
+
+    .modern-denture-section {
+        padding: 80px;
+    }
+
+    .modern-denture-image {
+        margin-bottom: 50px;
+    }
+
+    .modern-denture-image img {
+        height: 450px;
+    }
+
+    .modern-denture-content {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .modern-denture-content h2 strong {
+        font-size: 52px;
+    }
+
+    .modern-denture-content h2 span {
+        font-size: 50px;
+    }
+
+}
+
+@media(max-width:576px) {
+
+    .modern-denture-section {
+        padding: 80px 25px;
+    }
+
+    .modern-denture-image img {
+        height: 320px;
+    }
+
+    .modern-denture-content h2 strong {
+        font-size: 42px;
+    }
+
+    .modern-denture-content h2 span {
+        font-size: 40px;
+    }
+
+    .modern-denture-content p {
+        font-size: 16px;
+    }
+
+}
+
+.overdenture-section {
+    background: #f7f7f7;
+    padding: 80px;
+}
+
+.overdenture-content {
+    max-width: 520px;
+}
+
+.overdenture-content h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.overdenture-content h2 strong {
+    display: block;
+    font-size: 68px;
+    font-weight: 700;
+    color: #111;
+}
+
+.overdenture-content h2 span {
+    display: block;
+    margin-top: 10px;
+    font-size: 66px;
+    font-weight: 300;
+    color: #111;
+}
+
+.overdenture-line {
+    width: 80px;
+    height: 3px;
+    background: #33ff00;
+    margin: 24px 0 30px;
+}
+
+.overdenture-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #222;
+    margin-bottom: 26px;
+}
+
+.overdenture-image {
+    margin-left: 70px;
+}
+
+.overdenture-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+@media(max-width:991px) {
+
+    .overdenture-section {
+        padding: 80px;
+    }
+
+    .overdenture-image {
+        margin: 50px 0 0;
+    }
+
+    .overdenture-image img {
+        height: 420px;
+    }
+
+    .overdenture-content {
+        max-width: 100%;
+    }
+
+    .overdenture-content h2 strong {
+        font-size: 50px;
+    }
+
+    .overdenture-content h2 span {
+        font-size: 48px;
+    }
+
+}
+
+@media(max-width:576px) {
+
+    .overdenture-section {
+        padding: 80px 25px;
+    }
+
+    .overdenture-content h2 strong {
+        font-size: 40px;
+    }
+
+    .overdenture-content h2 span {
+        font-size: 38px;
+    }
+
+    .overdenture-image img {
+        height: 300px;
+    }
+
+    .overdenture-content p {
+        font-size: 16px;
+    }
+
+}
+
+.advanced-tech-section {
+    position: relative;
+    min-height: 640px;
+    padding: 80px;
+    background:
+        url("./../images/slider3.jpg") center center / cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.advanced-tech-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.advanced-tech-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.advanced-tech-content {
+    max-width: 520px;
+}
+
+.advanced-tech-content h2 {
+    margin: 0;
+    line-height: 1.02;
+}
+
+.advanced-tech-content h2 span,
+.advanced-tech-content h2 strong {
+    display: block;
+}
+
+.advanced-tech-content h2 span {
+    font-size: 58px;
+    font-weight: 300;
+}
+
+.advanced-tech-content h2 strong {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+.advanced-tech-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 18px 0 24px;
+}
+
+.advanced-tech-content p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .advanced-tech-section {
+        min-height: 560px;
+        padding: 80px;
+        background-position: 60% center;
+    }
+
+    .advanced-tech-content h2 span,
+    .advanced-tech-content h2 strong {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+    .advanced-tech-section {
+        min-height: auto;
+        padding: 80px 25px;
+        background-position: 65% center;
+    }
+
+    .advanced-tech-content h2 span,
+    .advanced-tech-content h2 strong {
+        font-size: 39px;
+    }
+
+    .advanced-tech-content p {
+        font-size: 16px;
+    }
+}
+
+.overdenture-candidate-section {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.candidate-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.candidate-heading h2 strong {
+    display: block;
+    font-size: 68px;
+    font-weight: 700;
+}
+
+.candidate-heading h2 span {
+    display: block;
+    margin-top: 14px;
+    font-size: 66px;
+    font-weight: 300;
+}
+
+.candidate-heading>p {
+    margin: 22px auto 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.candidate-line {
+    width: 2px;
+    height: 50px;
+    margin: 44px auto 52px;
+    background: #33ff00;
+}
+
+.candidate-icon {
+    width: 42px;
+    height: 42px;
+    margin: 0 auto 30px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+}
+
+.candidate-item p {
+    margin: 0;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+    .candidate-heading h2 strong {
+        font-size: 50px;
+    }
+
+    .candidate-heading h2 span {
+        font-size: 48px;
+    }
+
+    .candidate-item p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .overdenture-candidate-section {
+        padding: 80px 25px;
+    }
+
+    .candidate-heading h2 strong {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+
+    .candidate-heading h2 span {
+        font-size: 38px;
+        line-height: 1.1;
+    }
+
+    .candidate-heading>p {
+        font-size: 16px;
+    }
+
+    .candidate-item {
+        margin-bottom: 30px;
+    }
+}
+
+.expect-dark-section {
+    position: relative;
+    min-height: 440px;
+    padding: 80px;
+    background:
+        url("./../images/slider4.jpg") center center / cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.expect-dark-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.62);
+}
+
+.expect-dark-section .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+.expect-dark-intro {
+    max-width: 600px;
+}
+
+.expect-dark-intro h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.expect-dark-intro h2 span,
+.expect-dark-intro h2 strong {
+    font-size: 54px;
+}
+
+.expect-dark-intro h2 span {
+    font-weight: 300;
+}
+
+.expect-dark-intro h2 strong {
+    margin-left: 12px;
+    font-weight: 700;
+}
+
+.expect-dark-line {
+    width: 80px;
+    height: 2px;
+    margin: 16px 0 22px;
+    background: #33ff00;
+}
+
+.expect-dark-intro p {
+    max-width: 570px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.expect-dark-list {
+    max-width: 600px;
+}
+
+.expect-dark-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+
+.expect-dark-item:last-child {
+    margin-bottom: 0;
+}
+
+.expect-check {
+    width: 27px;
+    height: 27px;
+    min-width: 27px;
+    margin-top: 3px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 13px;
+}
+
+.expect-dark-item p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .expect-dark-section {
+        min-height: auto;
+        padding: 80px;
+    }
+
+    .expect-dark-intro {
+        margin-bottom: 20px;
+    }
+
+    .expect-dark-intro h2 span,
+    .expect-dark-intro h2 strong {
+        font-size: 46px;
+    }
+
+    .expect-dark-list {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .expect-dark-section {
+        padding: 80px 25px;
+    }
+
+    .expect-dark-intro h2 span,
+    .expect-dark-intro h2 strong {
+        display: block;
+        font-size: 39px;
+    }
+
+    .expect-dark-intro h2 strong {
+        margin: 8px 0 0;
+    }
+
+    .expect-dark-intro p,
+    .expect-dark-item p {
+        font-size: 16px;
+    }
+}
+
+.overdenture-faq-section {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.overdenture-faq-heading {
+    margin-bottom: 40px;
+}
+
+.overdenture-faq-heading h2 {
+    max-width: 1150px;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 1.18;
+    font-weight: 700;
+}
+
+.overdenture-faq-line {
+    width: 2px;
+    height: 50px;
+    margin: 18px auto 40px;
+    background: #33ff00;
+}
+
+.overdenture-faq-card {
+    min-height: 285px;
+    padding: 34px 35px;
+    background: #33ff00;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.overdenture-faq-card h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 700;
+}
+
+.overdenture-faq-card p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+    .overdenture-faq-section {
+        padding: 80px;
+    }
+
+    .overdenture-faq-heading h2 {
+        font-size: 40px;
+    }
+
+    .overdenture-faq-card {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .overdenture-faq-section {
+        padding: 80px 25px;
+    }
+
+    .overdenture-faq-heading h2 {
+        font-size: 31px;
+    }
+
+    .overdenture-faq-card {
+        padding: 28px 24px;
+    }
+
+    .overdenture-faq-card h3 {
+        font-size: 23px;
+    }
+
+    .overdenture-faq-card p {
+        font-size: 16px;
+    }
+}
+
+.dental-care-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.dental-care-heading {
+    margin-bottom: 25px;
+}
+
+.dental-care-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.dental-care-heading strong {
+    display: block;
+    font-size: 68px;
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.dental-care-heading span {
+    display: block;
+    margin-top: 18px;
+    font-size: 62px;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.dental-care-line {
+    width: 2px;
+    height: 50px;
+    margin: 28px auto 27px;
+    background: #33ff00;
+}
+
+.dental-care-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 30px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+}
+
+.dental-care-item h3 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .dental-care-section {
+        padding: 80px;
+    }
+
+    .dental-care-heading strong {
+        font-size: 48px;
+    }
+
+    .dental-care-heading span {
+        font-size: 44px;
+    }
+
+    .dental-care-item h3 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dental-care-section {
+        padding: 80px 25px;
+    }
+
+    .dental-care-heading strong {
+        font-size: 36px;
+        line-height: 1.1;
+    }
+
+    .dental-care-heading span {
+        font-size: 34px;
+        line-height: 1.1;
+    }
+
+    .dental-care-icon {
+        width: 54px;
+        height: 54px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .dental-care-item h3 {
+        font-size: 19px;
+    }
+}

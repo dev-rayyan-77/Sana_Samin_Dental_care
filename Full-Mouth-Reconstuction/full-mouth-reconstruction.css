@@ -1,0 +1,771 @@
+.reconstruction-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.reconstruction-image {
+    max-width: 465px;
+}
+
+.reconstruction-image img {
+    width: 100%;
+    height: 625px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.reconstruction-content {
+    max-width: 640px;
+    margin-left: 95px;
+}
+
+.reconstruction-content h2 {
+    margin: 0;
+    line-height: 1.02;
+}
+
+.reconstruction-content h2 span,
+.reconstruction-content h2 strong {
+    display: block;
+}
+
+.reconstruction-content h2 span {
+    font-size: 54px;
+    font-weight: 300;
+}
+
+.reconstruction-content h2 strong {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.reconstruction-line {
+    width: 80px;
+    height: 2px;
+    margin: 18px 0 22px;
+    background: #33ff00;
+}
+
+.reconstruction-content p {
+    max-width: 610px;
+    margin: 0 0 22px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+@media (max-width: 1199px) {
+    .reconstruction-content {
+        margin-left: 55px;
+    }
+
+    .reconstruction-content h2 span,
+    .reconstruction-content h2 strong {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 991px) {
+    .reconstruction-section {
+        padding: 80px;
+    }
+
+    .reconstruction-image {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .reconstruction-image img {
+        height: 500px;
+    }
+
+    .reconstruction-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .reconstruction-section {
+        padding: 80px 25px;
+    }
+
+    .reconstruction-image img {
+        height: 380px;
+    }
+
+    .reconstruction-content h2 span,
+    .reconstruction-content h2 strong {
+        font-size: 37px;
+    }
+
+    .reconstruction-content p {
+        font-size: 16px;
+    }
+}
+
+.full-mouth-section {
+    background: #f7f7f7;
+    padding: 80px;
+}
+
+.full-mouth-content {
+    max-width: 520px;
+}
+
+.full-mouth-content h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.full-mouth-content h2 span {
+    display: block;
+    font-size: 60px;
+    font-weight: 300;
+    color: #111;
+}
+
+.full-mouth-content h2 strong {
+    display: block;
+    font-size: 62px;
+    font-weight: 700;
+    color: #111;
+}
+
+.full-mouth-line {
+    width: 80px;
+    height: 3px;
+    background: #33ff00;
+    margin: 24px 0 30px;
+}
+
+.full-mouth-content p {
+    font-size: 18px;
+    line-height: 1.75;
+    color: #222;
+    margin-bottom: 26px;
+}
+
+.full-mouth-image {
+    margin-left: 70px;
+}
+
+.full-mouth-image img {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width:991px) {
+
+    .full-mouth-section {
+        padding: 80px;
+    }
+
+    .full-mouth-image {
+        margin: 50px 0 0;
+    }
+
+    .full-mouth-image img {
+        height: 450px;
+    }
+
+    .full-mouth-content {
+        max-width: 100%;
+    }
+
+    .full-mouth-content h2 span {
+        font-size: 46px;
+    }
+
+    .full-mouth-content h2 strong {
+        font-size: 48px;
+    }
+
+}
+
+@media (max-width:576px) {
+
+    .full-mouth-section {
+        padding: 80px 25px;
+    }
+
+    .full-mouth-content h2 span {
+        font-size: 36px;
+    }
+
+    .full-mouth-content h2 strong {
+        font-size: 38px;
+    }
+
+    .full-mouth-image img {
+        height: 320px;
+    }
+
+    .full-mouth-content p {
+        font-size: 16px;
+    }
+
+}
+
+.full-mouth-candidate-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.full-mouth-candidate-image {
+    max-width: 465px;
+}
+
+.full-mouth-candidate-image img {
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    display: block;
+}
+
+.full-mouth-candidate-content {
+    max-width: 650px;
+    margin-left: 95px;
+}
+
+.full-mouth-candidate-content h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.full-mouth-candidate-content h2 strong,
+.full-mouth-candidate-content h2 span {
+    display: block;
+}
+
+.full-mouth-candidate-content h2 strong {
+    font-size: 57px;
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.full-mouth-candidate-content h2 span {
+    margin-top: 10px;
+    font-size: 56px;
+    line-height: 1.05;
+    font-weight: 300;
+}
+
+.full-mouth-candidate-line {
+    width: 80px;
+    height: 2px;
+    margin: 18px 0 22px;
+    background: #33ff00;
+}
+
+.full-mouth-candidate-content p {
+    max-width: 620px;
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.full-mouth-candidate-content ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.full-mouth-candidate-content li {
+    margin-bottom: 14px;
+    padding-left: 2px;
+    font-size: 16px;
+    line-height: 1.45;
+}
+
+@media (max-width: 1199px) {
+    .full-mouth-candidate-content {
+        margin-left: 55px;
+    }
+
+    .full-mouth-candidate-content h2 strong,
+    .full-mouth-candidate-content h2 span {
+        font-size: 47px;
+    }
+}
+
+@media (max-width: 991px) {
+    .full-mouth-candidate-section {
+        padding: 80px;
+    }
+
+    .full-mouth-candidate-image {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .full-mouth-candidate-image img {
+        height: 500px;
+    }
+
+    .full-mouth-candidate-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .full-mouth-candidate-section {
+        padding: 80px 25px;
+    }
+
+    .full-mouth-candidate-image img {
+        height: 380px;
+    }
+
+    .full-mouth-candidate-content h2 strong,
+    .full-mouth-candidate-content h2 span {
+        font-size: 37px;
+    }
+
+    .full-mouth-candidate-content p,
+    .full-mouth-candidate-content li {
+        font-size: 16px;
+    }
+}
+
+.better-smiles-section {
+    position: relative;
+    min-height: 590px;
+    padding: 80px;
+    background:
+        url("./../images/learnMore2.jpg") center center / cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.better-smiles-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.52);
+}
+
+.better-smiles-section .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+
+.better-smiles-content {
+    max-width: 530px;
+}
+
+.better-smiles-content h2 {
+    margin: 0;
+    line-height: 1.02;
+}
+
+.better-smiles-content h2 span,
+.better-smiles-content h2 strong {
+    display: block;
+}
+
+.better-smiles-content h2 span {
+    font-size: 56px;
+    font-weight: 300;
+}
+
+.better-smiles-content h2 strong {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.better-smiles-line {
+    width: 80px;
+    height: 2px;
+    margin: 18px 0 22px;
+    background: #33ff00;
+}
+
+.better-smiles-content p {
+    max-width: 520px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .better-smiles-section {
+        min-height: 540px;
+        padding: 80px;
+        background-position: 60% center;
+    }
+
+    .better-smiles-content h2 span,
+    .better-smiles-content h2 strong {
+        font-size: 46px;
+    }
+}
+
+@media (max-width: 576px) {
+    .better-smiles-section {
+        min-height: auto;
+        padding: 80px 25px;
+        background-position: 65% center;
+    }
+
+    .better-smiles-content h2 span,
+    .better-smiles-content h2 strong {
+        font-size: 38px;
+    }
+
+    .better-smiles-content p {
+        font-size: 16px;
+    }
+}
+
+.treatment-expect-section {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.treatment-expect-content {
+    max-width: 520px;
+    padding-right: 60px;
+}
+
+.treatment-expect-content h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.treatment-expect-content h2 span,
+.treatment-expect-content h2 strong {
+    font-size: 58px;
+}
+
+.treatment-expect-content h2 span {
+    font-weight: 300;
+}
+
+.treatment-expect-content h2 strong {
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.treatment-expect-line {
+    width: 80px;
+    height: 2px;
+    margin: 18px 0 22px;
+    background: #33ff00;
+}
+
+.treatment-expect-content p {
+    margin: 0 0 22px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.treatment-expect-content ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.treatment-expect-content li {
+    margin-bottom: 8px;
+    padding-left: 2px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.treatment-expect-image {
+    height: 100%;
+    min-height: 560px;
+}
+
+.treatment-expect-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .treatment-expect-section {
+        padding: 80px;
+    }
+
+    .treatment-expect-content {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .treatment-expect-image,
+    .treatment-expect-image img {
+        min-height: 450px;
+    }
+
+    .treatment-expect-content h2 span,
+    .treatment-expect-content h2 strong {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+    .treatment-expect-section {
+        padding: 80px 25px;
+    }
+
+    .treatment-expect-content h2 span,
+    .treatment-expect-content h2 strong {
+        display: block;
+        font-size: 39px;
+    }
+
+    .treatment-expect-content h2 strong {
+        margin: 8px 0 0;
+    }
+
+    .treatment-expect-content p,
+    .treatment-expect-content li {
+        font-size: 16px;
+    }
+
+    .treatment-expect-image,
+    .treatment-expect-image img {
+        min-height: 340px;
+    }
+}
+
+.dental-approach-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.dental-approach-heading {
+    margin-bottom: 28px;
+}
+
+.dental-approach-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.dental-approach-heading strong {
+    display: block;
+    font-size: 68px;
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.dental-approach-heading span {
+    display: block;
+    margin-top: 18px;
+    font-size: 62px;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.dental-approach-line {
+    width: 2px;
+    height: 50px;
+    margin: 28px auto 28px;
+    background: #33ff00;
+}
+
+.dental-approach-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 30px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.dental-approach-item h3 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .dental-approach-heading strong {
+        font-size: 48px;
+    }
+
+    .dental-approach-heading span {
+        font-size: 44px;
+    }
+
+    .dental-approach-item h3 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 576px) {
+    .dental-approach-section {
+        padding: 80px 25px;
+    }
+
+    .dental-approach-heading strong {
+        font-size: 36px;
+        line-height: 1.1;
+    }
+
+    .dental-approach-heading span {
+        font-size: 34px;
+        line-height: 1.1;
+    }
+
+    .dental-approach-icon {
+        width: 54px;
+        height: 54px;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    .dental-approach-item h3 {
+        font-size: 19px;
+    }
+}
+
+.reconstruction-faq-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.reconstruction-faq-heading h2 {
+    max-width: 1100px;
+    margin: 0;
+    font-size: 50px;
+    line-height: 1.18;
+    font-weight: 700;
+}
+
+.reconstruction-faq-line {
+    width: 80px;
+    height: 2px;
+    margin: 16px 0 20px;
+    background: #33ff00;
+}
+
+.faq-accordion {
+    max-width: 1080px;
+}
+
+.faq-box {
+    margin-bottom: 28px;
+    border: 1px solid #d4d4d4;
+    background: #f7f7f7;
+}
+
+.faq-question {
+    width: 100%;
+    min-height: 65px;
+    padding: 18px 20px;
+
+    border: 0;
+    background: transparent;
+    color: #555;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 500;
+    text-align: left;
+}
+
+.faq-question i {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+
+    border-radius: 50%;
+    background: #d0d3d5;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 8px;
+}
+
+.faq-answer {
+    display: none;
+    padding: 0 20px 20px;
+}
+
+.faq-box.active .faq-answer {
+    display: block;
+}
+
+.faq-box.active {
+    background: #ffffff;
+}
+
+.faq-answer p {
+    margin: 0 0 18px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.faq-answer p:last-child {
+    margin-bottom: 0;
+}
+
+.faq-answer ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+}
+
+.faq-answer li {
+    margin-bottom: 4px;
+    font-size: 17px;
+    line-height: 1.35;
+}
+
+@media (max-width: 991px) {
+    .reconstruction-faq-heading h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .reconstruction-faq-section {
+        padding: 80px 25px;
+    }
+
+    .reconstruction-faq-heading h2 {
+        font-size: 31px;
+    }
+
+    .faq-question {
+        padding: 16px;
+        font-size: 17px;
+    }
+
+    .faq-answer {
+        padding: 0 16px 18px;
+    }
+
+    .faq-answer p,
+    .faq-answer li {
+        font-size: 16px;
+    }
+}
