@@ -1,0 +1,545 @@
+.infant-frenectomy-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.infant-frenectomy-image {
+    height: 100%;
+    min-height: 640px;
+}
+
+.infant-frenectomy-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 640px;
+    object-fit: cover;
+    display: block;
+}
+
+.infant-frenectomy-content {
+    max-width: 560px;
+    margin-left: 95px;
+    padding: 20px 0;
+}
+
+.infant-frenectomy-content h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.infant-frenectomy-content h2 span,
+.infant-frenectomy-content h2 strong {
+    display: block;
+}
+
+.infant-frenectomy-content h2 span {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.infant-frenectomy-content h2 strong {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.infant-frenectomy-line {
+    width: 80px;
+    height: 2px;
+    margin: 18px 0 24px;
+    background: #33ff00;
+}
+
+.infant-frenectomy-content p {
+    margin: 0 0 22px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+@media (max-width: 1199px) {
+    .infant-frenectomy-content {
+        margin-left: 55px;
+    }
+
+    .infant-frenectomy-content h2 span,
+    .infant-frenectomy-content h2 strong {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 991px) {
+    .infant-frenectomy-section {
+        padding: 80px;
+    }
+
+    .infant-frenectomy-image,
+    .infant-frenectomy-image img {
+        min-height: 500px;
+    }
+
+    .infant-frenectomy-content {
+        max-width: 100%;
+        margin: 50px 0 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .infant-frenectomy-section {
+        padding: 80px 25px;
+    }
+
+    .infant-frenectomy-image,
+    .infant-frenectomy-image img {
+        min-height: 360px;
+    }
+
+    .infant-frenectomy-content h2 span,
+    .infant-frenectomy-content h2 strong {
+        font-size: 39px;
+    }
+
+    .infant-frenectomy-content p {
+        font-size: 16px;
+    }
+}
+
+.tongue-tie-health-section {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.tongue-tie-health-content {
+    max-width: 510px;
+}
+
+.tongue-tie-health-content h2 {
+    margin: 0;
+    line-height: 1.05;
+}
+
+.tongue-tie-health-content h2 span,
+.tongue-tie-health-content h2 strong {
+    display: block;
+}
+
+.tongue-tie-health-content h2 span {
+    font-size: 62px;
+    font-weight: 300;
+}
+
+.tongue-tie-health-content h2 strong {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.tongue-tie-health-line {
+    width: 80px;
+    height: 2px;
+    margin: 18px 0 22px;
+    background: #33ff00;
+}
+
+.tongue-tie-health-content p {
+    margin: 0 0 48px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.tongue-tie-health-content ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.tongue-tie-health-content li {
+    margin-bottom: 14px;
+    padding-left: 2px;
+    font-size: 18px;
+    line-height: 1.45;
+}
+
+.tongue-tie-health-image {
+    margin-left: 70px;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.14);
+}
+
+.tongue-tie-health-image img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 1199px) {
+    .tongue-tie-health-content h2 span {
+        font-size: 50px;
+    }
+
+    .tongue-tie-health-content h2 strong {
+        font-size: 54px;
+    }
+
+    .tongue-tie-health-image {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 991px) {
+    .tongue-tie-health-section {
+        padding: 80px;
+    }
+
+    .tongue-tie-health-content {
+        max-width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .tongue-tie-health-image {
+        margin-left: 0;
+    }
+
+    .tongue-tie-health-image img {
+        height: 460px;
+    }
+}
+
+@media (max-width: 576px) {
+    .tongue-tie-health-section {
+        padding: 80px 25px;
+    }
+
+    .tongue-tie-health-content h2 span {
+        font-size: 38px;
+    }
+
+    .tongue-tie-health-content h2 strong {
+        font-size: 42px;
+    }
+
+    .tongue-tie-health-content p,
+    .tongue-tie-health-content li {
+        font-size: 16px;
+    }
+
+    .tongue-tie-health-content p {
+        margin-bottom: 32px;
+    }
+
+    .tongue-tie-health-image img {
+        height: 340px;
+    }
+}
+
+.procedure-section {
+    position: relative;
+    min-height: 520px;
+    padding: 80px;
+    background:
+        url("./../images/whiteTeeth.jpg") center center / cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.procedure-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.procedure-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.procedure-content {
+    max-width: 1080px;
+}
+
+.procedure-content h2 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.procedure-line {
+    width: 80px;
+    height: 2px;
+    margin: 14px 0 30px;
+    background: #33ff00;
+}
+
+.procedure-content p {
+    max-width: 1080px;
+    margin: 0 0 42px;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 500;
+}
+
+.procedure-content ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.procedure-content li {
+    margin-bottom: 14px;
+    padding-left: 2px;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .procedure-section {
+        min-height: auto;
+        padding: 80px;
+        background-position: 60% center;
+    }
+
+    .procedure-content h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .procedure-section {
+        padding: 80px 25px;
+        background-position: 65% center;
+    }
+
+    .procedure-content h2 {
+        font-size: 34px;
+    }
+
+    .procedure-content p,
+    .procedure-content li {
+        font-size: 16px;
+    }
+
+    .procedure-content p {
+        margin-bottom: 30px;
+    }
+}
+
+.tongue-tie-dentist-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.tongue-tie-dentist-content {
+    max-width: 580px;
+    padding-right: 60px;
+}
+
+.tongue-tie-dentist-content h2 {
+    margin: 0;
+    line-height: 1.04;
+}
+
+.tongue-tie-dentist-content h2 strong,
+.tongue-tie-dentist-content h2 span {
+    display: block;
+}
+
+.tongue-tie-dentist-content h2 strong {
+    font-size: 67px;
+    font-weight: 700;
+}
+
+.tongue-tie-dentist-content h2 span {
+    margin-top: 10px;
+    font-size: 62px;
+    font-weight: 300;
+}
+
+.tongue-tie-dentist-line {
+    width: 80px;
+    height: 2px;
+    margin: 18px 0 24px;
+    background: #33ff00;
+}
+
+.tongue-tie-dentist-content p {
+    margin: 0 0 22px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.tongue-tie-dentist-image {
+    max-width: 465px;
+    margin-left: auto;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.14);
+}
+
+.tongue-tie-dentist-image img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 1199px) {
+    .tongue-tie-dentist-content h2 strong {
+        font-size: 54px;
+    }
+
+    .tongue-tie-dentist-content h2 span {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 991px) {
+    .tongue-tie-dentist-section {
+        padding: 80px;
+    }
+
+    .tongue-tie-dentist-content {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .tongue-tie-dentist-image {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .tongue-tie-dentist-image img {
+        height: 460px;
+    }
+}
+
+@media (max-width: 576px) {
+    .tongue-tie-dentist-section {
+        padding: 80px 25px;
+    }
+
+    .tongue-tie-dentist-content h2 strong {
+        font-size: 40px;
+    }
+
+    .tongue-tie-dentist-content h2 span {
+        font-size: 38px;
+    }
+
+    .tongue-tie-dentist-content p {
+        font-size: 16px;
+    }
+
+    .tongue-tie-dentist-image img {
+        height: 340px;
+    }
+}
+
+.frenectomy-questions-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.frenectomy-questions-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.frenectomy-questions-heading h2 span,
+.frenectomy-questions-heading h2 strong {
+    display: block;
+}
+
+.frenectomy-questions-heading h2 span {
+    font-size: 66px;
+    font-weight: 300;
+}
+
+.frenectomy-questions-heading h2 strong {
+    margin-top: 12px;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.frenectomy-questions-line {
+    width: 2px;
+    height: 50px;
+    margin: 24px auto 55px;
+    background: #33ff00;
+}
+
+.frenectomy-question-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.frenectomy-question-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    margin-top: 3px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+}
+
+.frenectomy-question-content h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.frenectomy-question-content p {
+    margin: 0 0 18px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+@media (max-width: 991px) {
+
+    .frenectomy-questions-heading h2 span,
+    .frenectomy-questions-heading h2 strong {
+        font-size: 48px;
+    }
+
+    .frenectomy-question-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .frenectomy-questions-section {
+        padding: 80px 25px;
+    }
+
+    .frenectomy-questions-heading h2 span,
+    .frenectomy-questions-heading h2 strong {
+        font-size: 38px;
+    }
+
+    .frenectomy-question-item {
+        gap: 12px;
+    }
+
+    .frenectomy-question-icon {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+    }
+
+    .frenectomy-question-content h3 {
+        font-size: 22px;
+    }
+
+    .frenectomy-question-content p {
+        font-size: 16px;
+    }
+}

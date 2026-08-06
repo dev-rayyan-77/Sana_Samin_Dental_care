@@ -203,3 +203,137 @@ body {
     font-size: 36px;
   }
 }
+
+.bad-breath-faq-section {
+  background: #ffffff;
+  padding: 80px;
+  color: #000;
+}
+
+.bad-breath-heading h2 {
+  margin: 0;
+  line-height: 1;
+}
+
+.bad-breath-heading h2 span,
+.bad-breath-heading h2 strong {
+  display: block;
+}
+
+.bad-breath-heading h2 span {
+  font-size: 66px;
+  font-weight: 300;
+}
+
+.bad-breath-heading h2 strong {
+  margin-top: 12px;
+  font-size: 66px;
+  font-weight: 700;
+}
+
+.bad-breath-line {
+  width: 2px;
+  height: 50px;
+  margin: 24px auto 55px;
+  background: #33ff00;
+}
+
+.bad-breath-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.bad-breath-icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  margin-top: 3px;
+  border: 2px solid #33ff00;
+  border-radius: 50%;
+  color: #33ff00;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+}
+
+.bad-breath-content {
+  max-width: 520px;
+}
+
+.bad-breath-content h3 {
+  margin: 0 0 14px;
+  font-size: 28px;
+  line-height: 1.18;
+  font-weight: 500;
+}
+
+.bad-breath-content h4 {
+  margin: 25px 0 16px;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.bad-breath-content p {
+  margin: 0 0 18px;
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.bad-breath-content ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.bad-breath-content li {
+  margin-bottom: 4px;
+  font-size: 17px;
+  line-height: 1.45;
+}
+
+@media (max-width: 991px) {
+
+  .bad-breath-heading h2 span,
+  .bad-breath-heading h2 strong {
+    font-size: 48px;
+  }
+
+  .bad-breath-content {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .bad-breath-faq-section {
+    padding: 80px 25px;
+  }
+
+  .bad-breath-heading h2 span,
+  .bad-breath-heading h2 strong {
+    font-size: 38px;
+  }
+
+  .bad-breath-item {
+    gap: 12px;
+  }
+
+  .bad-breath-icon {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+  }
+
+  .bad-breath-content h3 {
+    font-size: 22px;
+  }
+
+  .bad-breath-content h4,
+  .bad-breath-content p,
+  .bad-breath-content li {
+    font-size: 16px;
+  }
+}
