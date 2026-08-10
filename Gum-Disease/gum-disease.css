@@ -1,0 +1,484 @@
+.healthy-gums-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.healthy-gums-image {
+    width: 100%;
+    height: 535px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.healthy-gums-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.healthy-gums-content {
+    max-width: 620px;
+    margin-left: 95px;
+}
+
+/* Heading */
+.healthy-gums-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.healthy-gums-content h2 strong,
+.healthy-gums-content h2 span {
+    display: block;
+}
+
+.healthy-gums-content h2 strong {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.healthy-gums-content h2 span {
+    font-size: 62px;
+    font-weight: 300;
+}
+
+/* Green line */
+.healthy-gums-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 18px 0 22px;
+}
+
+/* Paragraph */
+.healthy-gums-content p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.healthy-gums-content .signs-text {
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+/* Signs */
+.gum-signs {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.gum-sign {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.gum-icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #33ff00;
+    font-size: 22px;
+}
+
+.gum-sign span {
+    font-size: 20px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+/* Tablet */
+@media (max-width: 1199px) {
+
+    .healthy-gums-content {
+        margin-left: 60px;
+    }
+
+    .healthy-gums-content h2 strong,
+    .healthy-gums-content h2 span {
+        font-size: 50px;
+    }
+
+    .gum-sign span {
+        font-size: 18px;
+    }
+}
+
+/* Mobile / Tablet stacked */
+@media (max-width: 991px) {
+
+    .healthy-gums-section {
+        padding: 80px;
+    }
+
+    .healthy-gums-image {
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    .healthy-gums-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .healthy-gums-section {
+        padding: 80px 25px;
+    }
+
+    .healthy-gums-image {
+        height: 380px;
+    }
+
+    .healthy-gums-content h2 strong,
+    .healthy-gums-content h2 span {
+        font-size: 39px;
+    }
+
+    .healthy-gums-content p {
+        font-size: 16px;
+    }
+
+    .gum-icon {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        font-size: 19px;
+    }
+
+    .gum-sign span {
+        font-size: 17px;
+    }
+}
+
+.gum-health-section {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.gum-health-content {
+    max-width: 500px;
+    padding-right: 50px;
+}
+
+/* Heading */
+.gum-health-content h2 {
+    margin: 0;
+    line-height: 1.05;
+}
+
+.gum-health-content h2 span,
+.gum-health-content h2 strong {
+    display: block;
+}
+
+.gum-health-content h2 span {
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.gum-health-content h2 strong {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+/* Accent line */
+.green-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 18px 0 25px;
+}
+
+/* Paragraphs */
+.gum-health-content p {
+    font-size: 18px;
+    line-height: 1.55;
+    margin: 0 0 22px;
+}
+
+/* Image */
+.gum-health-image {
+    width: 100%;
+    height: 475px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.gum-health-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* Tablet */
+@media (max-width: 1199px) {
+
+    .gum-health-content h2 span,
+    .gum-health-content h2 strong {
+        font-size: 54px;
+    }
+
+    .gum-health-content {
+        padding-right: 35px;
+    }
+}
+
+/* Stack on smaller screens */
+@media (max-width: 991px) {
+
+    .gum-health-section {
+        padding: 80px;
+    }
+
+    .gum-health-content {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 45px;
+    }
+
+    .gum-health-image {
+        height: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .gum-health-section {
+        padding: 80px 25px;
+    }
+
+    .gum-health-content h2 span,
+    .gum-health-content h2 strong {
+        font-size: 43px;
+    }
+
+    .gum-health-content p {
+        font-size: 16px;
+    }
+
+    .gum-health-image {
+        height: 380px;
+    }
+}
+
+.gum-treatment-section {
+    position: relative;
+    min-height: 475px;
+    padding: 80px;
+    background:
+        url("./../images/slider2.jpg") center center / cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.gum-treatment-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.58);
+}
+
+.gum-treatment-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.gum-treatment-content {
+    max-width: 1100px;
+}
+
+.gum-treatment-content h2 {
+    margin: 0;
+    font-size: 44px;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.gum-treatment-line {
+    width: 80px;
+    height: 2px;
+    margin: 12px 0 28px;
+    background: #33ff00;
+}
+
+.gum-treatment-content p {
+    margin: 0 0 18px;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 500;
+}
+
+@media (max-width: 991px) {
+    .gum-treatment-section {
+        min-height: auto;
+        padding: 80px;
+        background-position: center;
+    }
+
+    .gum-treatment-content h2 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gum-treatment-section {
+        padding: 80px 25px;
+    }
+
+    .gum-treatment-content h2 {
+        font-size: 31px;
+    }
+
+    .gum-treatment-content p {
+        font-size: 16px;
+    }
+}
+
+.gum-disease-questions-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.gum-disease-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.gum-disease-heading h2 span,
+.gum-disease-heading h2 strong {
+    display: block;
+}
+
+.gum-disease-heading h2 span {
+    font-size: 66px;
+    font-weight: 300;
+}
+
+.gum-disease-heading h2 strong {
+    margin-top: 12px;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.gum-disease-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 24px auto 55px;
+}
+
+.gum-question-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.gum-question-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    margin-top: 3px;
+
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+
+    color: #33ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+}
+
+.gum-question-content {
+    max-width: 330px;
+}
+
+.gum-question-content h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 500;
+}
+
+.gum-question-content p {
+    margin: 0 0 16px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.gum-question-content ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.gum-question-content li {
+    margin-bottom: 3px;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+@media (max-width: 991px) {
+
+    .gum-disease-heading h2 span,
+    .gum-disease-heading h2 strong {
+        font-size: 48px;
+    }
+
+    .gum-question-content {
+        max-width: 100%;
+    }
+
+    .gum-question-item {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .gum-disease-questions-section {
+        padding: 80px 25px;
+    }
+
+    .gum-disease-heading h2 span,
+    .gum-disease-heading h2 strong {
+        font-size: 38px;
+    }
+
+    .gum-question-item {
+        gap: 12px;
+    }
+
+    .gum-question-icon {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+    }
+
+    .gum-question-content h3 {
+        font-size: 22px;
+    }
+
+    .gum-question-content p,
+    .gum-question-content li {
+        font-size: 16px;
+    }
+}

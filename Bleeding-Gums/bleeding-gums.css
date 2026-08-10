@@ -1,0 +1,29 @@
+/* Bleeding Gums page sections */
+:root{--accent:#33ff00;--light:#f7f7f7;--text:#111}
+.bleed-split,.bleed-steps,.bleed-faq{padding:80px;background:#fff;color:var(--text)}
+.light-bg{background:var(--light)}
+.bleed-content{max-width:520px}.right-copy{margin-left:auto}
+.bleed-content h2,.bleed-center h2{margin:0;line-height:1.04}
+.bleed-content h2 span,.bleed-content h2 strong,.bleed-center h2 span,.bleed-center h2 strong{display:block;font-size:58px}
+.bleed-content h2 span,.bleed-center h2 span{font-weight:300}.bleed-content h2 strong,.bleed-center h2 strong{font-weight:700}
+.bleed-line{width:80px;height:2px;background:var(--accent);margin:20px 0 26px}
+.bleed-content p,.bleed-content li,.bleed-treatment p,.bleed-faq-item p,.bleed-faq-item li{font-size:18px;line-height:1.55}
+.bleed-content h4{font-size:18px;margin:25px 0 10px}.bleed-content ol{padding-left:22px}
+.bleed-img{width:100%;height:520px;object-fit:cover;display:block}
+
+/* Dark treatment section */
+.bleed-treatment{position:relative;min-height:480px;padding:80px;background:url('./../images/learnMore1.jpg') center/cover no-repeat;color:#fff;display:flex;align-items:center}
+.bleed-overlay{position:absolute;inset:0;background:rgba(0,0,0,.58)}
+.bleed-treatment .position-relative{z-index:2}.bleed-treatment-copy{max-width:1050px}.bleed-treatment h2{font-size:46px;font-weight:700;margin:0}
+
+/* 3 steps */
+.bleed-center{text-align:center;margin-bottom:50px}.bleed-vline{width:2px;height:50px;background:var(--accent);margin:22px auto 0}
+.bleed-step-icon{width:70px;height:70px;border:2px solid var(--accent);border-radius:50%;color:var(--accent);display:grid;place-items:center;font-size:28px;margin:0 auto 20px}
+.step-label{font-size:17px}.bleed-steps h3{font-size:24px;line-height:1.3;margin:8px auto 0;max-width:310px}.bleed-step-note{max-width:850px;margin:50px auto 0;text-align:center;font-size:18px;line-height:1.5}
+
+/* Questions */
+.bleed-faq-item{display:flex;gap:16px;align-items:flex-start}.bleed-faq-icon{width:40px;height:40px;min-width:40px;border:2px solid var(--accent);border-radius:50%;color:var(--accent);display:grid;place-items:center}
+.bleed-faq-item h3{font-size:27px;line-height:1.2;margin:0 0 12px}.bleed-faq-item ul{padding-left:20px}
+
+@media(max-width:991px){.bleed-content,.right-copy{max-width:100%;margin:0}.bleed-content h2 span,.bleed-content h2 strong,.bleed-center h2 span,.bleed-center h2 strong{font-size:46px}.bleed-img{height:430px}.bleed-split .order-1{margin-bottom:35px}}
+@media(max-width:576px){.bleed-split,.bleed-steps,.bleed-faq,.bleed-treatment{padding:80px 25px}.bleed-content h2 span,.bleed-content h2 strong,.bleed-center h2 span,.bleed-center h2 strong{font-size:37px}.bleed-content p,.bleed-content li,.bleed-treatment p,.bleed-faq-item p,.bleed-faq-item li,.bleed-step-note{font-size:16px}.bleed-img{height:330px}.bleed-treatment h2{font-size:34px}.bleed-faq-item h3{font-size:22px}}

@@ -1,0 +1,437 @@
+.bruxism-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.bruxism-image {
+    max-width: 465px;
+    height: 575px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.bruxism-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.bruxism-content {
+    max-width: 620px;
+    margin-left: 95px;
+}
+
+.bruxism-content h2 {
+    margin: 0;
+    line-height: 1.02;
+}
+
+.bruxism-content h2 span,
+.bruxism-content h2 strong {
+    display: block;
+}
+
+.bruxism-content h2 span {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.bruxism-content h2 span strong {
+    display: inline;
+    font-weight: 700;
+}
+
+.bruxism-content h2>strong {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.bruxism-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 18px 0 22px;
+}
+
+.bruxism-content p {
+    margin: 0 0 22px;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+@media (max-width: 1199px) {
+
+    .bruxism-content {
+        margin-left: 55px;
+    }
+
+    .bruxism-content h2 span,
+    .bruxism-content h2>strong {
+        font-size: 52px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .bruxism-section {
+        padding: 80px;
+    }
+
+    .bruxism-image {
+        max-width: 100%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+
+    .bruxism-content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .bruxism-section {
+        padding: 80px 25px;
+    }
+
+    .bruxism-image {
+        height: 380px;
+    }
+
+    .bruxism-content h2 span,
+    .bruxism-content h2>strong {
+        font-size: 40px;
+    }
+
+    .bruxism-content p {
+        font-size: 16px;
+    }
+}
+
+.teeth-grinding-section {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.teeth-grinding-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.teeth-grinding-heading h2 span,
+.teeth-grinding-heading h2 strong {
+    display: block;
+}
+
+.teeth-grinding-heading h2 span {
+    font-size: 66px;
+    font-weight: 300;
+}
+
+.teeth-grinding-heading h2 strong {
+    margin-top: 14px;
+    font-size: 68px;
+    font-weight: 700;
+}
+
+.teeth-grinding-heading p {
+    max-width: 700px;
+    margin: 18px auto 0;
+    font-size: 18px;
+    line-height: 1.45;
+}
+
+.teeth-grinding-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 15px auto 55px;
+}
+
+.teeth-grinding-card {
+    min-height: 410px;
+    padding: 34px 35px;
+    background: #33ff00;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.14);
+}
+
+.teeth-grinding-card h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 700;
+}
+
+.teeth-grinding-card p {
+    max-width: 290px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.teeth-grinding-bottom {
+    max-width: 1020px;
+    margin: 55px auto 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+
+    .teeth-grinding-heading h2 span,
+    .teeth-grinding-heading h2 strong {
+        font-size: 48px;
+    }
+
+    .teeth-grinding-card {
+        min-height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .teeth-grinding-section {
+        padding: 80px 25px;
+    }
+
+    .teeth-grinding-heading h2 span,
+    .teeth-grinding-heading h2 strong {
+        font-size: 38px;
+    }
+
+    .teeth-grinding-heading p,
+    .teeth-grinding-card p,
+    .teeth-grinding-bottom {
+        font-size: 16px;
+    }
+
+    .teeth-grinding-card {
+        padding: 28px 24px;
+    }
+
+    .teeth-grinding-card h3 {
+        font-size: 24px;
+    }
+}
+
+.dream-grinding-section {
+    position: relative;
+    min-height: 430px;
+    padding: 80px;
+    background:
+        url("./../images/sittingArea.JPG") center center / cover no-repeat;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+}
+
+.dream-grinding-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.60);
+}
+
+.dream-grinding-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.dream-grinding-content {
+    max-width: 1100px;
+}
+
+.dream-grinding-content h2 {
+    margin: 0;
+    font-size: 46px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.dream-grinding-line {
+    width: 80px;
+    height: 2px;
+    margin: 12px 0 28px;
+    background: #33ff00;
+}
+
+.dream-grinding-content p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 500;
+}
+
+.dream-grinding-content strong {
+    font-weight: 700;
+}
+
+@media (max-width: 991px) {
+
+    .dream-grinding-section {
+        min-height: auto;
+        padding: 80px;
+        background-position: center;
+    }
+
+    .dream-grinding-content h2 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .dream-grinding-section {
+        padding: 80px 25px;
+    }
+
+    .dream-grinding-content h2 {
+        font-size: 31px;
+    }
+
+    .dream-grinding-content p {
+        font-size: 16px;
+    }
+}
+
+.teeth-grinding-faq-section {
+    background: #ffffff;
+    padding: 80px;
+    color: #000;
+}
+
+.teeth-grinding-faq-heading h2 {
+    margin: 0;
+    line-height: 1;
+}
+
+.teeth-grinding-faq-heading h2 span,
+.teeth-grinding-faq-heading h2 strong {
+    display: block;
+}
+
+.teeth-grinding-faq-heading h2 span {
+    font-size: 66px;
+    font-weight: 300;
+}
+
+.teeth-grinding-faq-heading h2 strong {
+    margin-top: 14px;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.teeth-grinding-faq-line {
+    width: 2px;
+    height: 50px;
+    margin: 24px auto 55px;
+    background: #33ff00;
+}
+
+.teeth-grinding-faq-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.teeth-grinding-faq-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    margin-top: 3px;
+
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+
+    color: #33ff00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 14px;
+}
+
+.teeth-grinding-faq-content {
+    max-width: 330px;
+}
+
+.teeth-grinding-faq-content h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.18;
+    font-weight: 500;
+}
+
+.teeth-grinding-faq-content p {
+    margin: 0 0 16px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.teeth-grinding-faq-content ul {
+    margin: 0 0 26px;
+    padding-left: 20px;
+}
+
+.teeth-grinding-faq-content li {
+    margin-bottom: 3px;
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.faq-bottom-text {
+    margin-top: 25px !important;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+
+    .teeth-grinding-faq-heading h2 span,
+    .teeth-grinding-faq-heading h2 strong {
+        font-size: 48px;
+    }
+
+    .teeth-grinding-faq-content {
+        max-width: 100%;
+    }
+
+    .teeth-grinding-faq-item {
+        margin-bottom: 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+    .teeth-grinding-faq-section {
+        padding: 80px 25px;
+    }
+
+    .teeth-grinding-faq-heading h2 span,
+    .teeth-grinding-faq-heading h2 strong {
+        font-size: 38px;
+    }
+
+    .teeth-grinding-faq-item {
+        gap: 12px;
+    }
+
+    .teeth-grinding-faq-icon {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+    }
+
+    .teeth-grinding-faq-content h3 {
+        font-size: 22px;
+    }
+
+    .teeth-grinding-faq-content p,
+    .teeth-grinding-faq-content li {
+        font-size: 16px;
+    }
+}
