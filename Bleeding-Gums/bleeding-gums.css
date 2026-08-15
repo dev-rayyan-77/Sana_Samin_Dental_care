@@ -1,29 +1,425 @@
-/* Bleeding Gums page sections */
-:root{--accent:#33ff00;--light:#f7f7f7;--text:#111}
-.bleed-split,.bleed-steps,.bleed-faq{padding:80px;background:#fff;color:var(--text)}
-.light-bg{background:var(--light)}
-.bleed-content{max-width:520px}.right-copy{margin-left:auto}
-.bleed-content h2,.bleed-center h2{margin:0;line-height:1.04}
-.bleed-content h2 span,.bleed-content h2 strong,.bleed-center h2 span,.bleed-center h2 strong{display:block;font-size:58px}
-.bleed-content h2 span,.bleed-center h2 span{font-weight:300}.bleed-content h2 strong,.bleed-center h2 strong{font-weight:700}
-.bleed-line{width:80px;height:2px;background:var(--accent);margin:20px 0 26px}
-.bleed-content p,.bleed-content li,.bleed-treatment p,.bleed-faq-item p,.bleed-faq-item li{font-size:18px;line-height:1.55}
-.bleed-content h4{font-size:18px;margin:25px 0 10px}.bleed-content ol{padding-left:22px}
-.bleed-img{width:100%;height:520px;object-fit:cover;display:block}
+/* Bleeding Gums Symptom Section */
+.bleeding-symptom-section {
+    padding: 80px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
 
-/* Dark treatment section */
-.bleed-treatment{position:relative;min-height:480px;padding:80px;background:url('./../images/learnMore1.jpg') center/cover no-repeat;color:#fff;display:flex;align-items:center}
-.bleed-overlay{position:absolute;inset:0;background:rgba(0,0,0,.58)}
-.bleed-treatment .position-relative{z-index:2}.bleed-treatment-copy{max-width:1050px}.bleed-treatment h2{font-size:46px;font-weight:700;margin:0}
+.bleeding-symptom-section .row {
+    max-width: 1220px;
+    margin: auto;
+}
 
-/* 3 steps */
-.bleed-center{text-align:center;margin-bottom:50px}.bleed-vline{width:2px;height:50px;background:var(--accent);margin:22px auto 0}
-.bleed-step-icon{width:70px;height:70px;border:2px solid var(--accent);border-radius:50%;color:var(--accent);display:grid;place-items:center;font-size:28px;margin:0 auto 20px}
-.step-label{font-size:17px}.bleed-steps h3{font-size:24px;line-height:1.3;margin:8px auto 0;max-width:310px}.bleed-step-note{max-width:850px;margin:50px auto 0;text-align:center;font-size:18px;line-height:1.5}
+.symptom-image img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
+}
 
-/* Questions */
-.bleed-faq-item{display:flex;gap:16px;align-items:flex-start}.bleed-faq-icon{width:40px;height:40px;min-width:40px;border:2px solid var(--accent);border-radius:50%;color:var(--accent);display:grid;place-items:center}
-.bleed-faq-item h3{font-size:27px;line-height:1.2;margin:0 0 12px}.bleed-faq-item ul{padding-left:20px}
+.symptom-content {
+    padding-left: 80px;
+    max-width: 650px;
+}
 
-@media(max-width:991px){.bleed-content,.right-copy{max-width:100%;margin:0}.bleed-content h2 span,.bleed-content h2 strong,.bleed-center h2 span,.bleed-center h2 strong{font-size:46px}.bleed-img{height:430px}.bleed-split .order-1{margin-bottom:35px}}
-@media(max-width:576px){.bleed-split,.bleed-steps,.bleed-faq,.bleed-treatment{padding:80px 25px}.bleed-content h2 span,.bleed-content h2 strong,.bleed-center h2 span,.bleed-center h2 strong{font-size:37px}.bleed-content p,.bleed-content li,.bleed-treatment p,.bleed-faq-item p,.bleed-faq-item li,.bleed-step-note{font-size:16px}.bleed-img{height:330px}.bleed-treatment h2{font-size:34px}.bleed-faq-item h3{font-size:22px}}
+.symptom-content h2 {
+    margin: 0;
+    font-size: 58px;
+    line-height: 1.05;
+    font-weight: 300;
+}
+
+.symptom-content h2 span {
+    display: block;
+    font-weight: 300;
+}
+
+.symptom-content h2 strong {
+    display: block;
+    font-weight: 700;
+}
+
+.green-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 14px 0 24px;
+}
+
+.symptom-content p,
+.symptom-content li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.symptom-content p {
+    margin-bottom: 18px;
+}
+
+.symptom-content ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .bleeding-symptom-section {
+        padding: 50px 25px;
+    }
+
+    .symptom-content {
+        padding: 45px 0 0;
+    }
+
+    .symptom-content h2 {
+        font-size: 44px;
+    }
+
+    .symptom-image img {
+        height: auto;
+    }
+}
+
+/* When to Be Concerned */
+.concerned-section {
+    background: #f7f7f7;
+    padding: 60px 80px;
+}
+
+.concerned-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.concerned-content {
+    width: 46%;
+}
+
+.concerned-content h2 {
+    margin: 0;
+    font-size: 58px;
+    line-height: 1.03;
+}
+
+.concerned-content h2 strong {
+    display: block;
+    font-weight: 700;
+}
+
+.concerned-content h2 span {
+    display: block;
+    font-weight: 300;
+}
+
+.green-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 15px 0 22px;
+}
+
+.concerned-content p {
+    max-width: 470px;
+    margin: 0 0 18px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.concerned-image {
+    width: 54%;
+}
+
+.concerned-image img {
+    width: 100%;
+    height: 535px;
+    display: block;
+    object-fit: cover;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .concerned-section {
+        padding: 50px 25px;
+    }
+
+    .concerned-wrap {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .concerned-content,
+    .concerned-image {
+        width: 100%;
+    }
+
+    .concerned-content h2 {
+        font-size: 44px;
+    }
+
+    .concerned-image img {
+        height: auto;
+    }
+}
+
+/* How to Treat Bleeding Gums */
+.bleeding-treatment-section {
+    position: relative;
+    min-height: 420px;
+    padding: 80px;
+    background: url("./../images/sittingArea.JPG") center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.treatment-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .58);
+}
+
+.bleeding-treatment-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.bleeding-treatment-content {
+    max-width: 1100px;
+}
+
+.bleeding-treatment-content h2 {
+    margin: 0;
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.treatment-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 12px 0 28px;
+}
+
+.bleeding-treatment-content p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.55;
+    font-weight: 500;
+}
+
+@media(max-width:576px) {
+    .bleeding-treatment-section {
+        padding: 80px 25px;
+    }
+
+    .bleeding-treatment-content h2 {
+        font-size: 32px;
+    }
+
+    .bleeding-treatment-content p {
+        font-size: 16px;
+    }
+}
+
+/* Evaluate Gums Section */
+.evaluate-gums {
+    background: #f7f7f7;
+    padding: 80px;
+}
+
+.evaluate-img {
+    width: 100%;
+    height: 575px;
+    object-fit: cover;
+    box-shadow: 0 8px 18px #0002;
+}
+
+.evaluate-content {
+    padding-left: 95px;
+}
+
+.evaluate-content h2 {
+    font-size: 54px;
+    line-height: 1.05;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.evaluate-content h2 strong {
+    font-weight: 700;
+}
+
+.green-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 15px 0 40px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.step-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #33ff00;
+    font-size: 30px;
+}
+
+.step h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 2px 0 8px;
+}
+
+.step p,
+.step a,
+.bottom-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.step p {
+    margin: 0;
+}
+
+.step a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.bottom-text {
+    margin-top: 5px;
+}
+
+/* Responsive */
+@media(max-width:991px) {
+    .evaluate-gums {
+        padding: 80px 30px;
+    }
+
+    .evaluate-content {
+        padding: 50px 0 0;
+    }
+
+    .evaluate-content h2 {
+        font-size: 42px;
+    }
+
+    .evaluate-img {
+        height: auto;
+    }
+}
+
+/* Answers to Your Questions */
+.gum-questions {
+    padding: 80px;
+    background: #fff;
+    color: #000;
+}
+
+.questions-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.questions-heading h2 {
+    margin: 0;
+    font-size: 62px;
+    line-height: 1.05;
+    font-weight: 300;
+}
+
+.questions-heading strong {
+    font-weight: 700;
+}
+
+.title-line {
+    display: block;
+    width: 2px;
+    height: 50px;
+    margin: 18px auto 0;
+    background: #33ff00;
+}
+
+.questions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px 90px;
+}
+
+.question-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.question-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #33ff00;
+    font-size: 16px;
+}
+
+.question-item h3 {
+    margin: 0 0 10px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.question-item p,
+.question-item li {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.question-item p {
+    margin: 0;
+}
+
+.question-item ul {
+    margin: 5px 0 0;
+    padding-left: 20px;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    .gum-questions {
+        padding: 80px 25px;
+    }
+
+    .questions-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .questions-heading h2 {
+        font-size: 44px;
+    }
+
+    .question-item h3 {
+        font-size: 24px;
+    }
+}

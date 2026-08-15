@@ -1,0 +1,738 @@
+/* Broken Tooth Causes Section */
+.ssdc-broken-tooth {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-broken-tooth-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.ssdc-broken-tooth-img {
+    width: 42%;
+}
+
+.ssdc-broken-tooth-content {
+    width: 58%;
+    max-width: 610px;
+}
+
+.ssdc-broken-tooth-img img {
+    width: 100%;
+    height: 545px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
+}
+
+.ssdc-broken-tooth-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-broken-tooth-content h2 span,
+.ssdc-broken-tooth-content h2 strong {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-broken-tooth-content h2 span {
+    font-weight: 300;
+}
+
+.ssdc-broken-tooth-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-broken-tooth-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 22px;
+}
+
+.ssdc-broken-tooth-content>p {
+    margin: 0 0 22px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+/* Cause rows */
+.ssdc-broken-tooth-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 16px;
+}
+
+.ssdc-broken-tooth-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.ssdc-broken-tooth-item h3 {
+    margin: 0;
+    font-size: 23px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media(max-width:991px) {
+    .ssdc-broken-tooth {
+        padding: 80px 30px;
+    }
+
+    .ssdc-broken-tooth-wrap {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .ssdc-broken-tooth-img,
+    .ssdc-broken-tooth-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ssdc-broken-tooth-img img {
+        height: auto;
+    }
+
+    .ssdc-broken-tooth-content h2 span,
+    .ssdc-broken-tooth-content h2 strong {
+        font-size: 46px;
+    }
+}
+
+@media(max-width:576px) {
+    .ssdc-broken-tooth {
+        padding: 80px 25px;
+    }
+
+    .ssdc-broken-tooth-content h2 span,
+    .ssdc-broken-tooth-content h2 strong {
+        font-size: 38px;
+    }
+
+    .ssdc-broken-tooth-content>p {
+        font-size: 16px;
+    }
+
+    .ssdc-broken-tooth-item h3 {
+        font-size: 19px;
+    }
+}
+
+/* Poor Dental Care & Chipped Teeth */
+.ssdc-chipped-care {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-chipped-care-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.ssdc-chipped-care-content {
+    width: 47%;
+    max-width: 520px;
+}
+
+.ssdc-chipped-care-image {
+    width: 53%;
+}
+
+.ssdc-chipped-care-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-chipped-care-content h2 strong,
+.ssdc-chipped-care-content h2 span {
+    display: block;
+    font-size: 60px;
+}
+
+.ssdc-chipped-care-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-chipped-care-content h2 span {
+    font-weight: 300;
+}
+
+.ssdc-chipped-care-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 22px;
+}
+
+.ssdc-chipped-care-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.ssdc-chipped-care-image img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
+}
+
+/* Responsive */
+@media(max-width:991px) {
+    .ssdc-chipped-care {
+        padding: 80px 30px;
+    }
+
+    .ssdc-chipped-care-wrap {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .ssdc-chipped-care-content,
+    .ssdc-chipped-care-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ssdc-chipped-care-content h2 strong,
+    .ssdc-chipped-care-content h2 span {
+        font-size: 46px;
+    }
+
+    .ssdc-chipped-care-image img {
+        height: auto;
+    }
+}
+
+@media(max-width:576px) {
+    .ssdc-chipped-care {
+        padding: 80px 25px;
+    }
+
+    .ssdc-chipped-care-content h2 strong,
+    .ssdc-chipped-care-content h2 span {
+        font-size: 38px;
+    }
+
+    .ssdc-chipped-care-content p {
+        font-size: 16px;
+    }
+}
+
+/* Managing Broken Tooth Section */
+.broken-home-section {
+    position: relative;
+    min-height: 420px;
+    padding: 80px;
+    background: url("images/broken-tooth-bg.jpg") center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.broken-home-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(5, 8, 14, .66);
+}
+
+.broken-home-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.broken-home-content h2 {
+    margin: 0;
+    font-size: 43px;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.broken-home-line {
+    width: 80px;
+    height: 2px;
+    background: #33FF00;
+    margin: 12px 0 30px;
+}
+
+.broken-home-content p,
+.broken-home-content li {
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+.broken-home-content ul {
+    margin: 22px 0 22px 17px;
+    padding: 0;
+}
+
+.broken-home-content li {
+    margin-bottom: 12px;
+    padding-left: 3px;
+}
+
+.broken-home-bottom {
+    margin-bottom: 0;
+}
+
+.broken-home-content a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+    .broken-home-section {
+        padding: 80px 30px;
+        min-height: auto;
+    }
+
+    .broken-home-content h2 {
+        font-size: 34px;
+    }
+
+    .broken-home-content p,
+    .broken-home-content li {
+        font-size: 16px;
+    }
+}
+
+/* Broken / Cracked Tooth Repair Process */
+.ssdc-repair-process {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-repair-process-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.ssdc-repair-process-image {
+    width: 42%;
+}
+
+.ssdc-repair-process-content {
+    width: 58%;
+    max-width: 620px;
+}
+
+.ssdc-repair-process-image img {
+    width: 100%;
+    height: 545px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .12);
+}
+
+/* Heading */
+.ssdc-repair-process-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-repair-process-content h2 strong,
+.ssdc-repair-process-content h2 span {
+    display: block;
+    font-size: 58px;
+}
+
+.ssdc-repair-process-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-repair-process-content h2 span {
+    font-weight: 300;
+}
+
+/* Accent */
+.ssdc-repair-process-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 30px;
+}
+
+/* Steps */
+.ssdc-repair-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.ssdc-repair-step-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.ssdc-repair-step h3 {
+    margin: 2px 0 7px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.ssdc-repair-step p,
+.ssdc-repair-step a,
+.ssdc-repair-process-bottom {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.ssdc-repair-step p {
+    margin: 0;
+}
+
+.ssdc-repair-step a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.ssdc-repair-process-bottom {
+    margin: 12px 0 0;
+}
+
+/* Responsive */
+@media(max-width:991px) {
+    .ssdc-repair-process {
+        padding: 80px 30px;
+    }
+
+    .ssdc-repair-process-wrap {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .ssdc-repair-process-image,
+    .ssdc-repair-process-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .ssdc-repair-process-image img {
+        height: auto;
+    }
+
+    .ssdc-repair-process-content h2 strong,
+    .ssdc-repair-process-content h2 span {
+        font-size: 44px;
+    }
+}
+
+@media(max-width:576px) {
+    .ssdc-repair-process {
+        padding: 80px 25px;
+    }
+
+    .ssdc-repair-process-content h2 strong,
+    .ssdc-repair-process-content h2 span {
+        font-size: 36px;
+    }
+
+    .ssdc-repair-step h3 {
+        font-size: 24px;
+    }
+
+    .ssdc-repair-step p,
+    .ssdc-repair-step a,
+    .ssdc-repair-process-bottom {
+        font-size: 16px;
+    }
+}
+
+/* =========================
+   Common Treatments Section
+========================= */
+
+.bt-treatments {
+    background: #f7f7f7;
+    padding: 80px;
+}
+
+.bt-treatments-container {
+    max-width: 1250px;
+    margin: auto;
+}
+
+/* Heading */
+.bt-treatments-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.bt-treatments-heading h2 {
+    margin: 0;
+    line-height: 1.08;
+}
+
+.bt-treatments-heading span {
+    display: block;
+    font-size: 62px;
+    font-weight: 300;
+}
+
+.bt-treatments-heading strong {
+    display: block;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.bt-heading-line {
+    width: 2px;
+    height: 50px;
+    background: #33FF00;
+    margin: 18px auto 0;
+}
+
+/* Cards */
+.bt-treatment-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 38px;
+}
+
+.bt-treatment-card {
+    min-height: 245px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .14);
+    transition: .3s ease;
+}
+
+/* Subtle card effect */
+.bt-treatment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, .18);
+}
+
+/* Icons */
+.bt-treatment-icon {
+    width: 58px;
+    height: 58px;
+    border: 2px solid #33FF00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #33FF00;
+    font-size: 27px;
+    margin-bottom: 28px;
+}
+
+.bt-treatment-card h3 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .bt-treatments {
+        padding: 80px 30px;
+    }
+
+    .bt-treatment-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bt-treatments-heading span,
+    .bt-treatments-heading strong {
+        font-size: 48px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .bt-treatments {
+        padding: 80px 25px;
+    }
+
+    .bt-treatment-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .bt-treatments-heading span,
+    .bt-treatments-heading strong {
+        font-size: 36px;
+    }
+
+    .bt-treatment-card {
+        min-height: 220px;
+    }
+}
+
+/* Chipped Tooth FAQ */
+.ssdc-chip-faq {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-chip-faq-wrap {
+    max-width: 1220px;
+    margin: auto;
+}
+
+/* Heading */
+.ssdc-chip-faq-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.ssdc-chip-faq-heading h2 {
+    margin: 0;
+    line-height: 1.05;
+}
+
+.ssdc-chip-faq-heading span,
+.ssdc-chip-faq-heading strong {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-chip-faq-heading span {
+    font-weight: 300;
+}
+
+.ssdc-chip-faq-heading strong {
+    font-weight: 700;
+}
+
+.ssdc-chip-faq-line {
+    width: 2px;
+    height: 50px;
+    background: #33FF00;
+    margin: 18px auto 0;
+}
+
+/* Questions */
+.ssdc-chip-faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.ssdc-chip-faq-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.ssdc-chip-faq-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33FF00;
+    border-radius: 50%;
+    color: #33FF00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.ssdc-chip-faq-text h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.ssdc-chip-faq-text p,
+.ssdc-chip-faq-text li {
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.ssdc-chip-faq-text p {
+    margin: 0 0 22px;
+}
+
+.ssdc-chip-faq-text ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* Responsive */
+@media(max-width:991px) {
+    .ssdc-chip-faq {
+        padding: 80px 30px;
+    }
+
+    .ssdc-chip-faq-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .ssdc-chip-faq-heading span,
+    .ssdc-chip-faq-heading strong {
+        font-size: 46px;
+    }
+}
+
+@media(max-width:576px) {
+    .ssdc-chip-faq {
+        padding: 80px 25px;
+    }
+
+    .ssdc-chip-faq-heading span,
+    .ssdc-chip-faq-heading strong {
+        font-size: 36px;
+    }
+
+    .ssdc-chip-faq-text h3 {
+        font-size: 23px;
+    }
+
+    .ssdc-chip-faq-text p,
+    .ssdc-chip-faq-text li {
+        font-size: 16px;
+    }
+}
