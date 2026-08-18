@@ -4,26 +4,29 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Patients Info | Sana Samin Dental Care</title>
+    <title>Sensitive Teeth Dentist Lahore
+        | Sana Samin Dental Care</title>
 
     <!-- SEO -->
     <meta name="description"
-        content="Sana Samin Dental Care welcomes new patients in DHA Phase 1 Lahore, Pakistan. Book your first dental consultation with our experienced team for comfortable and professional dental care.">
+        content="Discover Sana Samin Dental Care in DHA Phase 1 Lahore, Pakistan. Learn about our expert dentists, modern dental treatments, and our commitment to providing compassionate, high-quality dental care.">
 
     <meta name="keywords"
-        content="Dentist accepting new patients DHA Lahore, New dental patients DHA Phase 1, First dental visit Lahore, Dental consultation DHA Lahore, Sana Samin Dental Care new patients">
+        content="About Sana Samin Dental Care, Dentists in DHA Lahore, Dental clinic team, Modern dentistry Lahore, Trusted dental clinic Pakistan">
 
     <meta name="robots" content="index, follow">
 
-    <link rel="canonical" href="https://sanasamindentalcare.com/New-Patients/new-patients.html">
+    <link rel="canonical" href="https://sanasamindentalcare.com/cleanings-and-exams/cleanings-exams.html" />
 
     <!-- ✅ Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-    <!-- ✅ Custom CSS  -->
+    <!-- ✅ Custom CSS (load after Bootstrap so you can override styles) -->
     <link rel="stylesheet" href="./../style.css" />
-    <link rel="stylesheet" href="./new-patients.css" />
+    <link rel="stylesheet" href="./../About-us/about.css" />
+    <link rel="stylesheet" href="./../New-Patients/new-patients.css" />
+    <link rel="stylesheet" href="./sensitive.css" />
     <!-- ✅ Font & Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -41,13 +44,17 @@
 
     <!-- ✅ Bootstrap JS Bundle (includes Popper) – only include once -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Gsap animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 </head>
 
 
 <body>
 
     <!-- Nav Bar :)-->
-    <div class="container-fluid m-0 p-0 new-patient-back-img img-fluid">
+    <div class="container-fluid m-0 p-0 aboutus-back-img img-fluid">
         <nav class="nav-bar row m-0" id="navbar">
             <div class="logo-container col-12 col-md-5">
                 <a href="./../index.html">
@@ -73,23 +80,20 @@
                     35746003-4</a>
                 <a class="schedule-btn nav-btn" href="./../Schedule-now/Schedule-now.html">Schedule Now</a>
 
-
             </div>
         </nav>
-
-        <div id="name" class="control-div new-patients-buttons padding-king">
+        <div id="name" class="control-div about-us-buttons padding-king">
             <div class="col-12">
                 <span class="heading-container">
-                    <h1 class="heading">welcome new patients</h1>
-                    <h1 class="heading2">get ready for your first visit</h1>
-                    <hr class="divider-about-us bg-white color-white">
+                    <h1 class="heading">sensitive teeth dentist</h1>
+                    <h1 class="heading2">in Lahore</h1>
                 </span>
             </div>
             <!-- Button container -->
             <div style="align-items: start;" class="col-12 btn-container">
                 <a style="display: block;" class="schedule-btn nav-btn"
-                    href="./../Schedule-now/Schedule-now.html">Schedule Now</a>
-
+                    href="./../Schedule-now/Schedule-now.html">Schedule
+                    Now</a>
 
                 <button class="schedule-btn call-btn">
                     Call (042) 35746003-4
@@ -99,234 +103,272 @@
 
     </div>
 
-    <!-- New patient Section -->
-    <section class="row New-patient-section m-0">
-        <div class="col-12 col-md-6">
-            <img class="box-shadow patient-img" src="./../images/learnMore3.jpg" alt="Img Here">
-        </div>
-        <div class="col-12 col-md-5">
-            <p class="new-patient-heading"><span style="font-weight: 600;">a fresh take</span><br>on going to<br> the
-                dentist<br> </p>
-            <hr style="color: #5dff34;" class="divider-about-us bg-color-primary">
-            <p>
-                At Sana Samin Dental Care, we make going to the dentist in Liberty easy and enjoyable. This will be an
-                experience that leaves your teeth feeling squeaky, slippery clean and your day thoroughly pampered.
-            </p>
-            <p>
-                Ready to get started? We’re always welcoming new patients! Follow the steps below.
-                Or give us a call at (816) 608-8457 — our team is here to help.
-            </p>
-            <p>
-                STEP 1: Request an appointment
-            </p>
-            <p>
-                STEP 2: Download and complete new patient forms ahead of time
-            </p>
-            <p>
-                STEP 3: Learn more about what to expect from your visit, below
-            </p>
-        </div>
-    </section>
+    <!-- =========================
+     TAKE CHARGE
+========================= -->
+    <section class="sensitive-intro">
+        <div class="container">
+            <div class="row align-items-center g-5">
 
-    <!-- first visit section -->
-    <section class="first-visit-section">
-        <p class="new-patient-heading first-title">common treatments<br><span style="font-weight: 600;">for
-                halitosis</span></p>
-        <div class="vertical-divider"></div>
-        <div class="row m-0 first-row">
-            <div class="col-12 col-md-5">
-                <div class="first-box">
-                    <i class="first-icon fa-solid fa-clock"></i>
-                    <p class="first-words">90 minutes of personalized care</p>
-                </div>
-                <div class="first-words">
-                    <div class="first-box">
-                        <i class="first-icon fa-solid fa-folder"></i>
-                        <p class="first-words">Dental and medical health history review</p>
+                <!-- Image -->
+                <div class="col-md-5">
+                    <div class="sensitive-intro-img">
+                        <img src="./../images/learnMore3.jpg" alt="Dental consultation">
                     </div>
                 </div>
-                <div class="first-words">
-                    <div class="first-box">
-                        <i class="first-icon fa-solid fa-magnifying-glass"></i>
-                        <p class="first-words">Comprehensive teeth cleaning and oral exam</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-5">
-                <div class="first-box">
-                    <i class="first-icon fa-regular fa-heart"></i>
-                    <p class="first-words">Spa-like amenities to help you relax</p>
-                </div>
-                <div class="first-words">
-                    <div class="first-box">
-                        <i class="first-icon fa-regular fa-file"></i>
-                        <p class="first-words">Complete set of digital x-rays</p>
-                    </div>
-                </div>
-                <div class="first-words">
-                    <div class="first-box">
-                        <i class="first-icon fa-regular fa-calendar-days"></i>
-                        <p class="first-words">Comprehensive teeth cleaning and oral exam</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                <!-- Content -->
+                <div class="col-md-7">
+                    <div class="sensitive-intro-content">
 
-    <!-- Bring-section -->
-    <section class="bring-section">
-        <div class="col-12 col-md-4" style="flex-direction: column; display: flex;">
-            <p class="color-white new-patient-heading">what to<br><span style="font-weight: 600;">bring</span></p>
-            <hr style="background-color: white; width: 50%;" class="divider-about-us bg-color-primary color-white">
-        </div>
-        <div class="col-12 col-md-6">
-            <div class="text-div">
-                <i class="bring-icon color-white fa-regular fa-circle-check"></i>
-                <p class="bring-text">Driver’s license or another form of ID</p>
-            </div>
+                        <h2>
+                            take charge
+                            <span>of your oral health</span>
+                        </h2>
 
-            <div class="text-div">
-                <i class="bring-icon color-white fa-regular fa-circle-check"></i>
-                <p class="bring-text">Dental insurance card, if you have one</p>
-            </div>
+                        <div class="sensitive-line"></div>
 
-            <div class="text-div">
-                <i class="bring-icon color-white fa-regular fa-circle-check"></i>
-                <p class="bring-text">List of medications you’re taking</p>
-            </div>
-
-            <div class="text-div">
-                <i class="bring-icon color-white fa-regular fa-circle-check"></i>
-                <p class="bring-text">Completed new patient paperwork (or fill out forms while you wait)</p>
-            </div>
-
-            <div class="text-div">
-                <i class="bring-icon color-white fa-regular fa-circle-check"></i>
-                <p class="bring-text">Any questions or concerns — we’re here to help!</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Payment-info -->
-    <section class="payment-info-section">
-        <div class="pay-title">
-            <p class="new-patient-heading first-title">payment<br><span style="font-weight: 600;">information</span></p>
-            <div class="vertical-divider"></div>
-        </div>
-        <div class="pay-div box-shadow">
-            <p>
-                We offer a variety of ways for you to pay and finance your dental treatment, including dental
-                insurance and financing options.
-            </p>
-            <p>
-                We are happy to check your insurance plan’s benefits to see what your coverage is at our office.
-                We are a premier in-network provider for Delta Dental. We are considered an out-of-network provider
-                with other plans, however we file all insurance claims that have out-of-network benefits.
-            </p>
-            <p>
-                We also accept the following forms of payment:
-            </p>
-            <ul>
-                <li>Cash</li>
-                <li>Check</li>
-                <li>Credit card (all major cards accepted)</li>
-                <li>In-house savings plan</li>
-                <li>CareCredit</li>
-                <li>Proceed Financial</li>
-            </ul>
-            <p>Please give us a call at (816) 608-8457 or click the link below for more information.</p>
-            <div class="text-align-center">
-                <button class="black-btn width-medium">Explore Savings Plan</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- In House Section -->
-    <section class="in-house-sect">
-        <div class="inhouse-info-box">
-            <p class="in-house-title">in-house savings plan</p>
-            <p class="in-house-subtitle">affordable dental care, without the insurance headaches</p>
-            <div class="horizontal-divider"></div>
-            <p>
-                At Sana Samin Dental Care, we believe everyone deserves access to high-quality dental care —
-                without dealing with deductibles, waiting periods, or annual maximums. Our in-house savings
-                plan offers a simple, transparent way to prioritize your oral health at a predictable
-                monthly or annual rate.
-            </p>
-            <p class="in-house-subtitle">
-                Plans cost just $499/year for adults and $399/year for children.
-            </p>
-        </div>
-        <div class="in-house-point-div">
-            <div class="in-house-box box-shadow">
-                <span style="text-align: center;">
-                    <p class="in-house-box-title">What’s Included</p>
-                </span>
-                <span class="inhouse-words">
-                    <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                    <p class="m-0">2 professional dental cleanings per year</p>
-                </span>
-                <span class="inhouse-words">
-                    <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                    <p class="m-0">2 routine doctor exams per year</p>
-                </span>
-                <span class="inhouse-words">
-                    <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                    <p class="m-0">All necessary x-rays (including 3D)</p>
-                </span>
-                <span class="inhouse-words">
-                    <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                    <p class="m-0">1 emergency exam per year</p>
-                </span>
-                <span class="inhouse-words">
-                    <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                    <p class="m-0">2 oral cancer screenings per year</p>
-                </span>
-                <span class="inhouse-words">
-                    <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                    <p class="m-0">2 fluoride treatments per year</p>
-                </span>
-            </div>
-            <div class="in-house-box box-shadow">
-                <span>
-                    <p class="in-house-box-title">What’s Included</p>
-                    <span class="inhouse-words">
-                        <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                        <p class="m-0">No waiting periods, deductibles, or yearly maximums</p>
-                    </span>
-                    <span class="inhouse-words">
-                        <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                        <p class="m-0">No exclusions for pre-existing conditions</p>
-                    </span>
-                    <span class="inhouse-words">
-                        <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                        <p class="m-0">$500 lifetime benefit toward Invisalign</p>
-                    </span>
-                    <span class="inhouse-words">
-                        <i class="fa-solid fa-angles-right" style="margin-top: 8px;"></i>
-                        <p class="m-0">15% off most additional treatments (excluding products and whitening services)
+                        <p>
+                            Tired of wincing every time you have hot beverages and
+                            delicious treats? We know how upsetting this can be —
+                            not being able to enjoy your favorite foods can ruin
+                            your day. Our team of dentists understands the
+                            frustrations associated with tooth sensitivity and is
+                            committed to providing effective treatments to restore
+                            your oral health and comfort.
                         </p>
-                    </span>
-                </span>
+
+                        <p>
+                            Through a comprehensive approach, we diagnose the
+                            underlying cause of your tooth sensitivity and offer
+                            customized solutions. With advanced techniques and a
+                            focus on personalized care, we create a warm, welcoming
+                            environment so you feel at ease through the treatment
+                            process.
+                        </p>
+
+                    </div>
+                </div>
+
             </div>
-        </div>
-        <div class="d-flex" style="justify-content: center; align-items: center; margin-top: 40px;">
-            <button class="black-btn width-medium">Explore Savings Plan</button>
         </div>
     </section>
 
-    <!-- Cherry-section -->
-    <section class="cherry-section">
-        <p class="cherry-title">make care fit your budget with Cherry</p>
-        <div class="horizontal-divider"></div>
-        <p class="cherry-text">
-            Worried about the cost of treatment? With Cherry, you can say “yes” to the care you need right away
-            and pay over time in smaller, manageable monthly installments. Patients love that there are no
-            hard credit checks, fast approvals, and even 0% APR options — all designed to keep your smile
-            healthy without adding financial stress.
-        </p>
-        <button style="margin-top: 10px;" class="black-btn nav-btn width-medium">Explore Savings Plan</button>
+    <!-- =========================
+     SCIENCE OF COMFORT
+========================= -->
+    <section class="sensitive-treatments">
+        <div class="container">
+
+            <div class="sensitive-heading">
+                <h2>
+                    the science
+                    <span>of comfort</span>
+                </h2>
+
+                <div class="sensitive-vertical-line"></div>
+
+                <p>
+                    At Sana Samin Dental Care, we offer a range of effective
+                    treatments to alleviate tooth sensitivity and restore your oral
+                    health.
+                </p>
+
+                <p>
+                    Once we identify the cause of your tooth sensitivity, whether
+                    enamel erosion, gum recession, tooth grinding, or other factors,
+                    we’ll recommend the most suitable treatment.
+                </p>
+            </div>
+
+            <!-- Treatment Cards -->
+            <div class="row g-4 sensitive-card-row">
+
+                <div class="col-md-4">
+                    <div class="sensitive-card">
+                        <h3>dental sealants</h3>
+                        <p>
+                            Dental sealants are protective coatings applied to the
+                            tooth surfaces to provide an additional barrier against
+                            sensitivity-causing factors.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="sensitive-card">
+                        <h3>dental bonding</h3>
+                        <p>
+                            A tooth-colored resin material is applied to the
+                            sensitive areas of the teeth, creating a protective
+                            barrier and reducing sensitivity.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="sensitive-card">
+                        <h3>root canal</h3>
+                        <p>
+                            A root canal procedure may be recommended if tooth
+                            sensitivity is caused by an underlying issue, such as
+                            tooth decay or an infection reaching the tooth’s pulp.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="sensitive-treatment-bottom">
+                These treatments are designed to address the causes of tooth
+                sensitivity and provide relief. Before we start with the procedure,
+                we’ll take the time to answer any questions you may have.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- =========================
+     PARTNER SECTION
+========================= -->
+    <section class="sensitive-partner">
+        <div class="sensitive-partner-overlay">
+
+            <div class="container">
+                <div class="sensitive-partner-content">
+
+                    <h2>
+                        your partner in restoring your smile’s comfort
+                    </h2>
+
+                    <div class="sensitive-partner-line"></div>
+
+                    <p>
+                        At Sana Samin Dental Care, we use advanced diagnostic tools
+                        to evaluate your oral health and ensure that we develop a
+                        personalized treatment plan that fits your needs. We’re
+                        committed to providing you with compassionate, personalized
+                        care.
+                    </p>
+
+                    <p>
+                        If you’re experiencing sensitivity, contact us today and
+                        recover your oral health!
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================
+     COMMON QUESTIONS
+========================= -->
+    <section class="sensitive-faq">
+        <div class="container">
+
+            <div class="sensitive-faq-heading">
+                <h2>
+                    <span>common questions</span>
+                    about sensitive teeth
+                </h2>
+
+                <div class="sensitive-vertical-line"></div>
+            </div>
+
+            <div class="row g-5">
+
+                <!-- Question 1 -->
+                <div class="col-md-4">
+                    <div class="sensitive-faq-item">
+
+                        <div class="sensitive-faq-icon">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+
+                        <div>
+                            <h3>What causes tooth sensitivity?</h3>
+
+                            <p>
+                                Tooth sensitivity can be caused by many factors,
+                                including:
+                            </p>
+
+                            <ul>
+                                <li>Enamel erosion</li>
+                                <li>Gum recession</li>
+                                <li>Tooth decay</li>
+                                <li>Teeth grinding</li>
+                            </ul>
+
+                            <p>
+                                We recommend consulting with us to determine the
+                                specific cause of your tooth sensitivity.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="col-md-4">
+                    <div class="sensitive-faq-item">
+
+                        <div class="sensitive-faq-icon">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+
+                        <div>
+                            <h3>How can I prevent tooth sensitivity?</h3>
+
+                            <ul>
+                                <li>
+                                    Maintain good oral hygiene practices, such as
+                                    regular brushing and flossing daily.
+                                </li>
+                                <li>Avoid acidic foods and drinks.</li>
+                                <li>
+                                    Consider using a mouthguard if you grind your
+                                    teeth.
+                                </li>
+                                <li>
+                                    Regular dental check-ups can help identify and
+                                    address potential issues before they worsen.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="col-md-4">
+                    <div class="sensitive-faq-item">
+
+                        <div class="sensitive-faq-icon">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+
+                        <div>
+                            <h3>
+                                How long does it take to see results from treatment?
+                            </h3>
+
+                            <p>
+                                It can vary depending on the severity of the
+                                sensitivity and the chosen treatment approach.
+                                We’ll provide a personalized treatment plan and give
+                                you an estimate of the expected timeline.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     </section>
 
     <!-- Kind Words Section :) -->
@@ -338,7 +380,7 @@
                 <div class="carousel-inner d-flex" style="padding: 80px;">
                     <div class="carousel-item active">
                         <div class="" style="text-align: center;">
-                            <img src="./../images/comas.svg" style="width: 40px;" alt="...">
+                            <img src="" style="width: 40px;" alt="...">
                             <p class="color-white f24">
                                 Family owned & operated for almost two decades. Nice, clean and spacious facility with
                                 latest
@@ -409,81 +451,6 @@
         </div>
     </section>
 
-    <!-- design section -->
-    <section class="common-section">
-        <p class="why-heading common-title">our office was<br><span style="font-weight: 600;">designed with you in
-                mind</span>
-        </p>
-        <div class="vertical-divider"></div>
-        <div class="card-row row">
-            <div class="common-card col-12 col-md-3">
-                <span class="icon-span">
-                    <i class="fa-solid fa-tooth why-icon"></i>
-                </span>
-                <p class="icon-text">neck wraps & massage chairs</p>
-                <p style="text-align: center; margin: 0px;">
-                    Take some time for yourself. Soothe any tightness in the shoulders and neck.
-                </p>
-            </div>
-            <div class="common-card col-12 col-md-3">
-                <span class="icon-span">
-                    <i class="fa-solid fa-teeth why-icon"></i>
-                </span>
-                <p class="icon-text">pain-free treatments</p>
-                <p style="text-align: center; margin: 0px;">
-                    State-of-the art technology allows us to perform many treatments without drills, needles, or
-                    scalpels.
-                </p>
-            </div>
-            <div class="common-card col-12 col-md-3">
-                <span class="icon-span">
-                    <i class="fa-solid fa-tooth why-icon"></i>
-                </span>
-                <p class="icon-text">safety focused</p>
-                <p style="text-align: center; margin: 0px;">
-                    We surpass all OSHA and CDC standards, and offer care dedicated to your safety and wellbeing.
-                </p>
-            </div>
-            <div class="common-card col-12 col-md-3">
-                <span class="icon-span">
-                    <i class="fa-solid fa-tooth why-icon"></i>
-                </span>
-                <p class="icon-text">custom-tailored care</p>
-                <p style="text-align: center; margin: 0px;">
-                    We always look for the best solution for you. There’s no cookie-cutter, one-size-fits-all solutions
-                    here.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Beautiful Smile -->
-    <section class="beautiful-smile-section">
-        <p class="why-heading common-title">our office was<br><span style="font-weight: 600;">designed with you
-                in mind</span>
-        </p>
-        <div class="vertical-divider"></div>
-        <div class="card-row">
-            <div class="beautiful-card">
-                <p class="icon-text vip-height">get routine cleanings & preventive treatments</p>
-                <button style="margin-top: 10px;" class="black-btn nav-btn">Learn More</button>
-            </div>
-            <div class="beautiful-card">
-                <p class="icon-text vip-height">enhance the natural beauty of your smile</p>
-                <button style="margin-top: 10px;" class="black-btn nav-btn">Learn More</button>
-            </div>
-            <div class="beautiful-card">
-                <p class="icon-text vip-height">fix problems with expert, high-tech surgical care</p>
-                <button style="margin-top: 10px;" class="black-btn nav-btn">Learn More</button>
-
-            </div>
-            <div class="beautiful-card">
-                <p class="icon-text vip-height">learn more about us and our approach</p>
-                <button style="margin-top: 10px;" class="black-btn nav-btn">Learn More</button>
-            </div>
-        </div>
-    </section>
-
     <!-- Schedule Section :) -->
     <section class="schedule-now-sect">
         <div class="schedule-container">
@@ -492,7 +459,6 @@
             <button class="schedule-btn height-60 margain">Learn More</button>
         </div>
     </section>
-
 
     <!-- Map Section :) -->
     <section class="row map-section m-0">
@@ -535,9 +501,8 @@
         </div>
     </section>
 
-    <!-- Follow Us Section -->
     <section class="row m-0 follow-us-sect">
-        <img class="col-md-3" src="./../images/2.png" alt="Img here">
+        <!-- <img class="col-md-3" src="./../images/2.png" alt="Img here"> -->
         <img class="col-md-3" src="./../images/afer-effects.png" alt="Img here">
         <img class="col-md-3" src="./../images/poster 2.png" alt="Img here">
         <!-- <img class="col-md-3" src="./../images/poster.png" alt="Img here"> -->
@@ -548,11 +513,10 @@
         </span>
     </section>
 
-    <!-- Contact Us section -->
     <section class="row contact-us-section m-0">
         <div class="col-12 col-md-6">
             <p class="contact-us-title"><strong>contact</strong> our<br> team</p>
-            <img src="./../images/slider7.jpg" alt="img here" class="img-fluid">
+            <img src="./../images/slider1.jpg" alt="img here" class="img-fluid">
         </div>
         <div class="col-12 col-md-6 ">
             <p class="color-white padding-top"> "<span class="col-red">*</span>" indicates required fields</p>
@@ -575,7 +539,7 @@
                 <textarea class="input-decoration text-area" name="Message" id="Name"></textarea>
             </span>
             <p class="color-white mt-4 follow-us-p">
-                I consent to text-based communications from Sana Samin Dental Care <span class="col-red">*</span>
+                I consent to text-based communications from Sana Samin Dental <span class="col-red">*</span>
             </p>
             <div class="">
                 <input type="radio">
@@ -586,13 +550,11 @@
             <button class="schedule-btn height-60 margain">Submit</button>
         </div>
     </section>
-
-    <!-- Footer section -->
     <footer class="footer-sec ">
         <div class="row m-0 f-padding">
 
             <div class="col-md-3">
-                <h4 class="f-heading">Services</h4>
+                <h4 class="f-heading">Treatments</h4>
                 <li>
                     <ul class="remover"><a class="list" href="">General</a></ul>
                     <ul class="remover"><a class="list" href="">Cosmetic</a></ul>
@@ -623,6 +585,7 @@
             <div class="col-md-3">
                 <h4 class="f-heading">Review Us</h4>
                 <li>
+                    <ul class="remover"><a class="list" href="./../feedback/feedback.html">Feedback</a></ul>
                     <ul class="remover"><a class="list" href="">Google</a></ul>
                     <ul class="remover"><a class="list" href="">Yelp</a></ul>
                     <ul class="remover"><a class="list" href="">Facebook</a></ul>
@@ -673,11 +636,11 @@
         <div class="div-divider">
             <button class="div-divider-button"><a class="div-divider-link" href="">Problems We Treat</a></button>
             <i class="fa-solid fa-plus"></i>
-        </div>
-        <div class="div-divider">
-            <button class="div-divider-button"><a class="div-divider-link" href="">(816) 608-8457</a></button>
-        </div>
-        <button class="schedule-btn" style="width: 100%; margin-top: 20px;">Schedule Now</button>
+
+            <div class="div-divider">
+                <button class="div-divider-button"><a class="div-divider-link" href="">(816) 608-8457</a></button>
+            </div>
+            <button class="schedule-btn" style="width: 100%; margin-top: 20px;">Schedule Now</button>
     </dialog>
 
     <!-- About us Modal -->
@@ -707,9 +670,10 @@
                                     href="./../Meet-dr-uzair/Dr-uzair.html">Meet Dr
                                     Uzaire</a></ul>
                             <!-- <ul class="color-white m-0 "><a class="About-link-desyne"
-                                    href="./../meet-dr-hurria/dr-hurria.html">Meet Dr Hurria</a></ul> -->
+                                    href="./../meet-dr-hurria/dr-hurria.html">Meet
+                                    Dr Hurria</a></ul> -->
                             <ul class="color-white m-0 "><a class="About-link-desyne"
-                                    href="./new-patients.htmln, m 98tdmnkl">New
+                                    href="./../New-Patients/new-patients.html">New
                                     Patients</a></ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
                                     href="./../Payment-option/Payment-option.html">Payment
@@ -727,6 +691,7 @@
 
         </div>
     </div>
+
     <!-- Problems We Treat Modal -->
     <div class="modal fade modal-z-index" id="problemModal" tabindex="-1" aria-labelledby="modalLabel"
         aria-hidden="true">
@@ -749,14 +714,15 @@
                             <ul class="color-white m-0 "><a class="About-link-desyne"
                                     href="./../All-Problems-We-Treat/Problems.html">All
                                     Problems</a></ul>
-                            <ul class="color-white m-0 "><a class="About-link-desyne" href="./bad-breath.html">Bad
+                            <ul class="color-white m-0 "><a class="About-link-desyne"
+                                    href="./../Bad-Breath/bad-breath.html">Bad
                                     Breath /
                                     Halitosis</a></ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
                                     href="./../Infant-Frenectomies/infant-frenectomies.html">Infant Frenectomies</a>
                             </ul>
-                            <ul class="color-white m-0 "><a class="About-link-desyne"
-                                    href="./../Gum-Disease/gum-disease.html">Gum Disease</a></ul>
+                            <ul class="color-white m-0 "><a class="About-link-desyne" href="./gum-disease.html">Gum
+                                    Disease</a></ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
                                     href="./../Teeth-Grinding/teeth-grinding.html">Teeth Grinding</a></ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
@@ -770,7 +736,7 @@
                                     href="./../Tooth-Repair/tooth-repair.html">Chipped / Cracked tooth repair</a></ul>
                             <ul class="color-white m-0">Dental Anxiety</ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
-                                    href="./../Sensitivity/sensitive.html">Sensitivity</a></ul>
+                                    href="./sensitive.html">Sensitivity</a></ul>
                             <ul class="color-white m-0 "><a class="About-link-desyne"
                                     href="./../Crooked-Teeth/crooked-teeth.html">Crooked
                                     Teeth</a></ul>
@@ -807,13 +773,14 @@
                             <li class="col-md-4">
                                 <ul class="list-header">General Services</ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../General-Dentistry/General-Dentistry.html">General Dentistry</a></ul>
+                                        href="./../General-Dentistry/General-Dentistry.html">General
+                                        Dentistry</a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Bridges/Bridges.html">Bridges</a></ul>
+                                        href="./../Bridges/Bridges.html">
+                                        Bridges</a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Crowns/crowns.html">Crowns</a></ul>
-                                <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./Dentures/dentures.html">Dentures</a></ul>
+                                <ul class="color-white m-0"></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Bonding-and-White-Filling/bonding.html">Bonding and White Filling</a>
                                 </ul>
@@ -835,15 +802,16 @@
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Cosmetic-Dentistry/cosmic-dentistry.html">Cosmetic Dentistry</a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Invisalign/invisalign.html">Invisalign
+                                        href="./invisalign.html">Invisalign
                                     </a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Veneers/veneers.html">Veneers</a></ul>
+                                        href="./../Veneers/veneers.html">Veneers
+                                    </a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Whitening/whitening.html">Whitening
                                     </a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
-                                        href="./../Full-mouth-Rehab/full-mouth-rehab.html">Full Mouth Rehab
+                                        href="./full-mouth-rehab.html">Full Mouth Rehab
                                     </a></ul>
                                 <ul class="color-white m-0 "><a class="About-link-desyne"
                                         href="./../Gummy-Smile-Reduction/Gummy.html">Gummy Smile Reduction

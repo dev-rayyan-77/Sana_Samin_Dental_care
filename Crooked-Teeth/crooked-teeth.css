@@ -1,0 +1,757 @@
+/* Crooked Teeth Problem Section */
+.ssdc-crooked-problem {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-crooked-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.ssdc-crooked-image {
+    width: 42%;
+}
+
+.ssdc-crooked-content {
+    width: 58%;
+    max-width: 620px;
+}
+
+.ssdc-crooked-image img {
+    width: 100%;
+    height: 545px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .13);
+}
+
+/* Heading */
+.ssdc-crooked-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-crooked-content h2 span,
+.ssdc-crooked-content h2 strong {
+    display: block;
+    font-size: 60px;
+}
+
+.ssdc-crooked-content h2 span {
+    font-weight: 300;
+}
+
+.ssdc-crooked-content h2 span strong {
+    display: inline;
+    font-weight: 700;
+}
+
+.ssdc-crooked-content h2>strong {
+    font-weight: 700;
+}
+
+/* Accent */
+.ssdc-crooked-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 22px;
+}
+
+/* Paragraphs */
+.ssdc-crooked-content>p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+/* Icon Rows */
+.ssdc-crooked-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 18px;
+}
+
+.ssdc-crooked-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.ssdc-crooked-item p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.ssdc-crooked-bottom {
+    margin-top: 28px !important;
+}
+
+/* Responsive */
+
+
+
+
+/* What Causes Crooked Teeth */
+.ssdc-crooked-causes {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-crooked-causes-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.ssdc-crooked-causes-content {
+    width: 47%;
+    max-width: 520px;
+}
+
+.ssdc-crooked-causes-image {
+    width: 53%;
+}
+
+.ssdc-crooked-causes-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-crooked-causes-content h2 strong,
+.ssdc-crooked-causes-content h2 span {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-crooked-causes-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-crooked-causes-content h2 span {
+    font-weight: 300;
+}
+
+.ssdc-crooked-causes-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 22px;
+}
+
+.ssdc-crooked-causes-content p,
+.ssdc-crooked-causes-content li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.ssdc-crooked-causes-content p {
+    margin: 0 0 20px;
+}
+
+.ssdc-crooked-causes-content ul {
+    margin: 0 0 20px;
+    padding-left: 18px;
+}
+
+.ssdc-crooked-causes-content li {
+    margin-bottom: 7px;
+}
+
+.ssdc-crooked-causes-image img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .14);
+    transition: .3s ease;
+}
+
+.ssdc-crooked-causes-image img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 13px 24px rgba(0, 0, 0, .18);
+}
+
+
+
+
+
+/* Crooked Teeth Consultation Section */
+.ssdc-crooked-consult {
+    position: relative;
+    min-height: 520px;
+    padding: 80px;
+    background: url("./../images/sittingArea.JPG") center/cover no-repeat;
+    color: #fff;
+}
+
+.ssdc-crooked-consult-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, .62);
+}
+
+.ssdc-crooked-consult-wrap {
+    position: relative;
+    z-index: 2;
+    max-width: 1220px;
+    margin: auto;
+}
+
+.ssdc-crooked-consult-content {
+    max-width: 520px;
+}
+
+.ssdc-crooked-consult-content h2 {
+    margin: 0;
+    font-size: 44px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.ssdc-crooked-consult-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 14px 0 28px;
+}
+
+.ssdc-crooked-consult-content p,
+.ssdc-crooked-consult-content li {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.ssdc-crooked-consult-content p {
+    margin: 0 0 20px;
+}
+
+.ssdc-crooked-consult-content ul {
+    margin: 0 0 22px;
+    padding-left: 18px;
+}
+
+.ssdc-crooked-consult-content li {
+    margin-bottom: 8px;
+}
+
+.ssdc-crooked-consult-bottom {
+    margin-bottom: 0 !important;
+}
+
+/* Responsive */
+
+
+/* Crooked Teeth Process */
+.ssdc-crooked-process {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-crooked-process-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+.ssdc-crooked-process-img {
+    width: 42%;
+}
+
+.ssdc-crooked-process-content {
+    width: 58%;
+    max-width: 620px;
+}
+
+.ssdc-crooked-process-img img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .14);
+}
+
+/* Heading */
+.ssdc-crooked-process-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-crooked-process-content h2 strong,
+.ssdc-crooked-process-content h2 span {
+    display: block;
+    font-size: 58px;
+}
+
+.ssdc-crooked-process-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-crooked-process-content h2 span {
+    font-weight: 300;
+}
+
+/* Accent */
+.ssdc-crooked-process-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 30px;
+}
+
+/* Steps */
+.ssdc-crooked-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.ssdc-crooked-step-icon {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.ssdc-crooked-step h3 {
+    margin: 2px 0 7px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.ssdc-crooked-step p,
+.ssdc-crooked-step a,
+.ssdc-crooked-process-bottom {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #000;
+}
+
+.ssdc-crooked-step p {
+    margin: 0;
+}
+
+.ssdc-crooked-step a {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.ssdc-crooked-process-bottom {
+    margin: 12px 0 0;
+}
+
+/* Responsive */
+
+
+
+
+.common-treatment-section {
+    background-color: #f7f7f7;
+    padding: 80px;
+}
+
+/* Heading */
+.treatment-heading {
+    text-align: center;
+    margin: 0;
+    line-height: 1.05;
+}
+
+.treatment-heading span {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.treatment-heading strong {
+    font-size: 68px;
+    font-weight: 700;
+}
+
+/* Green vertical line */
+.treatment-line {
+    width: 2px;
+    height: 50px;
+    background-color: #33ff00;
+    margin: 25px auto 55px;
+}
+
+/* Cards row */
+.treatment-row {
+    gap: 38px;
+}
+
+/* Card */
+.treatment-card {
+    background-color: #fff;
+    height: 310px;
+    max-width: 230px;
+    margin: auto;
+    padding: 38px 20px;
+    text-align: center;
+
+    box-shadow: 2px 7px 18px -3px rgba(0, 0, 0, 0.18);
+
+    transition: transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+/* Simple hover effect */
+.treatment-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 24px -8px rgba(0, 0, 0, 0.28);
+}
+
+/* Icon */
+.treatment-icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 30px;
+
+    color: #33ff00;
+    font-size: 27px;
+}
+
+.treatment-card h3 {
+    font-size: 29px;
+    line-height: 1.15;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Bottom text */
+.treatment-bottom {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 55px 0 0;
+}
+
+/* Responsive */
+
+
+/* Crooked Teeth FAQ */
+.ssdc-crooked-faq {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-crooked-faq-wrap {
+    max-width: 1220px;
+    margin: auto;
+}
+
+/* Heading */
+.ssdc-crooked-faq-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.ssdc-crooked-faq-heading h2 {
+    margin: 0;
+    line-height: 1.05;
+}
+
+.ssdc-crooked-faq-heading span,
+.ssdc-crooked-faq-heading strong {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-crooked-faq-heading span {
+    font-weight: 300;
+}
+
+.ssdc-crooked-faq-heading strong {
+    font-weight: 700;
+}
+
+.ssdc-crooked-faq-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 18px auto 0;
+}
+
+/* Questions */
+.ssdc-crooked-faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.ssdc-crooked-faq-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.ssdc-crooked-faq-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.ssdc-crooked-faq-text h3 {
+    margin: 0 0 14px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.ssdc-crooked-faq-text p,
+.ssdc-crooked-faq-text li {
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.ssdc-crooked-faq-text p {
+    margin: 0 0 18px;
+}
+
+.ssdc-crooked-faq-text ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+/* Responsive */
+
+/* ==================================================
+   RESPONSIVE CSS
+   Keep all media queries together below
+================================================== */
+
+
+/* =========================
+   TABLET - 991px
+========================= */
+@media screen and (max-width: 991px) {
+
+    /* General section spacing */
+    .ssdc-crooked-problem,
+    .ssdc-crooked-causes,
+    .ssdc-crooked-process,
+    .ssdc-crooked-faq {
+        padding: 80px 30px;
+    }
+
+    /* Stack image + text sections */
+    .ssdc-crooked-wrap,
+    .ssdc-crooked-causes-wrap,
+    .ssdc-crooked-process-wrap {
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    /* Keep text comfortably sized */
+    .ssdc-crooked-content,
+    .ssdc-crooked-causes-content,
+    .ssdc-crooked-process-content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    /* IMPORTANT: stop stacked images becoming huge */
+    .ssdc-crooked-image,
+    .ssdc-crooked-causes-image,
+    .ssdc-crooked-process-img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .ssdc-crooked-image img,
+    .ssdc-crooked-causes-image img,
+    .ssdc-crooked-process-img img {
+        width: 100%;
+        height: 430px;
+        object-fit: cover;
+    }
+
+    /* Headings */
+    .ssdc-crooked-content h2 span,
+    .ssdc-crooked-content h2 strong,
+    .ssdc-crooked-causes-content h2 strong,
+    .ssdc-crooked-causes-content h2 span,
+    .ssdc-crooked-faq-heading span,
+    .ssdc-crooked-faq-heading strong {
+        font-size: 46px;
+    }
+
+    .ssdc-crooked-process-content h2 strong,
+    .ssdc-crooked-process-content h2 span {
+        font-size: 44px;
+    }
+
+    /* FAQ becomes one column */
+    .ssdc-crooked-faq-grid {
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+}
+
+
+/* =========================
+   SMALL TABLET - 768px
+========================= */
+@media screen and (max-width: 768px) {
+
+    .ssdc-crooked-consult {
+        padding: 80px 30px;
+    }
+
+    .ssdc-crooked-consult-content h2 {
+        font-size: 34px;
+    }
+
+    .ssdc-crooked-consult-content p,
+    .ssdc-crooked-consult-content li {
+        font-size: 16px;
+    }
+
+    /* Common treatment cards */
+    .common-treatment-section {
+        padding: 80px 25px;
+    }
+
+    .treatment-heading span,
+    .treatment-heading strong {
+        font-size: 42px;
+    }
+
+    .treatment-row {
+        gap: 30px;
+    }
+
+    .treatment-card {
+        margin-bottom: 10px;
+    }
+
+    .treatment-bottom br {
+        display: none;
+    }
+
+    /* Slightly smaller images on small tablets */
+    .ssdc-crooked-image,
+    .ssdc-crooked-causes-image,
+    .ssdc-crooked-process-img {
+        max-width: 440px;
+    }
+
+    .ssdc-crooked-image img,
+    .ssdc-crooked-causes-image img,
+    .ssdc-crooked-process-img img {
+        height: 380px;
+    }
+}
+
+
+/* =========================
+   MOBILE - 576px
+========================= */
+@media screen and (max-width: 576px) {
+
+    .ssdc-crooked-problem,
+    .ssdc-crooked-causes,
+    .ssdc-crooked-process,
+    .ssdc-crooked-faq {
+        padding: 80px 25px;
+    }
+
+    /* Mobile images */
+    .ssdc-crooked-image,
+    .ssdc-crooked-causes-image,
+    .ssdc-crooked-process-img {
+        width: 100%;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .ssdc-crooked-image img,
+    .ssdc-crooked-causes-image img,
+    .ssdc-crooked-process-img img {
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+    }
+
+    /* Headings */
+    .ssdc-crooked-content h2 span,
+    .ssdc-crooked-content h2 strong {
+        font-size: 37px;
+    }
+
+    .ssdc-crooked-causes-content h2 strong,
+    .ssdc-crooked-causes-content h2 span {
+        font-size: 38px;
+    }
+
+    .ssdc-crooked-process-content h2 strong,
+    .ssdc-crooked-process-content h2 span,
+    .ssdc-crooked-faq-heading span,
+    .ssdc-crooked-faq-heading strong {
+        font-size: 36px;
+    }
+
+    /* Body text */
+    .ssdc-crooked-content>p,
+    .ssdc-crooked-item p,
+    .ssdc-crooked-causes-content p,
+    .ssdc-crooked-causes-content li,
+    .ssdc-crooked-step p,
+    .ssdc-crooked-step a,
+    .ssdc-crooked-process-bottom,
+    .ssdc-crooked-faq-text p,
+    .ssdc-crooked-faq-text li {
+        font-size: 16px;
+    }
+
+    .ssdc-crooked-step h3 {
+        font-size: 24px;
+    }
+
+    .ssdc-crooked-faq-text h3 {
+        font-size: 23px;
+    }
+}

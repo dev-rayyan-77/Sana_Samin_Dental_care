@@ -1,0 +1,294 @@
+/* =========================
+   SHARED
+========================= */
+
+.sensitive-intro,
+.sensitive-treatments,
+.sensitive-faq {
+    padding: 80px;
+}
+
+.sensitive-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 18px 0 25px;
+}
+
+.sensitive-vertical-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 20px auto;
+}
+
+
+/* =========================
+   INTRO
+========================= */
+
+.sensitive-intro {
+    background: #fff;
+}
+
+.sensitive-intro-img {
+    padding: 10px 0;
+}
+
+.sensitive-intro-img img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .13);
+}
+
+.sensitive-intro-content {
+    padding-left: 45px;
+}
+
+.sensitive-intro-content h2 {
+    margin: 0;
+    font-size: 64px;
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.sensitive-intro-content h2 span {
+    display: block;
+    font-weight: 300;
+}
+
+.sensitive-intro-content p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   TREATMENTS
+========================= */
+
+.sensitive-treatments {
+    background: #f7f7f7;
+}
+
+.sensitive-heading {
+    text-align: center;
+}
+
+.sensitive-heading h2 {
+    margin: 0;
+    font-size: 62px;
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.sensitive-heading h2 span {
+    display: block;
+    font-weight: 300;
+}
+
+.sensitive-heading p {
+    max-width: 950px;
+    margin: 0 auto 14px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.sensitive-card-row {
+    margin-top: 55px;
+}
+
+.sensitive-card {
+    height: 100%;
+    min-height: 220px;
+    padding: 28px;
+    background: #33ff00;
+    text-align: center;
+    box-shadow: 0 7px 18px rgba(0, 0, 0, .15);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.sensitive-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 13px 25px rgba(0, 0, 0, .20);
+}
+
+.sensitive-card h3 {
+    margin: 0 0 18px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.sensitive-card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.sensitive-treatment-bottom {
+    max-width: 1000px;
+    margin: 35px auto 0;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+
+/* =========================
+   PARTNER BACKGROUND
+========================= */
+
+.sensitive-partner {
+    background:
+        url("./../images/sittingArea.JPG") center / cover no-repeat;
+    color: #fff;
+}
+
+.sensitive-partner-overlay {
+    background: rgba(0, 0, 0, .62);
+    padding: 80px;
+}
+
+.sensitive-partner-content {
+    max-width: 1080px;
+}
+
+.sensitive-partner-content h2 {
+    margin: 0;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.sensitive-partner-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 14px 0 28px;
+}
+
+.sensitive-partner-content p {
+    margin: 0 0 18px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   FAQ
+========================= */
+
+.sensitive-faq {
+    background: #fff;
+}
+
+.sensitive-faq-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sensitive-faq-heading h2 {
+    margin: 0;
+    font-size: 60px;
+    line-height: 1.05;
+    font-weight: 700;
+}
+
+.sensitive-faq-heading h2 span {
+    display: block;
+    font-weight: 300;
+}
+
+.sensitive-faq-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.sensitive-faq-icon {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.sensitive-faq-item h3 {
+    margin: 0 0 12px;
+    font-size: 25px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.sensitive-faq-item p,
+.sensitive-faq-item li {
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.sensitive-faq-item ul {
+    padding-left: 20px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+    .sensitive-intro,
+    .sensitive-treatments,
+    .sensitive-faq {
+        padding: 80px 30px;
+    }
+
+    .sensitive-intro-content {
+        padding: 40px 0 0;
+    }
+
+    .sensitive-intro-img img {
+        height: auto;
+    }
+
+    .sensitive-intro-content h2,
+    .sensitive-heading h2,
+    .sensitive-faq-heading h2 {
+        font-size: 44px;
+    }
+
+    .sensitive-partner-overlay {
+        padding: 80px 30px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .sensitive-intro,
+    .sensitive-treatments,
+    .sensitive-faq {
+        padding: 80px 25px;
+    }
+
+    .sensitive-intro-content h2,
+    .sensitive-heading h2,
+    .sensitive-faq-heading h2 {
+        font-size: 36px;
+    }
+
+    .sensitive-partner-overlay {
+        padding: 80px 25px;
+    }
+
+    .sensitive-partner-content h2 {
+        font-size: 32px;
+    }
+}

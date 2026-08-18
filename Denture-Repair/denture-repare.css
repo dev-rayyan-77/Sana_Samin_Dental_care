@@ -1,0 +1,640 @@
+/* Cracked / Broken Dentures */
+.ssdc-broken-dentures {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-broken-dentures-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+/* Image */
+.ssdc-broken-dentures-image {
+    width: 42%;
+}
+
+.ssdc-broken-dentures-image img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .14);
+    transition: .3s ease;
+}
+
+.ssdc-broken-dentures-image img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 13px 24px rgba(0, 0, 0, .18);
+}
+
+/* Content */
+.ssdc-broken-dentures-content {
+    width: 58%;
+    max-width: 620px;
+}
+
+.ssdc-broken-dentures-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-broken-dentures-content h2 span,
+.ssdc-broken-dentures-content h2 strong {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-broken-dentures-content h2 span {
+    font-weight: 300;
+}
+
+.ssdc-broken-dentures-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-broken-dentures-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 22px;
+}
+
+.ssdc-broken-dentures-content p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+
+/* Common Reasons for Broken Dentures */
+.ssdc-denture-reasons {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-denture-reasons-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+/* Content */
+.ssdc-denture-reasons-content {
+    width: 55%;
+    max-width: 600px;
+}
+
+.ssdc-denture-reasons-content h2 {
+    margin: 0;
+    line-height: 1.04;
+}
+
+.ssdc-denture-reasons-content h2 strong,
+.ssdc-denture-reasons-content h2 span {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-denture-reasons-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-denture-reasons-content h2 span {
+    font-weight: 300;
+}
+
+/* Accent */
+.ssdc-denture-reasons-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 28px;
+}
+
+/* Reason rows */
+.ssdc-denture-reason-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+
+.ssdc-denture-reason-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.ssdc-denture-reason-item p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+/* Image */
+.ssdc-denture-reasons-image {
+    width: 45%;
+}
+
+.ssdc-denture-reasons-image img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .14);
+    transition: .3s ease;
+}
+
+.ssdc-denture-reasons-image img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 13px 24px rgba(0, 0, 0, .18);
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+
+/* How to Fix Broken Dentures */
+.ssdc-fix-dentures {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-fix-dentures-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+/* Image */
+.ssdc-fix-dentures-image {
+    width: 50%;
+}
+
+.ssdc-fix-dentures-image img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .14);
+    transition: .3s ease;
+}
+
+.ssdc-fix-dentures-image img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 13px 24px rgba(0, 0, 0, .18);
+}
+
+/* Content */
+.ssdc-fix-dentures-content {
+    width: 50%;
+    max-width: 540px;
+}
+
+.ssdc-fix-dentures-content h2 {
+    margin: 0;
+    line-height: 1.05;
+}
+
+.ssdc-fix-dentures-content h2 strong,
+.ssdc-fix-dentures-content h2 span {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-fix-dentures-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-fix-dentures-content h2 span {
+    font-weight: 300;
+}
+
+.ssdc-fix-dentures-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 22px;
+}
+
+.ssdc-fix-dentures-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+
+/* Denture Replacement Options */
+.ssdc-denture-options {
+    background: #f7f7f7;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-denture-options-wrap {
+    max-width: 1220px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+/* Content */
+.ssdc-denture-options-content {
+    width: 47%;
+    max-width: 520px;
+}
+
+.ssdc-denture-options-content h2 {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.ssdc-denture-options-content h2 strong,
+.ssdc-denture-options-content h2 span {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-denture-options-content h2 strong {
+    font-weight: 700;
+}
+
+.ssdc-denture-options-content h2 span {
+    font-weight: 300;
+}
+
+.ssdc-denture-options-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 22px;
+}
+
+.ssdc-denture-options-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Image */
+.ssdc-denture-options-image {
+    width: 53%;
+}
+
+.ssdc-denture-options-image img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, .14);
+    transition: .3s ease;
+}
+
+.ssdc-denture-options-image img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 13px 24px rgba(0, 0, 0, .18);
+}
+
+/* Tablet */
+
+
+/* Mobile */
+
+
+/* Common Questions - Denture Repair */
+.ssdc-denture-faq {
+    background: #fff;
+    padding: 80px;
+    color: #000;
+}
+
+.ssdc-denture-faq-wrap {
+    max-width: 1220px;
+    margin: auto;
+}
+
+/* Heading */
+.ssdc-denture-faq-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.ssdc-denture-faq-heading h2 {
+    margin: 0;
+    line-height: 1.05;
+}
+
+.ssdc-denture-faq-heading span,
+.ssdc-denture-faq-heading strong {
+    display: block;
+    font-size: 62px;
+}
+
+.ssdc-denture-faq-heading span {
+    font-weight: 300;
+}
+
+.ssdc-denture-faq-heading strong {
+    font-weight: 700;
+}
+
+.ssdc-denture-faq-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 18px auto 0;
+}
+
+/* Three columns */
+.ssdc-denture-faq-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+}
+
+.ssdc-denture-faq-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+/* Arrow */
+.ssdc-denture-faq-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+    color: #33ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+/* Text */
+.ssdc-denture-faq-text h3 {
+    margin: 0 0 12px;
+    font-size: 27px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.ssdc-denture-faq-text p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+/* ==================================================
+   RESPONSIVE STYLES
+   All media queries are grouped here
+================================================== */
+
+/* =========================
+   TABLET / SMALL LAPTOP
+   991px and below
+========================= */
+@media screen and (max-width: 991px) {
+
+    /* Shared section spacing */
+    .ssdc-broken-dentures,
+    .ssdc-denture-reasons,
+    .ssdc-fix-dentures,
+    .ssdc-denture-options,
+    .ssdc-denture-faq {
+        padding: 70px 30px;
+    }
+
+    /* Stack image/content sections */
+    .ssdc-broken-dentures-wrap,
+    .ssdc-denture-reasons-wrap,
+    .ssdc-fix-dentures-wrap,
+    .ssdc-denture-options-wrap {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    /* Keep text readable and centered in page */
+    .ssdc-broken-dentures-content,
+    .ssdc-denture-reasons-content,
+    .ssdc-fix-dentures-content,
+    .ssdc-denture-options-content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    /* Prevent images from becoming huge when stacked */
+    .ssdc-broken-dentures-image,
+    .ssdc-denture-reasons-image,
+    .ssdc-fix-dentures-image,
+    .ssdc-denture-options-image {
+        width: 100%;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .ssdc-broken-dentures-image img,
+    .ssdc-denture-reasons-image img,
+    .ssdc-fix-dentures-image img,
+    .ssdc-denture-options-image img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    /* Heading sizing */
+    .ssdc-broken-dentures-content h2 span,
+    .ssdc-broken-dentures-content h2 strong,
+    .ssdc-denture-reasons-content h2 strong,
+    .ssdc-denture-reasons-content h2 span,
+    .ssdc-fix-dentures-content h2 strong,
+    .ssdc-fix-dentures-content h2 span,
+    .ssdc-denture-options-content h2 strong,
+    .ssdc-denture-options-content h2 span,
+    .ssdc-denture-faq-heading span,
+    .ssdc-denture-faq-heading strong {
+        font-size: 46px;
+    }
+
+    /* FAQ becomes single column */
+    .ssdc-denture-faq-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+}
+
+
+/* =========================
+   SMALL TABLET
+   768px and below
+========================= */
+@media screen and (max-width: 768px) {
+
+    .ssdc-broken-dentures,
+    .ssdc-denture-reasons,
+    .ssdc-fix-dentures,
+    .ssdc-denture-options,
+    .ssdc-denture-faq {
+        padding: 60px 25px;
+    }
+
+    /* Slightly smaller images */
+    .ssdc-broken-dentures-image,
+    .ssdc-denture-reasons-image,
+    .ssdc-fix-dentures-image,
+    .ssdc-denture-options-image {
+        max-width: 400px;
+    }
+
+    .ssdc-broken-dentures-image img,
+    .ssdc-denture-reasons-image img,
+    .ssdc-fix-dentures-image img,
+    .ssdc-denture-options-image img {
+        height: 350px;
+    }
+
+    .ssdc-broken-dentures-content h2 span,
+    .ssdc-broken-dentures-content h2 strong,
+    .ssdc-denture-reasons-content h2 strong,
+    .ssdc-denture-reasons-content h2 span,
+    .ssdc-fix-dentures-content h2 strong,
+    .ssdc-fix-dentures-content h2 span,
+    .ssdc-denture-options-content h2 strong,
+    .ssdc-denture-options-content h2 span,
+    .ssdc-denture-faq-heading span,
+    .ssdc-denture-faq-heading strong {
+        font-size: 40px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+   576px and below
+========================= */
+@media screen and (max-width: 576px) {
+
+    .ssdc-broken-dentures,
+    .ssdc-denture-reasons,
+    .ssdc-fix-dentures,
+    .ssdc-denture-options,
+    .ssdc-denture-faq {
+        padding: 50px 20px;
+    }
+
+    /* Compact images on phones */
+    .ssdc-broken-dentures-image,
+    .ssdc-denture-reasons-image,
+    .ssdc-fix-dentures-image,
+    .ssdc-denture-options-image {
+        max-width: 320px;
+    }
+
+    .ssdc-broken-dentures-image img,
+    .ssdc-denture-reasons-image img,
+    .ssdc-fix-dentures-image img,
+    .ssdc-denture-options-image img {
+        height: 290px;
+    }
+
+    /* Mobile headings */
+    .ssdc-broken-dentures-content h2 span,
+    .ssdc-broken-dentures-content h2 strong,
+    .ssdc-denture-reasons-content h2 strong,
+    .ssdc-denture-reasons-content h2 span,
+    .ssdc-fix-dentures-content h2 strong,
+    .ssdc-fix-dentures-content h2 span,
+    .ssdc-denture-options-content h2 strong,
+    .ssdc-denture-options-content h2 span,
+    .ssdc-denture-faq-heading span,
+    .ssdc-denture-faq-heading strong {
+        font-size: 35px;
+    }
+
+    /* Body text */
+    .ssdc-broken-dentures-content p,
+    .ssdc-denture-reason-item p,
+    .ssdc-fix-dentures-content p,
+    .ssdc-denture-options-content p,
+    .ssdc-denture-faq-text p {
+        font-size: 16px;
+    }
+
+    .ssdc-denture-faq-text h3 {
+        font-size: 23px;
+    }
+
+    .ssdc-denture-faq-item {
+        gap: 12px;
+    }
+
+    .ssdc-denture-faq-icon {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+        font-size: 18px;
+    }
+}
