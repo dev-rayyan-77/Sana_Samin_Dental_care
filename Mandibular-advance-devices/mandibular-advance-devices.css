@@ -1,0 +1,945 @@
+/* =========================================
+   WHAT IS SLEEP APNEA
+========================================= */
+
+.sleep-apnea-section {
+    padding: 80px;
+    background: #fff;
+    color: #000;
+}
+
+.sleep-apnea-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+/* Image */
+
+.sleep-apnea-image-wrap {
+    width: 42%;
+}
+
+.sleep-apnea-image {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.sleep-apnea-image:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 26px rgba(0, 0, 0, 0.2);
+}
+
+/* Content */
+
+.sleep-apnea-content {
+    width: 58%;
+    max-width: 620px;
+}
+
+.sleep-apnea-title {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.sleep-apnea-title span,
+.sleep-apnea-title strong {
+    display: block;
+    font-size: 62px;
+}
+
+.sleep-apnea-title span {
+    font-weight: 300;
+}
+
+.sleep-apnea-title strong {
+    font-weight: 700;
+}
+
+.sleep-apnea-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 24px;
+}
+
+.sleep-apnea-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.sleep-apnea-list {
+    margin: 10px 0 0;
+    padding-left: 20px;
+}
+
+.sleep-apnea-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+
+/* =========================================
+   SLEEP APNEA & DENTAL HEALTH
+========================================= */
+
+.sleep-health-section {
+    padding: 80px;
+    background: #f7f7f7;
+    color: #000;
+}
+
+.sleep-health-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 95px;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.sleep-health-content {
+    width: 47%;
+    max-width: 520px;
+}
+
+.sleep-health-title {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.sleep-health-title strong,
+.sleep-health-title span {
+    display: block;
+    font-size: 62px;
+}
+
+.sleep-health-title strong {
+    font-weight: 700;
+}
+
+.sleep-health-title span {
+    font-weight: 300;
+}
+
+.sleep-health-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 24px;
+}
+
+.sleep-health-content p {
+    margin: 0 0 28px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   LIST
+========================= */
+
+.sleep-health-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.sleep-health-list li {
+    margin-bottom: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.sleep-health-image-wrap {
+    width: 53%;
+}
+
+.sleep-health-image {
+    width: 100%;
+    height: 540px;
+    object-fit: cover;
+    display: block;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.14);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.sleep-health-image:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 15px 26px rgba(0, 0, 0, 0.2);
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+
+/* =========================================
+   SLEEP APNEA - MAD SECTION
+========================================= */
+
+.sleep-mad-section {
+    color: #fff;
+
+    background:
+        url("./../images/sittingArea.JPG") center / cover no-repeat;
+}
+
+.sleep-mad-overlay {
+    background: rgba(0, 0, 0, 0.66);
+    padding: 55px 80px 80px;
+}
+
+.sleep-mad-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   TOP ROW
+========================= */
+
+.sleep-mad-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 85px;
+    align-items: center;
+}
+
+
+/* Image */
+
+.sleep-mad-image-wrap {
+    width: 100%;
+}
+
+.sleep-mad-image {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    display: block;
+
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.sleep-mad-image:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 28px rgba(0, 0, 0, 0.34);
+}
+
+
+/* MAD Text */
+
+.sleep-mad-content h3 {
+    margin: 0 0 12px;
+    font-size: 31px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.sleep-mad-content p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   BOTTOM DENTIST CONTENT
+========================= */
+
+.sleep-dentist-content {
+    width: 48%;
+    max-width: 510px;
+    margin-top: 45px;
+}
+
+.sleep-dentist-content h2 {
+    margin: 0;
+    font-size: 42px;
+    line-height: 1.18;
+    font-weight: 700;
+}
+
+.sleep-white-line {
+    width: 80px;
+    height: 2px;
+    background: #fff;
+    margin: 14px 0 28px;
+}
+
+.sleep-dentist-content p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+
+/* =========================================
+   WHAT TO EXPECT - MAD DENTIST
+========================================= */
+
+.mad-expect-section {
+    padding: 80px;
+    background: #fff;
+    color: #000;
+}
+
+.mad-expect-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 95px;
+}
+
+
+/* =========================
+   IMAGE
+========================= */
+
+.mad-expect-image-wrap {
+    width: 42%;
+}
+
+.mad-expect-image {
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    display: block;
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .14);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.mad-expect-image:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 26px rgba(0, 0, 0, .2);
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.mad-expect-content {
+    width: 58%;
+    max-width: 620px;
+}
+
+.mad-expect-title {
+    margin: 0;
+    line-height: 1.03;
+}
+
+.mad-expect-title strong,
+.mad-expect-title span {
+    display: block;
+    font-size: 54px;
+}
+
+.mad-expect-title strong {
+    font-weight: 700;
+}
+
+.mad-expect-title span {
+    font-weight: 300;
+}
+
+.mad-expect-line {
+    width: 80px;
+    height: 2px;
+    background: #33ff00;
+    margin: 16px 0 24px;
+}
+
+.mad-expect-content>p {
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   STEPS
+========================= */
+
+.mad-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 28px 0;
+}
+
+.mad-step-icon {
+    width: 56px;
+    height: 56px;
+    min-width: 56px;
+
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #33ff00;
+    font-size: 26px;
+
+    transition:
+        transform .3s ease,
+        background .3s ease,
+        color .3s ease;
+}
+
+.mad-step:hover .mad-step-icon {
+    transform: translateY(-3px);
+    background: #33ff00;
+    color: #000;
+}
+
+.mad-step-content h3 {
+    margin: 0 0 6px;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.mad-step-content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.55;
+}
+
+.mad-expect-bottom {
+    margin-top: 28px !important;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+
+/* =========================================
+   MAD SLEEP APNEA FAQ
+========================================= */
+
+.mad-faq-section {
+    padding: 80px;
+    background: #fff;
+    color: #000;
+}
+
+.mad-faq-container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   HEADING
+========================= */
+
+.mad-faq-heading {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.mad-faq-heading h2 {
+    margin: 0;
+    line-height: 1.05;
+}
+
+.mad-faq-heading span,
+.mad-faq-heading strong {
+    display: block;
+    font-size: 62px;
+}
+
+.mad-faq-heading span {
+    font-weight: 300;
+}
+
+.mad-faq-heading strong {
+    font-weight: 700;
+}
+
+.mad-faq-line {
+    width: 2px;
+    height: 50px;
+    background: #33ff00;
+    margin: 20px auto 0;
+}
+
+
+/* =========================
+   GRID
+========================= */
+
+.mad-faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+}
+
+.mad-faq-column {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+/* =========================
+   FAQ ITEM
+========================= */
+
+.mad-faq-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.mad-faq-icon {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+
+    border: 2px solid #33ff00;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #33ff00;
+    font-size: 20px;
+
+    transition:
+        transform .3s ease,
+        background .3s ease,
+        color .3s ease;
+}
+
+.mad-faq-item:hover .mad-faq-icon {
+    background: #33ff00;
+    color: #000;
+    transform: translateX(4px);
+}
+
+
+/* =========================
+   FAQ CONTENT
+========================= */
+
+.mad-faq-content {
+    flex: 1;
+}
+
+.mad-faq-content h3 {
+    margin: 0 0 12px;
+    font-size: 27px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.mad-faq-content p {
+    margin: 0 0 16px;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+.mad-faq-content ul {
+    margin: 0 0 22px;
+    padding-left: 20px;
+}
+
+.mad-faq-content li {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+
+/* ==================================================
+   RESPONSIVE STYLES
+================================================== */
+
+/* =========================
+   TABLET / SMALL LAPTOP
+   991px and below
+========================= */
+@media screen and (max-width: 991px) {
+
+    .sleep-apnea-section {
+        padding: 70px 30px;
+    }
+
+    .sleep-apnea-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sleep-apnea-image-wrap {
+        width: 100%;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .sleep-apnea-image {
+        height: 400px;
+    }
+
+    .sleep-apnea-content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .sleep-apnea-title span,
+    .sleep-apnea-title strong {
+        font-size: 46px;
+    }
+
+    .sleep-health-section {
+        padding: 70px 30px;
+    }
+
+    .sleep-health-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sleep-health-content {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .sleep-health-image-wrap {
+        width: 100%;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .sleep-health-image {
+        height: 400px;
+    }
+
+    .sleep-health-title strong,
+    .sleep-health-title span {
+        font-size: 46px;
+    }
+
+    .sleep-mad-overlay {
+        padding: 60px 30px;
+    }
+
+    .sleep-mad-top {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .sleep-mad-image-wrap {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .sleep-mad-image {
+        height: 360px;
+    }
+
+    .sleep-mad-content {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .sleep-dentist-content {
+        width: 100%;
+        max-width: 650px;
+        margin: 45px auto 0;
+    }
+
+    .sleep-dentist-content h2 {
+        font-size: 36px;
+    }
+
+    .mad-expect-section {
+        padding: 70px 30px;
+    }
+
+    .mad-expect-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mad-expect-image-wrap {
+        width: 100%;
+        max-width: 460px;
+        margin: 0 auto;
+    }
+
+    .mad-expect-image {
+        height: 420px;
+    }
+
+    .mad-expect-content {
+        width: 100%;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .mad-expect-title strong,
+    .mad-expect-title span {
+        font-size: 44px;
+    }
+
+    .mad-faq-section {
+        padding: 70px 30px;
+    }
+
+    .mad-faq-heading span,
+    .mad-faq-heading strong {
+        font-size: 48px;
+    }
+
+    .mad-faq-grid {
+        gap: 45px;
+    }
+
+    .mad-faq-content h3 {
+        font-size: 24px;
+    }
+}
+
+
+/* =========================
+   SMALL TABLET
+   768px and below
+========================= */
+@media screen and (max-width: 768px) {
+
+    .mad-faq-grid {
+        grid-template-columns: 1fr;
+        max-width: 650px;
+        margin: 0 auto;
+        gap: 32px;
+    }
+
+    .mad-faq-heading span,
+    .mad-faq-heading strong {
+        font-size: 40px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+   576px and below
+========================= */
+@media screen and (max-width: 576px) {
+
+    .sleep-apnea-section {
+        padding: 50px 20px;
+    }
+
+    .sleep-apnea-image-wrap {
+        max-width: 320px;
+    }
+
+    .sleep-apnea-image {
+        height: 290px;
+    }
+
+    .sleep-apnea-title span,
+    .sleep-apnea-title strong {
+        font-size: 35px;
+    }
+
+    .sleep-apnea-content p,
+    .sleep-apnea-list li {
+        font-size: 16px;
+    }
+
+    .sleep-health-section {
+        padding: 50px 20px;
+    }
+
+    .sleep-health-image-wrap {
+        max-width: 320px;
+    }
+
+    .sleep-health-image {
+        height: 290px;
+    }
+
+    .sleep-health-title strong,
+    .sleep-health-title span {
+        font-size: 35px;
+    }
+
+    .sleep-health-content p,
+    .sleep-health-list li {
+        font-size: 16px;
+    }
+
+    .sleep-mad-overlay {
+        padding: 50px 20px;
+    }
+
+    .sleep-mad-image-wrap {
+        max-width: 320px;
+    }
+
+    .sleep-mad-image {
+        height: 250px;
+    }
+
+    .sleep-mad-content h3 {
+        font-size: 25px;
+    }
+
+    .sleep-dentist-content h2 {
+        font-size: 30px;
+    }
+
+    .sleep-mad-content p,
+    .sleep-dentist-content p {
+        font-size: 16px;
+    }
+
+    .mad-expect-section {
+        padding: 50px 20px;
+    }
+
+    .mad-expect-image-wrap {
+        max-width: 320px;
+    }
+
+    .mad-expect-image {
+        height: 300px;
+    }
+
+    .mad-expect-title strong,
+    .mad-expect-title span {
+        font-size: 34px;
+    }
+
+    .mad-expect-content>p,
+    .mad-step-content p {
+        font-size: 16px;
+    }
+
+    .mad-step-icon {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        font-size: 21px;
+    }
+
+    .mad-step-content h3 {
+        font-size: 23px;
+    }
+
+    .mad-faq-section {
+        padding: 50px 20px;
+    }
+
+    .mad-faq-heading {
+        margin-bottom: 40px;
+    }
+
+    .mad-faq-heading span,
+    .mad-faq-heading strong {
+        font-size: 34px;
+    }
+
+    .mad-faq-icon {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+        font-size: 18px;
+    }
+
+    .mad-faq-content h3 {
+        font-size: 21px;
+    }
+
+    .mad-faq-content p,
+    .mad-faq-content li {
+        font-size: 16px;
+    }
+}
